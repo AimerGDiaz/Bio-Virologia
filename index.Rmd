@@ -17,7 +17,7 @@ description: |
   BioVirología es el primer libro electrónico e interactivo de virología biológica o biovirología, y el primero de divulgación científica en español empleado el formato de libros Bookdown.
 link-citations: yes
 lang: es
-github-repo: AimerGDiaz/BioVirologia_Bookdown
+github-repo: AimerGDiaz/Bio-Virologia
 site: bookdown::bookdown_site
 ---
 
