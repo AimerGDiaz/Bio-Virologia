@@ -3,9 +3,9 @@ title: 'BioVirología: La biología de los virus'
 author: "Aimer G. Diaz"
 date: "©2019, All rights reserved."
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 documentclass: book
 bibliography:
 - book.bib
@@ -23,7 +23,7 @@ site: bookdown::bookdown_site
 
 # Bienvenidos al bookdown de BioVirología
 
-El Blog en Facebook [Biovirología](https://www.facebook.com/BioViral/) se ha mudado a un sitio web más profesional, el formato de libros electrónicos nada tradicional, que hace a los libros electrónicos interactivos: Bookdown. Así con esta transición BioViral se convierte en el primer blog en hacerse libro electrónico interactivo de virología biológica o biovirología y a su vez, en el primer bookdown en hacer divulgación científica en español sobre virología. 
+El Blog en Facebook [Biovirología](https://www.facebook.com/BioViral/) ha sido re-lanzado bajo el formato nada tradicional de libros electrónicos: Bookdown, un formato web de los libros electrónicos. Este permite escribir, editar y hasta interactuar con los lectores, además de insertar códigos escritos en los lenguajes de programación R, bash y python, como también el output de estos códigos. Así, con esta transición BioVirología se convierte en el primer blog de divulgación científica en español en hacerse libro electrónico interactivo, además del primero de virología biológica o biovirología.
 
 El proyecto inició en un nada remoto [19 de mayo del 2020](https://www.facebook.com/permalink.php?story_fbid=107125457678944&id=107088044349352) con el siguiente post reproducido a continuación: 
 
@@ -41,7 +41,7 @@ Por la anterior cita, las historias que se contarán serán sobre las fábricas 
 
 A manera introductoria tanto de las maravillas del formato empleado, los invito a ver el siguiente video con el que puede llevarse una idea inicial del autor del presente bookdown: 
 
-
+![Ciencia Café pa’ Sumercé en la charla “Color de las plantas: 1 + 1 no es 2”](https://youtu.be/EmEhFhQpqTQ)
 
 
 
