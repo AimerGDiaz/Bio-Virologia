@@ -3,6 +3,7 @@ title: 'BioVirología: La biología de los virus'
 author: "Aimer G. Diaz"
 date: "©2019, All rights reserved."
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 documentclass: book
@@ -40,7 +41,7 @@ Por la anterior cita, las historias que se contarán serán sobre las fábricas 
 
 A manera introductoria tanto de las maravillas del formato empleado, los invito a ver el siguiente video con el que puede llevarse una idea inicial del autor del presente bookdown: 
 
-![En el color de las plantas, 1 + 1 no es 2](https://youtu.be/EmEhFhQpqTQ){width="90%"}
+
 
 
 

@@ -286,10 +286,74 @@
             "publisher-place": "Boca Raton, Florida",
             "title": "R markdown cookbook",
             "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Mukhopadhyay",
+                    "given": "Suchetana"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Bong-Suk"
+                },
+                {
+                    "family": "Chipman",
+                    "given": "Paul R"
+                },
+                {
+                    "family": "Rossmann",
+                    "given": "Michael G"
+                },
+                {
+                    "family": "Kuhn",
+                    "given": "Richard J"
+                }
+            ],
+            "container-title": "Science",
+            "id": "mukhopadhyay2003structure",
+            "issue": "5643",
+            "issued": {
+                "date-parts": [
+                    [
+                        2003
+                    ]
+                ]
+            },
+            "page": "248-248",
+            "publisher": "Citeseer",
+            "title": "Structure of west nile virus",
+            "type": "article-journal",
+            "volume": "302"
+        },
+        {
+            "author": [
+                {
+                    "family": "Forterre",
+                    "given": "Patrick"
+                }
+            ],
+            "container-title": "Origins of Life and Evolution of Biospheres",
+            "id": "forterre2010defining",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2010
+                    ]
+                ]
+            },
+            "page": "151-160",
+            "publisher": "Springer",
+            "title": "Defining life: The virus viewpoint",
+            "title-short": "Defining life",
+            "type": "article-journal",
+            "volume": "40"
         }
     ],
     "project_biblios": [
         "book.bib",
-        "packages.bib"
+        "packages.bib",
+        "References_Bibtex.bib"
     ]
 }
