@@ -9,6 +9,6 @@ https://rpubs.com/colleengerrity/bookdown-website-tutorial
 Add a nicer beginning 
 https://stackoverflow.com/questions/57075704/insert-multiple-pages-before-body-with-bookdown 
 file.create('git/.nojekyll')
-getwd()
+
 
 bookdown::publish_book(render = 'local')
