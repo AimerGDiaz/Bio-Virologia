@@ -39,7 +39,7 @@ Por la anterior cita, las historias que se contarán serán sobre las fábricas 
 
 ![Partícula viral o virión del virus del Nilo Occidental con los colores del la bandera de Colombia en homenaje al 3 encuentro panamericano de Dengue celebrado en Cartagena Colombia. Autores @mukhopadhyay2003structure](./165496377_134509338676384_4186488905084681632_n.jpg){scale=0.7}
 
-A manera introductoria tanto de las maravillas del formato empleado, los invito a ver el siguiente video con el que puede llevarse una idea inicial del autor del presente bookdown: 
+A manera introductoria de las maravillas del formato empleado los invito a ver el siguiente video que hará parte de nuestro próximo post: 
 
-![Ciencia Café pa' Sumercé en la charla "Color de las plantas: 1 + 1 no es 2"](https://www.facebook.com/permalink.php?story_fbid=182134613511361&id=107088044349352)
+![Zombificación viral](./Death March of the Zombie Caterpillars..mp4)
 
