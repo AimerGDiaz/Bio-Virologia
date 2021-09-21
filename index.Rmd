@@ -41,5 +41,5 @@ Por la anterior cita, las historias que se contarán serán sobre las fábricas 
 
 A manera introductoria tanto de las maravillas del formato empleado, los invito a ver el siguiente video con el que puede llevarse una idea inicial del autor del presente bookdown: 
 
-![Ciencia Café pa' Sumercé en la charla "Color de las plantas: 1 + 1 no es 2"](https://www.facebook.com/permalink.php?story_fbid=182134613511361&id=107088044349352)
+![Ciencia Café pa' Sumercé en la charla "Color de las plantas: 1 + 1 no es 2"](https://youtu.be/EmEhFhQpqTQ)
 
