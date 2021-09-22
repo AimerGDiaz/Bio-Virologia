@@ -1,7 +1,7 @@
 --- 
 title: 'BioVirología: La biología de los virus'
 author: "Aimer G. Diaz"
-date: "©2019, All rights reserved."
+date: "©2021"
 output:
   html_document:
     df_print: paged
@@ -20,7 +20,9 @@ lang: es
 github-repo: AimerGDiaz/Bio-Virologia
 site: bookdown::bookdown_site
 ---
-
+<!-- Launch the bookdown to bookdown website 
+follow 
+https://bookdown.org/home/about/ -->
 # Bienvenidos al bookdown de BioVirología
 
 El Blog en Facebook [Biovirología](https://www.facebook.com/BioViral/) ha sido re-lanzado bajo el formato  nada tradicional de libros electrónicos: Bookdown, un formato web de los libros electrónicos. Este permite escribir, editar y hasta interactuar con los lectores, además de insertar códigos escritos en los lenguajes de programación R, bash y python, como también el output de estos códigos. Así, con esta transición BioVirología se convierte en el primer blog de divulgación científica en español en hacerse libro electrónico interactivo, además del primero de virología biológica o biovirología. 
@@ -41,5 +43,12 @@ Por la anterior cita, las historias que se contarán serán sobre las fábricas 
 
 A manera introductoria de las maravillas del formato empleado los invito a ver el siguiente video que hará parte de nuestro próximo post: 
 
-![Zombificación viral](./Death March of the Zombie Caterpillars..mp4){width="50%"}
+![Zombificación viral](./Death March of the Zombie Caterpillars..mp4){width="80%"}
+
+## Licencia 
+
+Este obra está protegida bajo una licencia de [Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es_ES)
+
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 

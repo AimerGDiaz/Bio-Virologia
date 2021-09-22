@@ -12,3 +12,4 @@ los-virus-desde-la-ontología-de-procesos.
 más-allá-de-la-virología-y-la-ciencia-implicaciones-sociales-de-la-virología
 la-extinción-del-virus-de-la-viruela-y-el-optimismo-cientificista
 la-pandemia-de-sars-cov-2-el-virus-que-detuvo-un-mundo-hiperglobalizado.
+licencia
