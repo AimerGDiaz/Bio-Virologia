@@ -55,15 +55,16 @@ A manera introductoria de las maravillas del formato empleado los invito a ver e
 
 [![En la coloración de las plantas, 1 + 1 no es 2](http://img.youtube.com/vi/EmEhFhQpqTQ/0.jpg)](http://www.youtube.com/watch?v=EmEhFhQpqTQ)
 
+## Interacción {-}
+
+¿Deseas comentar, corregir, sugerir, opinar o preguntar algo sobre el <Bookdown>? Puedes hacerlo [en esta sección](https://github.com/AimerGDiaz/Bio-Virologia/discussions/10). 
+
 ## Licencia {-}
 
 Este obra está protegida bajo una licencia de [Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es_ES)
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-## Lectores {-}
-
-[![Image of Viewers](https://github.com/AimerGDiaz/Viewers/blob/master/svg/409164432/badge.svg)](https://github.com/AimerGDiaz/Viewers/blob/master/readme/409164432/week.md)
 
 
 

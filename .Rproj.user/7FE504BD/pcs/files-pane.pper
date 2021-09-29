@@ -5,5 +5,9 @@
             "ascending": true
         }
     ],
+<<<<<<< Updated upstream
     "path": "G:/My Drive/Bio-Virologia_blog/Bookdown/Bio-Virologia"
+=======
+    "path": "G:/My Drive/Bio-Virologia_blog/Bookdown/Bio-Virologia/docs"
+>>>>>>> Stashed changes
 }
