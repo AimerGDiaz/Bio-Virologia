@@ -1,6 +1,6 @@
-# Los virus y el color de las plantas{#ID1}
+# Los virus y el color de las plantas {#vircolor}
 
-## La primera burbuja especulativa y el virus del mosaico del tulipan. 
+## La primera burbuja especulativa y el virus del mosaico del tulipan. {#tulipomania}
 
 <https://www.facebook.com/BioViral/posts/166521528808498> 
 
@@ -17,6 +17,6 @@ En lo que respecta a colores florales, "menos por menos es más": durante la inf
 
 Este efecto visual, hizo que el virus del mosaico del tulipán, desatara no una pandemia, pero sí la admiración y la codicia humana que desencadenó la primera crisis económica del viejo mundo: la Tulipomanía del 1637; ejemplificando cómo los virus hacen parte de la biosfera entera, capaz de alterar interacciones ecológicas antiguas o novedosas, y de paso, el sistema económico humano.
 
-## Infecciones virales a simple vista
+## Infecciones virales a simple vista {#viralSigns}
 
 <https://www.facebook.com/permalink.php?story_fbid=116167563441400&id=107088044349352>
