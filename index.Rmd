@@ -22,7 +22,16 @@ site: bookdown::bookdown_site
 ---
 <!-- Launch the bookdown to bookdown website 
 follow 
-https://bookdown.org/home/about/ -->
+https://bookdown.org/home/about/ 
+
+Publish as a website 
+https://rpubs.com/colleengerrity/bookdown-website-tutorial
+
+
+Add a nicer beginning 
+https://stackoverflow.com/questions/57075704/insert-multiple-pages-before-body-with-bookdown 
+file.create('git/.nojekyll')
+-->
 # Bienvenidos al bookdown de BioVirología {-}
 
 El Blog en Facebook [Biovirología](https://www.facebook.com/BioViral/) ha sido re-lanzado bajo el formato  nada tradicional de libros electrónicos: Bookdown, un formato web de los libros electrónicos. Este permite escribir, editar y hasta interactuar con los lectores, además de insertar códigos escritos en los lenguajes de programación R, bash y python, como también el output de estos códigos. Así, con esta transición BioVirología se convierte en el primer blog de divulgación científica en español en hacerse libro electrónico interactivo, además del primero de virología biológica o biovirología. 
@@ -39,7 +48,7 @@ Sobra decirlo, a la pregunta si los virus ¿ viven o no ?. La respuesta es un co
 Por la anterior cita, las historias que se contarán serán sobre las fábricas virales (viriones replicantes o una vez germinados en células) y no a las semillas proteicas (viriones) a las que llamaremos virucélulas (virocells). @mukhopadhyay2003structure
  
 
-![Partícula viral o virión del virus del Nilo Occidental con los colores del la bandera de Colombia en homenaje al 3 encuentro panamericano de Dengue celebrado en Cartagena Colombia. Autores @mukhopadhyay2003structure](./165496377_134509338676384_4186488905084681632_n.jpg){width="80%"}
+![Partícula viral o virión del virus del Nilo Occidental con los colores del la bandera de Colombia en homenaje al 3 encuentro panamericano de Dengue celebrado en Cartagena Colombia. Autores @mukhopadhyay2003structure](./Logo.jpg){width="80%"}
 
 A manera introductoria de las maravillas del formato empleado los invito a ver el siguiente video que permite introducir a uno de los autores del presente documento: 
 <!---![Zombificación viral](./Death March of the Zombie Caterpillars..mp4){width="80%"} --->
@@ -52,6 +61,9 @@ Este obra está protegida bajo una licencia de [Creative Commons Reconocimiento-
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
+## Lectores {-}
+
+[![Image of Viewers](https://github.com/AimerGDiaz/Viewers/blob/master/svg/409164432/badge.svg)](https://github.com/AimerGDiaz/Viewers/blob/master/readme/409164432/week.md)
 
 
 
