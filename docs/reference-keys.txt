@@ -11,3 +11,5 @@ procesos
 socialvir
 viruela
 sarscov2
+domestic
+malariaVaccine

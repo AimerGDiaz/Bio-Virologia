@@ -3,9 +3,9 @@ title: 'BioVirología: La biología de los virus'
 author: "Aimer G. Diaz"
 date: "©2021"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
-  pdf_document: default
 documentclass: book
 bibliography:
 - book.bib
@@ -34,7 +34,9 @@ file.create('git/.nojekyll')
 -->
 # Bienvenidos al bookdown de BioVirología {-}
 
-El Blog en Facebook [Biovirología](https://www.facebook.com/BioViral/) ha sido re-lanzado bajo el formato  nada tradicional de libros electrónicos: Bookdown, un formato web de los libros electrónicos. Este permite escribir, editar y hasta interactuar con los lectores, además de insertar códigos escritos en los lenguajes de programación R, bash y python, como también el output de estos códigos. Así, con esta transición BioVirología se convierte en el primer blog de divulgación científica en español en hacerse libro electrónico interactivo, además del primero de virología biológica o biovirología. 
+El Blog en Facebook [Biovirología](https://www.facebook.com/BioViral/) ha sido re-lanzado bajo el formato  nada tradicional de libros electrónicos: Bookdown, un formato web con las características de los libros electrónicos más todas las posibilidades de edición y de contendio de un sitio web. Por lo que en este formato se puede escribir, editar y hasta interactuar con los lectores, además de insertar códigos escritos en los lenguajes de programación R, bash, perl, python (entre otros), o emplear incluso comandos del lenguaje estructurado TeX (con el que se generan documentos LaTex). Funcionando  por tanto como un block de notas, en el que se puede visulizar el output o la salido de los códigos en él escritos. Así, con esta transición BioVirología se convierte en el primer blog de divulgación científica en español en hacerse libro electrónico interactivo, además del primer bookdown de virología biológica o biovirología. 
+
+Está página al igual que el libro entero estará en permanente revisión y edición, más aún mientras migramos todo el contenido de nuestra página en Facebook, que por cierto [puede visualziarse acá][#FacebookPage]. 
 
 El proyecto de Biovirología inició en un nada remoto [19 de mayo del 2020](https://www.facebook.com/permalink.php?story_fbid=107125457678944&id=107088044349352), con el siguiente post reproducido a continuación: 
 
@@ -51,12 +53,24 @@ Por la anterior cita, las historias que se contarán serán sobre las fábricas 
 ![Partícula viral o virión del virus del Nilo Occidental con los colores del la bandera de Colombia en homenaje al 3 encuentro panamericano de Dengue celebrado en Cartagena Colombia. Autores @mukhopadhyay2003structure](./Logo.jpg){width="80%"}
 </center>
 
+
 A manera introductoria de las maravillas del formato empleado los invito a ver el siguiente video que permite introducir a uno de los autores del presente documento: 
 <!---![Zombificación viral](./Death March of the Zombie Caterpillars..mp4){width="80%"} --->
 
 <center>
 [En la coloración de las plantas: 1 + 1 no es 2![](http://img.youtube.com/vi/EmEhFhQpqTQ/0.jpg)](http://www.youtube.com/watch?v=EmEhFhQpqTQ)
 </center>
+
+## Interacción {-}
+
+¿Deseas comentar, corregir, sugerir, opinar o preguntar algo sobre el `Bookdown`? Puedes hacerlo [en esta sección](https://github.com/AimerGDiaz/Bio-Virologia/discussions/10). 
+
+## Licencia {-}
+
+Este obra está protegida bajo una licencia de [Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es_ES)
+
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 
 ### Contenido del blog en facebook en proceso de migración {-}
 
@@ -228,18 +242,14 @@ A manera introductoria de las maravillas del formato empleado los invito a ver e
 18. Sistemas de inmunidad antiviral de origen viral [Bookdown]()
 
   18.1. Cas-9 filmado en acción a escala y tiempo real mediante microscopia de fuerza atómica de alta velocidad. [Bookdown](), [Facebook](https://www.facebook.com/BioViral/posts/191468236313827)
+  
+19. Domesticación viral y el kit de herramientas del biólogo molecular [Bookdown]() 
+
+  19.1  ¿Qué papel juega el virus de la hepatitis B en la vacuna contra la malaria "RTS,S"? [Bookdown][#malariaVaccine][Facebook]()
+
 
 </details>
 
-## Interacción {-}
-
-¿Deseas comentar, corregir, sugerir, opinar o preguntar algo sobre el `Bookdown`? Puedes hacerlo [en esta sección](https://github.com/AimerGDiaz/Bio-Virologia/discussions/10). 
-
-## Licencia {-}
-
-Este obra está protegida bajo una licencia de [Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es_ES)
-
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 
 
