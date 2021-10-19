@@ -1,12 +1,12 @@
 # Domesticación viral y el kit de herramientas del biólogo molecular {#domestic}
 
-¿Qué sería de la biología molecular si los virus no existiesen?. 
+¿Qué sería de la biología molecular si los virus no existiesen?
 
-¿Aún estaríamos debatiendo sobre el agente transformador de Griffith si no existicen bacteriófagos?. 
+¿Aún estaríamos debatiendo sobre el agente transformador de Griffith si no existicen bacteriófagos?
 
 ¿Tendríamos anticuerpos monoclonales si el premio nobel argentino César Milstein no hubiese dispuesto del virus de la rubéola capaces de inducir [hibridomas](http://www.quimicaviva.qb.fcen.uba.ar/contratapa/aprendiendo/capitulo10.htm) sin fusión celular?
 
-¿Cómo manipularíamos el comportamiento molecular de los organismos o líneas celulares genéticamente modificadas sin el promotor de expresión constitutiva del virus del mosaico del coliflor:CaMV 35S?. 
+¿Cómo manipularíamos el comportamiento molecular de los organismos o líneas celulares genéticamente modificadas sin el promotor de expresión constitutiva del virus del mosaico del coliflor:CaMV 35S?
 
 Estas y otras preguntas serán abordadas en este capítulo, en donde abordaremos el desarrollo de las técnicas de biología molecular desde la perspectiva virológica. Pero dada la plasticidad del formato en el que estamos escribiendo la presente obra, empezaremos por el final, con la la pregunta que titula la primera sección del presente capítulo:
 
