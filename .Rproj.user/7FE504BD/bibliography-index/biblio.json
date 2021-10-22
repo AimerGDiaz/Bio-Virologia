@@ -349,6 +349,31 @@
             "title-short": "Defining life",
             "type": "article-journal",
             "volume": "40"
+        },
+        {
+            "author": [
+                {
+                    "family": "Graves",
+                    "given": "Patricia M"
+                },
+                {
+                    "family": "Gelband",
+                    "given": "Hellen"
+                }
+            ],
+            "container-title": "Cochrane Database of Systematic Reviews",
+            "id": "graves2006vaccines",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2006
+                    ]
+                ]
+            },
+            "publisher": "John Wiley & Sons, Ltd",
+            "title": "Vaccines for preventing malaria (SPf66)",
+            "type": "article-journal"
         }
     ],
     "project_biblios": [

@@ -1,0 +1,21 @@
+# Spillover
+
+El Virus de Marburgo si representa un riesgo latente de brote epidémico. 
+Según la base de datos Spillover introducida en el anterior post: 
+"SpillOver: la base de datos que predice el riesgo de futuros brotes epidémicos". 
+https://www.facebook.com/BioViral/posts/230963219030995 
+La herramienta Spillover presenta así una aplicación inmediata muy interesante, evaluar la importancia que merecen las recurrentes noticias de nuevos brotes virales. Lastimosamente para el caso del virus de marburgo, como al igual del virus del ébola, pertenecientes a la misma familia, la emergencia sanitaria que estos virus representan aumenta cada año, y es que el virus de Marburgo está expandiendo su rango de circulación, la noticia reciente de este virus causa interés porque representa el primer salto de especie en Africa occidental. 
+Un salto esperado, Para enero 24 del año pasado cazadores de virus encontraron en poblaciones silvestres de murciélagos de la fruta (Rousettus) de Sierra Leona (como reporta Spillover, reproducido en la figura 1). A un año de este pronto reporte se halla evidencia de salto de especie de un virus, que según la base de datos Spillover, presenta un riesgo de propagación de 86/155, clasificándolo como el 7mo virus de mayor riesgo y que requiere medidas inmediatas para reducir los eventos futuros de salto de especie, predichos por la misma publicación del año pasado y que disponemos como figura 2. Por tanto, lastimosamente esta no será la última vez que leerás noticias similares de este virus de alta letalidad. 
+¿Por qué presenta un factor de riesgo tan elevado? Disponemos en la figura 3 la lista de factores que elevan a tan alta cifra el riesgo de dispersión de este virus, resaltando que la problemática principal se concentra en el impacto de la actividad humana y uso del ecosistema, que al afectar la distribución natural del hospedero natural del virus, incrementa la probabilidad de encuentro entre el virus y la población humana. 
+Spillover refleja la necesidad de incrementar el número de investigadores dispuestos a explorar la diversidad viral natural que se encuentra a nuestros alrededores, con el fin no solo de describir sino de evaluar los riesgos y proponer estrategias para reducirlos. 
+Fuentes 
+1. 2021. The Guardian. Deadly Marburg virus discovered for first time in west Africa. https://www.theguardian.com/.../marburg-virus-discovered...
+2. Amman, B. R., Bird, B. H., Bakarr, I. A., Bangura, J., Schuh, A. J., Johnny, J., ... & Lebbie, A. (2020). Isolation of Angola-like Marburg virus from Egyptian rousette bats from West Africa. Nature communications, 11(1), 1-9.
+3. MARBURG VIRUS Spillover.  https://spillover.global/virus/4
+
+
+Figura 1. Spillover subió a su base de datos las predicciones de riesgo de salto de especie del virus Marburgo, pues en enero 24 del año 2020 cazadores de virus encontraron en poblaciones silvestres de murciélagos de la fruta (Rousettus) de Sierra Leona la presencia por primera vez del virus en el occidente Africano. Paso tan solo 1 año y unos cuantos meses para que el salto se diera.
+
+Figura 2. Circulación de las poblaciones silvestres de murciélagos de la fruta (Rousettus), huésped natural de virus de la familia filiviridae
+
+Figura 3. ¿Por qué presenta un factor de riesgo tan elevado, 86/155? En la lista de factores que elevan a tan alta cifra el riesgo de dispersión de este virus, destacan como problemática principal se concentra en el impacto de la actividad humana y uso del ecosistema, que al afectar la distribución natural del hospedero natural del virus, incrementa la probabilidad de encuentro entre el virus y la población humana.
