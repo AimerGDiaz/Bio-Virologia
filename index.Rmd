@@ -58,7 +58,7 @@ A manera introductoria de las maravillas del formato empleado los invito a ver e
 <!---![Zombificación viral](./Death March of the Zombie Caterpillars..mp4){width="80%"} --->
 
 <center>
-[En la coloración de las plantas: 1 + 1 no es 2![(http://img.youtube.com/vi/EmEhFhQpqTQ/0.jpg)](http://www.youtube.com/watch?v=EmEhFhQpqTQ)
+[![En la coloración de las plantas: 1 + 1 no es 2](http://img.youtube.com/vi/EmEhFhQpqTQ/0.jpg)](http://www.youtube.com/watch?v=EmEhFhQpqTQ)
 </center>
 
 ## Interacción {-}

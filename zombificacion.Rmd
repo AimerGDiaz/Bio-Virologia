@@ -1,0 +1,30 @@
+# Zombificación viral: Los Baculovirus hacen de su hospederos una estructura dispersiva. 
+
+¿Son los zombis una posibilidad real?, de ser así ¿a qué reglas están sujetas los zombis?
+
+La relación entre virus y zombis no es un invento de Hollywood, como tampoco de la literatura, la realidad, como suele ilustrarnos las ciencia, casi siempre supera la ficción. Las historias de terror zombi hasta cierto punto se han inspirado en alguno de los tres fenómenos de alteración o cambio del comportamiento del hospedero por parasitismo. En términos generales una vez un hospedero es infectado con un patógeno capaz de alterar el comportamiento, pueden suceder uno de los siguientes tres procesos: 
+
+1. Manipulación de guardaespaldas. El patógeno en este caso es capaz de someter al hospedero de manera tal que el organismo infectado dedica sus recursos al cuidado y protección de los parásitos que le infectan, o peor aún, al cuidado de las crías del parásito. Este tipo de comportamiento suele ser conseguido a través de una manipulación indirecta, es decir, el parásito afecta a su hospedero sin alterar su auto-preservación y reproducción. Por lo que en últimas es difícil de distinguir al comensalismo o incluso al mismo mutualismo, pues el parásito puede contribuir al hospedero ya sea mediante el suministro de metabolitos, defensa contra otros parásitos entre otros efectos. Como también el parásito manipulador puede mantenerse como comensal hasta detectar el debilitamiento del sistema inmune de su hospedador, el cual en condiciones optimas permitía la reproducción del parásito (@seppala2008host). 
+
+2. Zombificación o facilitación trófica, es la manipulación más atractiva e inspiradora de verdaderas historias de terror. En este tipo de relación parásito o huésped vs hospedero, el parásito es capaz de provocar cambios en el comportamiento de sus hospederos para mejorar su transmisión, ya sea por afección directa o indirecta de los mecanismos de control de la conducta o toma de decisiones de los hospedadores. De esta manera el parásito es capaz de inducir nuevos comportamientos en el hospedero que lo perjudican o exponen a sus depredadores, de allí que se denomine facilitación trófica, lo que conlleva un aumento en la transmisión del parásito (@seppala2008host). 
+
+Existen a la fecha múltiples ejemplos de zombificación presentes en cada tipo de parásito del dominio de la vida, tanto en virus, bacterias, protozoos o incluso aves. Pero dado a nuestro énfasis en la vida viral, mencionaremos rápidamente dos ejemplos. El ejemplo más temido de zombificación viral es el caso del virus de la Rabia, un virus cuya parte del hospedero con con mayor afinidad a la infección (tropismo) es el sistema nervioso central, de tal manera que una vez la infección prolifera, la nube viral puede manipular el comportamiento del hospedero, aumentando la agresividad de su hospedero, incrementando la salivación, donde el virus libera las partículas dispersivas o viriones e induce hidrofobia (repulsión al agua - @wertheim2009furious, incluso al agua bendita), lo que evita que el hospedero beba y diluya o ingiera la saliva cargada de virus, lo que haría inaccesible a los viriones al hora de propagarse a través de mordeduras.
+
+<center>
+![Hidrofobia por infección del virus de la Rabia](./figures/Hydrophobia_in_rabies.webm.480p.vp9.webm){width="80%"} 
+</center>
+
+Pero el ejemplo a resaltar y que causa verdadero terror en mariposas, mosquitos y saltamontes son los baculovirus, recientemente una familia de virus no solo estudiado por el fenómeno de zombificación, también empleados para el desarrollo de la vacuna contra la COVID-19 Novavax y objetos de gran estudio desde la socio-virología, campo en el que destaca el virólogo evolutivo español Sanjuán Rafael (@sanjuan2021social), pues los baculovirus emplean una estrategia cooperativa de dispersión (Figura 1). Es decir a la hora de propagar sus viriones, una vez estos se han ensamblado estos se agrupan en una estructura de mayor orden denominada "cuerpos de oclusión". 
+
+<center>
+![Ciclo de vida de los baculovirus y proceso de zombificación, @williams2017covert](./figures/fmicb-08-01337-g001.jpg){width="80%"} 
+</center>
+
+
+De vuelta a la zombificación viral, los baculovirus inducen en sus hospedadores cambios directos tanto en el comportamiento alimentario como en la selección de esporulación. Una vez infectan a las orugas de la polilla y de las mariposas por ingesta, una vez la población del virus establece una infección viable,  las orugas ingieren hojas incesantemente, lo que proporciona nutrientes para la replicación del virus. Una vez la cantidad de nutrientes garantiza una elevada producción de viriones, la siguiente acción de las orugas zombis es desplazarse verticalmente en las ramas de los árboles hasta encontrar un lugar alto en el que se inmovilizan. Finalmente las células infectadas secretan enzimas que disuelven al animal, haciendo llover trozos de tejido, junto a los cuerpos de oclusión, a manera de alimento a la espera de futuros hospedadores (@williams2017covert).
+
+<center>
+![Zombificación viral, @online](./figures/Death_March_Of_The_Zombie_Caterpillars_es.mp4){width="80%"} 
+</center>
+
+Así los virus a diferencia de los humanos, no se disfrazan una vez al año de zombis, en realidad la zombificación parece ser su forma de vida primordial, ya sea a nivel de transformación de células u organismos multicelulares.
