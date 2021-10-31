@@ -374,6 +374,177 @@
             "publisher": "John Wiley & Sons, Ltd",
             "title": "Vaccines for preventing malaria (SPf66)",
             "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "family": "Wertheim",
+                    "given": "Heiman F L"
+                },
+                {
+                    "family": "Nguyen",
+                    "given": "Thai Q"
+                },
+                {
+                    "family": "Nguyen",
+                    "given": "Kieu Anh T"
+                },
+                {
+                    "dropping-particle": "de",
+                    "family": "Jong",
+                    "given": "Menno D"
+                },
+                {
+                    "family": "Taylor",
+                    "given": "Walter R J"
+                },
+                {
+                    "family": "Le",
+                    "given": "Tan V"
+                },
+                {
+                    "family": "Nguyen",
+                    "given": "Ha H"
+                },
+                {
+                    "family": "Nguyen",
+                    "given": "Hanh T H"
+                },
+                {
+                    "family": "Farrar",
+                    "given": "Jeremy"
+                },
+                {
+                    "family": "Horby",
+                    "given": "Peter"
+                },
+                {
+                    "literal": "others"
+                }
+            ],
+            "container-title": "PLoS medicine",
+            "id": "wertheim2009furious",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009
+                    ]
+                ]
+            },
+            "page": "e1000044",
+            "publisher": "Public Library of Science San Francisco, USA",
+            "title": "Furious rabies after an atypical exposure",
+            "type": "article-journal",
+            "volume": "6"
+        },
+        {
+            "author": [
+                {
+                    "family": "Seppälä",
+                    "given": "Otto"
+                },
+                {
+                    "family": "Valtonen",
+                    "given": "E Tellervo"
+                },
+                {
+                    "family": "Benesh",
+                    "given": "Daniel P"
+                }
+            ],
+            "container-title": "Proceedings of the Royal Society B: Biological Sciences",
+            "id": "seppala2008host",
+            "issue": "1643",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008
+                    ]
+                ]
+            },
+            "page": "1611-1615",
+            "publisher": "The Royal Society London",
+            "title": "Host manipulation by parasites in the world of dead-end predators: Adaptation to enhance transmission?",
+            "title-short": "Host manipulation by parasites in the world of dead-end predators",
+            "type": "article-journal",
+            "volume": "275"
+        },
+        {
+            "author": [
+                {
+                    "family": "Sanjuán",
+                    "given": "Rafael"
+                }
+            ],
+            "container-title": "Annual Review of Virology",
+            "id": "sanjuan2021social",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "page": "183-199",
+            "publisher": "Annual Reviews",
+            "title": "The social life of viruses",
+            "type": "article-journal",
+            "volume": "8"
+        },
+        {
+            "author": [
+                {
+                    "family": "Williams",
+                    "given": "Trevor"
+                },
+                {
+                    "family": "Virto",
+                    "given": "Cristina"
+                },
+                {
+                    "family": "Murillo",
+                    "given": "Rosa"
+                },
+                {
+                    "family": "Caballero",
+                    "given": "Primitivo"
+                }
+            ],
+            "container-title": "Frontiers in microbiology",
+            "id": "williams2017covert",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "page": "1337",
+            "publisher": "Frontiers",
+            "title": "Covert infection of insects by baculoviruses",
+            "type": "article-journal",
+            "volume": "8"
+        },
+        {
+            "URL": "https://youtu.be/Ui8Zo_jmRRc",
+            "author": [
+                {
+                    "family": "Candiru",
+                    "given": "Team"
+                }
+            ],
+            "id": "youtube",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "publisher": "Youtube",
+            "title": "Death march of the zombie caterpillars.",
+            "type": "webpage"
         }
     ],
     "project_biblios": [
