@@ -17,3 +17,4 @@ malariaVaccine
 fig:zombificacion
 fig:index
 spillover
+fig:index2

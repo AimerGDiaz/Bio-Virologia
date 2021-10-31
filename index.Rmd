@@ -1,7 +1,7 @@
 --- 
-title: 'BioVirología: La biología de los virus'
-author: "Aimer G. Diaz"
-date: "©2021"
+title: 'BioVirología:'
+subtitle: 'La biología de los virus'
+date: 2021, pero en constante desarrollo.
 output:
   html_document:
     df_print: paged
@@ -21,6 +21,7 @@ github-repo: AimerGDiaz/Bio-Virologia
 site: bookdown::bookdown_site
 cover-image: "figures/Portrait.png"
 ---
+<!--date: "`r format(Sys.time(), '%B %d, %Y')`"-->
 <!-- Launch the bookdown to bookdown website 
 follow 
 https://bookdown.org/home/about/ 
@@ -50,28 +51,28 @@ Está página al igual que el libro entero estará en permanente revisión y edi
 El proyecto de Biovirología inició en un nada remoto [19 de mayo del 2020](https://www.facebook.com/permalink.php?story_fbid=107125457678944&id=107088044349352), con el siguiente post reproducido a continuación: 
 
 Inauguro este espacio de divulgación científica en español sobre artículos de investigación en virología desde una perspectiva netamente biológica. En este espacio los virus no solo serán agentes etiológicos o factores causales de enfermedades en humanos; en vez de esto se discutirán como los virus que fungen como nanobiota, son componentes esenciales de nuestra microbiota. 
-Sobra decirlo, a la pregunta si los virus ¿ viven o no ?. La respuesta es un contundente Si, en palabras del virólogo Frances Patrick Forterre: 
+Sobra decirlo, a la pregunta si los virus ¿ viven o no ?. La respuesta es un contundente Si, en palabras del virólogo Francés Patrick Forterre: 
 
 "(Los) virus no deben confundirse con sus viriones, sino que se pueden ver como entidades vivientes complejas que transforman la célula infectada en un organismo nuevo, el virus, que produce viriones."
 
 "Viruses are no more confused with their virions, but can be viewed as complex living entities that transform the infected cell into a novel organism—the virus—producing virions" @forterre2010defining 
 
-Por la anterior cita, las historias que se contarán serán sobre las fábricas virales (viriones replicantes o una vez germinados en células) y no a las semillas proteicas (viriones) a las que llamaremos virucélulas (virocells). @mukhopadhyay2003structure
-<!-- 
+Por la anterior cita, las historias que se contarán serán sobre las fábricas virales (viriones replicantes o viriones germinados en el recurso célular), como producto del curso exitoso de la infección, que es a su vez el establecimiento de las virocélulas (virocells). Y aunque nuestra portada refleja el enfasis clásico sobre las semillas proteicas (viriones), el objetivo de tal imagen es representar la concepción usual de lo que se cree que es un virus, que en especial refleja a propósito los colores de la bandera del país de origen de varios autores:
+
 <center>
--```{r index, echo=FALSE, fig.cap='Partícula viral o virión del virus del Nilo Occidental con los colores del la bandera de Colombia en homenaje al 3 encuentro panamericano de Dengue celebrado en Cartagena Colombia. Tomado de @mukhopadhyay2003structure', out.width='60%'}
+```{r index2, echo=FALSE, fig.cap='Partícula viral o virión del virus del Nilo Occidental con los colores del la bandera de Colombia en homenaje al 3 encuentro panamericano de Dengue celebrado en Cartagena Colombia. Tomado de @mukhopadhyay2003structure', out.width='50%'}
 knitr::include_graphics('Logo.jpg', dpi = NA)
 ```
 </center>
--->
 
-A manera introductoria de las maravillas del formato empleado los invito a ver el siguiente video que permite introducir a uno de los autores del presente documento: 
+
+A manera introductoria de las maravillas del formato empleado los invito a ver el siguiente vídeo que permite introducir a uno de los autores del presente documento: 
 <!---![Zombificación viral](./Death March of the Zombie Caterpillars..mp4){width="80%"} --->
 
 <center>
 [![](http://img.youtube.com/vi/EmEhFhQpqTQ/0.jpg)](http://www.youtube.com/watch?v=EmEhFhQpqTQ)
 
-Video 1. En la coloración de las plantas: 1 + 1 no es 2.
+Vídeo 1. En la coloración de las plantas: 1 + 1 no es 2.
 </center>
 
 ## Interacción {-}
@@ -216,7 +217,7 @@ Este obra está protegida bajo una licencia de [Creative Commons Reconocimiento-
   
   9.6 Tasa de propagación, primeros reportes del efecto sobre las vacunas de la variante Delta y la falsa concepción de progreso en la evolución del SARS-CoV-2. [Bookdown](), [Facebook](https://www.facebook.com/BioViral/posts/213300734130577)
   
-10.  Mimivirus y el descubrimiento de virus gigantes (por Victor Avellaneda). [Bookdown](), [Facebook](https://www.facebook.com/permalink.php?story_fbid=148814966843326&id=107088044349352)
+10.  Mimivirus y el descubrimiento de virus gigantes (por Víctor Avellaneda). [Bookdown](), [Facebook](https://www.facebook.com/permalink.php?story_fbid=148814966843326&id=107088044349352)
 
 11. El árbol de la vida debe incluir a los virus tanto en su raíz y sus ramas. [Bookdown]()
 
