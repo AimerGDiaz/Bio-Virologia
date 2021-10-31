@@ -2,6 +2,8 @@ delete_merged_file: true
 language:
   ui:
     chapter_name: ""
+    fig: "Figura "
+    tab: "Tabla "
 output_dir: "docs"
 rmd_files: ["index.Rmd", "01-intro.Rmd", "02-cross-refs.Rmd","03-parts.Rmd","04-citations.Rmd", "05-blocks.Rmd", 
-"06-share.Rmd", "zombificacion.Rmd",  "domesticacion_viral.Rmd" ,"unique_molBio.Rmd", "07-references.Rmd"]
+"06-share.Rmd", "zombificacion.Rmd",  "domesticacion_viral.Rmd" , "SpillOver.Rmd","unique_molBio.Rmd", "07-references.Rmd"]

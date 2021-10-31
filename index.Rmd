@@ -3,9 +3,9 @@ title: 'BioVirología: La biología de los virus'
 author: "Aimer G. Diaz"
 date: "©2021"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 documentclass: book
 bibliography:
 - book.bib
@@ -19,10 +19,12 @@ link-citations: yes
 lang: es
 github-repo: AimerGDiaz/Bio-Virologia
 site: bookdown::bookdown_site
+cover-image: "figures/Portrait.png"
 ---
 <!-- Launch the bookdown to bookdown website 
 follow 
 https://bookdown.org/home/about/ 
+-
 
 Publish as a website 
 https://rpubs.com/colleengerrity/bookdown-website-tutorial
@@ -31,10 +33,17 @@ https://rpubs.com/colleengerrity/bookdown-website-tutorial
 Add a nicer beginning 
 https://stackoverflow.com/questions/57075704/insert-multiple-pages-before-body-with-bookdown 
 file.create('git/.nojekyll')
+options(knitr.duplicate.label = "allow")
+
 -->
 # Bienvenidos al bookdown de BioVirología {-}
 
-El Blog en Facebook [Biovirología](https://www.facebook.com/BioViral/) ha sido re-lanzado bajo el formato  nada tradicional de libros electrónicos: Bookdown, un formato web con las características de los libros electrónicos más todas las posibilidades de edición y de contendio de un sitio web. Por lo que en este formato se puede escribir, editar y hasta interactuar con los lectores, además de insertar códigos escritos en los lenguajes de programación R, bash, perl, python (entre otros), o emplear, incluso, comandos del lenguaje estructurado TeX (con el que se generan documentos LaTex). Funcionando,  por tanto, como un block de notas, en el que se puede visulizar el output o la salida de los códigos en él escritos. Así, con esta transición, BioVirología se convierte en el primer blog de divulgación científica en español en hacerse libro electrónico interactivo, además del primer bookdown de virología biológica o biovirología.
+```{r index, echo=FALSE}
+knitr::include_graphics('figures/Portrait.png', dpi = NA)
+```
+<P style="page-break-before: always">
+
+El Blog en Facebook [Biovirología](https://www.facebook.com/BioViral/) ha sido re-lanzado bajo el formato  nada tradicional de libros electrónicos: Bookdown, un formato web con las características de los libros electrónicos más todas las posibilidades de edición y de contenido de un sitio web. Por lo que en este formato se puede escribir, editar y hasta interactuar con los lectores, además de insertar códigos escritos en los lenguajes de programación R, bash, perl, python (entre otros), o emplear, incluso, comandos del lenguaje estructurado TeX (con el que se generan documentos LaTex). Funcionando,  por tanto, como un block de notas, en el que se puede visualizar el output o la salida de los códigos en él escritos. Así, con esta transición, BioVirología se convierte en el primer blog de divulgación científica en español en hacerse libro electrónico interactivo, además del primer bookdown de virología biológica o biovirología.
 
 Está página al igual que el libro entero estará en permanente revisión y edición, más aún mientras migramos todo el contenido de nuestra página en Facebook, que por cierto [puede visualziarse acá](https://www.facebook.com/permalink.php?story_fbid=174758050915684&id=107088044349352). 
 
@@ -48,17 +57,21 @@ Sobra decirlo, a la pregunta si los virus ¿ viven o no ?. La respuesta es un co
 "Viruses are no more confused with their virions, but can be viewed as complex living entities that transform the infected cell into a novel organism—the virus—producing virions" @forterre2010defining 
 
 Por la anterior cita, las historias que se contarán serán sobre las fábricas virales (viriones replicantes o una vez germinados en células) y no a las semillas proteicas (viriones) a las que llamaremos virucélulas (virocells). @mukhopadhyay2003structure
- 
+<!-- 
 <center>
-![Partícula viral o virión del virus del Nilo Occidental con los colores del la bandera de Colombia en homenaje al 3 encuentro panamericano de Dengue celebrado en Cartagena Colombia. Autores @mukhopadhyay2003structure](./Logo.jpg){width="80%"}
+-```{r index, echo=FALSE, fig.cap='Partícula viral o virión del virus del Nilo Occidental con los colores del la bandera de Colombia en homenaje al 3 encuentro panamericano de Dengue celebrado en Cartagena Colombia. Tomado de @mukhopadhyay2003structure', out.width='60%'}
+knitr::include_graphics('Logo.jpg', dpi = NA)
+```
 </center>
-
+-->
 
 A manera introductoria de las maravillas del formato empleado los invito a ver el siguiente video que permite introducir a uno de los autores del presente documento: 
 <!---![Zombificación viral](./Death March of the Zombie Caterpillars..mp4){width="80%"} --->
 
 <center>
-[![En la coloración de las plantas: 1 + 1 no es 2](http://img.youtube.com/vi/EmEhFhQpqTQ/0.jpg)](http://www.youtube.com/watch?v=EmEhFhQpqTQ)
+[![](http://img.youtube.com/vi/EmEhFhQpqTQ/0.jpg)](http://www.youtube.com/watch?v=EmEhFhQpqTQ)
+
+Video 1. En la coloración de las plantas: 1 + 1 no es 2.
 </center>
 
 ## Interacción {-}
@@ -249,8 +262,3 @@ Este obra está protegida bajo una licencia de [Creative Commons Reconocimiento-
 
 
 </details>
-
-
-
-
-
