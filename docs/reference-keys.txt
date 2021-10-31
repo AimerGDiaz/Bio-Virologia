@@ -18,3 +18,7 @@ fig:zombificacion
 fig:index
 spillover
 fig:index2
+introducción
+autores
+descripción-de-la-obra
+descripción-de-la-obra-bio-virología

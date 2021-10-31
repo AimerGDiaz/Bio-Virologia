@@ -14,7 +14,7 @@ bibliography:
 biblio-style: apalike
 global_numbering: yes
 description: 
-  BioVirología es el primer libro electrónico e interactivo de virología biológica o biovirología, y el primero de divulgación científica en español empleado el formato de libros Bookdown.
+  BioVirología es el primer libro electrónico e interactivo de virología biológica y el primero de divulgación científica en español empleando el formato de libros Bookdown.
 link-citations: yes
 lang: es
 github-repo: AimerGDiaz/Bio-Virologia
@@ -30,6 +30,9 @@ https://bookdown.org/home/about/
 Publish as a website 
 https://rpubs.com/colleengerrity/bookdown-website-tutorial
 
+Nice previous books as reference 
+https://github.com/moderndive/ModernDive_book/
+https://moderndive.com/index.html
 
 Add a nicer beginning 
 https://stackoverflow.com/questions/57075704/insert-multiple-pages-before-body-with-bookdown 
@@ -42,38 +45,20 @@ options(knitr.duplicate.label = "allow")
 ```{r index, echo=FALSE}
 knitr::include_graphics('figures/Portrait.png', dpi = NA)
 ```
-<P style="page-break-before: always">
 
-El Blog en Facebook [Biovirología](https://www.facebook.com/BioViral/) ha sido re-lanzado bajo el formato  nada tradicional de libros electrónicos: Bookdown, un formato web con las características de los libros electrónicos más todas las posibilidades de edición y de contenido de un sitio web. Por lo que en este formato se puede escribir, editar y hasta interactuar con los lectores, además de insertar códigos escritos en los lenguajes de programación R, bash, perl, python (entre otros), o emplear, incluso, comandos del lenguaje estructurado TeX (con el que se generan documentos LaTex). Funcionando,  por tanto, como un block de notas, en el que se puede visualizar el output o la salida de los códigos en él escritos. Así, con esta transición, BioVirología se convierte en el primer blog de divulgación científica en español en hacerse libro electrónico interactivo, además del primer bookdown de virología biológica o biovirología.
+El presente Bookdown es un el producto de la integración de tres medios de divulgación científica en formato de Blog en Facebook: [Biovirología](https://www.facebook.com/BioViral/), [Mimivirus](https://www.facebook.com/Mimivirus-100736401569015) y [Quantum Rabbit](https://www.facebook.com/Medicina88). En el que re-lanzamos e inmortalizamos los contenidos desarrollados en las tres páginas bajo el formato nada tradicional de libro electrónico interactivo: Bookdown, un formato web con las características de los libros electrónicos clásicas -consultable en pdf, epub- y disponible para celular, tablet u ordenador de escritorio, junto con todas las posibilidades de edición y de contenido de un sitio web. Por lo que en este formato se puede escribir, editar y hasta interactuar con los lectores, además de insertar códigos escritos en los lenguajes de programación R, bash, perl, python (entre otros), o emplear, incluso, comandos del lenguaje estructurado TeX (con el que se generan documentos LaTex). Funcionando por tanto como un notebook en el que se puede visualizar el output o la salida de los códigos en él escritos. Así, con esta transición  el producto de integración de estos tres blogs de divulgación científica en español es el primer bookdown de divulgación científica en español, además del primero en virología biológica o biovirología.
 
-Está página al igual que el libro entero estará en permanente revisión y edición, más aún mientras migramos todo el contenido de nuestra página en Facebook, que por cierto [puede visualziarse acá](https://www.facebook.com/permalink.php?story_fbid=174758050915684&id=107088044349352). 
+## Autores {-}
 
-El proyecto de Biovirología inició en un nada remoto [19 de mayo del 2020](https://www.facebook.com/permalink.php?story_fbid=107125457678944&id=107088044349352), con el siguiente post reproducido a continuación: 
-
-Inauguro este espacio de divulgación científica en español sobre artículos de investigación en virología desde una perspectiva netamente biológica. En este espacio los virus no solo serán agentes etiológicos o factores causales de enfermedades en humanos; en vez de esto se discutirán como los virus que fungen como nanobiota, son componentes esenciales de nuestra microbiota. 
-Sobra decirlo, a la pregunta si los virus ¿ viven o no ?. La respuesta es un contundente Si, en palabras del virólogo Francés Patrick Forterre: 
-
-"(Los) virus no deben confundirse con sus viriones, sino que se pueden ver como entidades vivientes complejas que transforman la célula infectada en un organismo nuevo, el virus, que produce viriones."
-
-"Viruses are no more confused with their virions, but can be viewed as complex living entities that transform the infected cell into a novel organism—the virus—producing virions" @forterre2010defining 
-
-Por la anterior cita, las historias que se contarán serán sobre las fábricas virales (viriones replicantes o viriones germinados en el recurso célular), como producto del curso exitoso de la infección, que es a su vez el establecimiento de las virocélulas (virocells). Y aunque nuestra portada refleja el enfasis clásico sobre las semillas proteicas (viriones), el objetivo de tal imagen es representar la concepción usual de lo que se cree que es un virus, que en especial refleja a propósito los colores de la bandera del país de origen de varios autores:
-
-<center>
-```{r index2, echo=FALSE, fig.cap='Partícula viral o virión del virus del Nilo Occidental con los colores del la bandera de Colombia en homenaje al 3 encuentro panamericano de Dengue celebrado en Cartagena Colombia. Tomado de @mukhopadhyay2003structure', out.width='50%'}
-knitr::include_graphics('Logo.jpg', dpi = NA)
-```
-</center>
+* Aimer G. Díaz: MSc. Bioinformático y Biólogo de la Universidad Nacional de Colombia. Fundador del blog de divulgación de virología biológica o no-médica "Bio-Virología". Co-fundador, escritor y editor del blog de divulgación científica [Biología Teórica para T@dos](https://bioteorica.wixsite.com/bioteorica/blog) (En [Facebook](https://www.facebook.com/BioTeoricaParaTodos/)), además de escribir para [Biología Molecular México](http://www.biologiamolecularmexico.com/) (En [Facebook](https://www.facebook.com/biologiamolecularmexico/)). Actualmente estudiante de doctorado y miembro investigador del Centro para el estudio de la evolución en acción BEACON. Los ejes temáticos en los que se concentra su investigación y divulgación científica son Virología, Bioinformática, Biología Evolutiva y Filosofía de la Biología, pese a la diversidad de áreas todas estas convergen alrededor de la Virología evolutiva computacional. 
+<!--
+* Víctor Parra Avellaneda:
 
 
-A manera introductoria de las maravillas del formato empleado los invito a ver el siguiente vídeo que permite introducir a uno de los autores del presente documento: 
-<!---![Zombificación viral](./Death March of the Zombie Caterpillars..mp4){width="80%"} --->
+* Roberto Nájera:
 
-<center>
-[![](http://img.youtube.com/vi/EmEhFhQpqTQ/0.jpg)](http://www.youtube.com/watch?v=EmEhFhQpqTQ)
-
-Vídeo 1. En la coloración de las plantas: 1 + 1 no es 2.
-</center>
+-->
+* Natalia Alejandra Chaparro: Editora y Magíster en Filosofía de la Universidad Nacional de Colombia con licenciatura en español y filología clásica. 
 
 ## Interacción {-}
 
@@ -85,8 +70,7 @@ Este obra está protegida bajo una licencia de [Creative Commons Reconocimiento-
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-
-### Contenido del blog en facebook en proceso de migración {-}
+## Contenido del blog en facebook en proceso de migración {-}
 
 <details>
 <summary> Lista de post publicados en [Facebook](https://www.facebook.com/permalink.php?story_fbid=174758050915684&id=107088044349352)</summary>
@@ -260,6 +244,5 @@ Este obra está protegida bajo una licencia de [Creative Commons Reconocimiento-
 19. Domesticación viral y el kit de herramientas del biólogo molecular [Bookdown]() 
 
   19.1  ¿Qué papel juega el virus de la hepatitis B en la vacuna contra la malaria "RTS,S"? [Bookdown][#malariaVaccine][Facebook]()
-
 
 </details>
