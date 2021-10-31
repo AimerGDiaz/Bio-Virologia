@@ -14,3 +14,4 @@ sarscov2
 zombificación-viral-los-baculovirus-hacen-de-su-hospederos-una-estructura-dispersiva.
 domestic
 malariaVaccine
+fig:zombificacion
