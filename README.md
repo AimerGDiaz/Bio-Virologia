@@ -27,15 +27,18 @@ Victor y Roberto, bienvenidos a esta nueva etapa del proyecto. Github nos permit
 
 Por cierto los roles por ahora son Victor -escritor / editor- y Roberto -diseñador / escritor (aún no confirmado, recuerda que Victor, Natalia o yo podemos editar tus textos)- , así que para familiarizar a Roberto con la introducción de contenido gráfico, pondré la imagen del link anterior:
 
+<center>
 <img src="figures/MgaV9.png" width="50%"/>
-
+</center>
 
 La sintaxis para la escritura de estos documentos, inserción de imagenes, videos, ecuaciones, encuestas y demás está en este [link](https://github.com/fefong/markdown_readme#anchor-links)
 
 Github da una plasticidad fantástica, por ejemplo yo no edito estos textos directamente en la página, aunque se puede, los edito en Rstudio, pues los bookdown en su naturaleza son documentos derivados de R markdown, así luce por ejemplo la edición de este texto:
 
-![R markdown](figures/bookdown.PNG){width="80%"} 
-
+<!--![R markdown](figures/bookdown.PNG){width="80%"} -->
+<center>
+<img src="figures/bookdown.PNG" width="80%"/>
+</center>
 
 Así que este texto será el primero para editar y comprender la dinámica de github.
 
