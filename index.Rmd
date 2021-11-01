@@ -6,13 +6,12 @@ output:
   html_document:
     df_print: paged
   pdf_document: default
-documentclass: book
+documentclass: krantz
+fontsize: '12pt, krantz2'
 bibliography:
 - book.bib
 - packages.bib
 - References_Bibtex.bib
-biblio-style: apalike
-global_numbering: yes
 description: 
   BioVirología es el primer libro electrónico e interactivo de virología biológica y el primero de divulgación científica en español empleando el formato de libros Bookdown.
 link-citations: yes
@@ -25,6 +24,7 @@ cover-image: "figures/Portrait.png"
 <!-- Launch the bookdown to bookdown website 
 follow 
 https://bookdown.org/home/about/ 
+biblio-style: apalike
 -
 
 Publish as a website 
