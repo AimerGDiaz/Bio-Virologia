@@ -58,7 +58,7 @@ El presente Bookdown es un el producto de la integración de tres medios de divu
 * Roberto Nájera:
 
 -->
-* Natalia Alejandra Chaparro: Editora y Magíster en Filosofía de la Universidad Nacional de Colombia con licenciatura en español y filología clásica. 
+* Natalia Alejandra Chaparro: Magíster en Filosofía de la Universidad Nacional de Colombia con licenciatura en español y filología clásica. 
 
 ## Interacción {-}
 
