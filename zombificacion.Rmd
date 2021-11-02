@@ -32,7 +32,7 @@ knitr::include_graphics('figures/fmicb-08-01337-g001.jpg', dpi = NA)
 De vuelta a la zombificación viral, los baculovirus inducen en sus hospedadores cambios directos tanto en el comportamiento alimentario como en la selección de esporulación. Una vez infectan a las orugas de la polilla y de las mariposas por ingesta, una vez la población del virus establece una infección viable,  las orugas ingieren hojas incesantemente, lo que proporciona nutrientes para la replicación del virus. Una vez la cantidad de nutrientes garantiza una elevada producción de viriones, la siguiente acción de las orugas zombis es desplazarse verticalmente en las ramas de los árboles hasta encontrar un lugar alto en el que se inmovilizan. Finalmente las células infectadas secretan enzimas que disuelven al animal, haciendo llover trozos de tejido, junto a los cuerpos de oclusión, a manera de alimento a la espera de futuros hospedadores (@williams2017covert).
 
 <center>
-![Zombificación viral, @online](./figures/Death_March_Of_The_Zombie_Caterpillars_es.mp4){width="80%"}.
+![Zombificación viral, @online](./figures/Death_March_The_Zombie_Caterpillars_es.mp4){width="80%"}.
 
 Zombificación viral, tomado de @youtube. 
 </center>
@@ -40,4 +40,8 @@ Zombificación viral, tomado de @youtube.
 
 Así los virus a diferencia de los humanos, no se disfrazan una vez al año de zombis, en realidad la zombificación parece ser su forma de vida primordial, ya sea a nivel de transformación de células u organismos multicelulares. 
 
+<<<<<<< HEAD
 Para comentarios o preguntas puedes escribirnos tanto en la versión en [Facebook](https://www.facebook.com/BioViral/posts/284936346967015) del presente post o la versión en [YouTube](https://www.youtube.com/watch?v=Taqv4eFDtpo). 
+=======
+¿Comentarios o preguntas?, puedes hacerlo en la versión en [Facebook del presente post](https://www.facebook.com/BioViral/posts/284936346967015).
+>>>>>>> fcd9dae (subtitles correction)
