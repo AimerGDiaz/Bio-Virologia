@@ -22,3 +22,7 @@ introducción
 autores
 descripción-de-la-obra
 descripción-de-la-obra-bio-virología
+fig:threehypo
+fig:sizes
+fig:jellyroll
+fig:analogy
