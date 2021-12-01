@@ -20,7 +20,7 @@ Por más de 100 años de búsqueda, ninguna vacuna había superado la barrera de
 ![Morfología por cada etapa del ciclo de vida de 4 especies de Plasmodium](figures/plasmodium.png){ width=60% }
 </center>
 
-Así que en el diseño de vacunas clásicas, escoger qué proteína o cuantas proteínas diferentes capaces de reducir la propagación del patógeno pere su variabilidad por recombinación genética fue una de las principales limitantes a la hora de desarrollar vacunas efectivas. De hecho la reconocida pero fallida estrategia del inmunólogo colombiano Manuel Elkin Patarroyo, la vacuna "SPf66" empleaba múltiples proteínas sintéticas de los estadios eritrocitarios del patógeno, estado en el que circula en la sangre de su huésped, aunque pionera en su tiempo, el mejor valor de efectividad alcanzado llegó a ser de un reducido 28% (@graves2006vaccines).  
+Así que, en el diseño de vacunas clásicas, escoger qué proteína o cuantas proteínas diferentes capaces de reducir la propagación del patógeno pese a su variabilidad por recombinación genética fue una de las principales limitantes a la hora de desarrollar vacunas efectivas. De hecho la reconocida pero fallida estrategia del inmunólogo colombiano Manuel Elkin Patarroyo, la vacuna "SPf66" empleaba múltiples proteínas sintéticas de los estadios eritrocitarios del patógeno, estado en el que circula en la sangre de su huésped, aunque pionera en su tiempo, el mejor valor de efectividad alcanzado llegó a ser de un reducido 28% (@graves2006vaccines).  
 <center>
 [Ciclo de vida de *Plasmodium falciparum*![](figures/Plasmodium_sp.jpg){ width=70% }
 </center>

@@ -545,6 +545,94 @@
             "publisher": "Youtube",
             "title": "Death march of the zombie caterpillars.",
             "type": "webpage"
+        },
+        {
+            "author": [
+                {
+                    "family": "Claverie",
+                    "given": "Jean-Michel"
+                },
+                {
+                    "family": "Abergel",
+                    "given": "Chantal"
+                }
+            ],
+            "container-title": "Trends in Genetics",
+            "id": "claverie2010mimivirus",
+            "issue": "10",
+            "issued": {
+                "date-parts": [
+                    [
+                        2010
+                    ]
+                ]
+            },
+            "page": "431-437",
+            "publisher": "Elsevier",
+            "title": "Mimivirus: The emerging paradox of quasi-autonomous viruses",
+            "title-short": "Mimivirus",
+            "type": "article-journal",
+            "volume": "26"
+        },
+        {
+            "author": [
+                {
+                    "family": "Krupovic",
+                    "given": "Mart"
+                },
+                {
+                    "family": "Dolja",
+                    "given": "Valerian V"
+                },
+                {
+                    "family": "Koonin",
+                    "given": "Eugene V"
+                }
+            ],
+            "container-title": "Nature Reviews Microbiology",
+            "id": "krupovic2019origin",
+            "issue": "7",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "page": "449-458",
+            "publisher": "Nature Publishing Group",
+            "title": "Origin of viruses: Primordial replicators recruiting capsids from hosts",
+            "title-short": "Origin of viruses",
+            "type": "article-journal",
+            "volume": "17"
+        },
+        {
+            "author": [
+                {
+                    "family": "Raoult",
+                    "given": "Didier"
+                },
+                {
+                    "family": "Forterre",
+                    "given": "Patrick"
+                }
+            ],
+            "container-title": "Nature Reviews Microbiology",
+            "id": "raoult2008redefining",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008
+                    ]
+                ]
+            },
+            "page": "315-319",
+            "publisher": "Nature Publishing Group",
+            "title": "Redefining viruses: Lessons from mimivirus",
+            "title-short": "Redefining viruses",
+            "type": "article-journal",
+            "volume": "6"
         }
     ],
     "project_biblios": [

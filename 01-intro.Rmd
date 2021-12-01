@@ -1,6 +1,8 @@
-# Los virus son nano-organismos y tal vez constituyen un imperio de la vida  {#WhatVirusAre}
+# ¿Qué son los virus? {#WhatVirusAre}
 
-## ¿Qué son los virus?: ¿Genes escapados, células reducidas o las primeras células que se dispersan con “semillas”? {#VSeeds}
+<!--Los virus son nano-organismos y tal vez constituyen un imperio de la vida  {#VSeeds} -->
+
+**¿Genes escapados, células reducidas o las primeras células que se dispersan con “semillas”? **
 
 El debate en torno a si los **virus son o no entidades vivientes (1)** usualmente trae a discusión cuatro preguntas adicionales y relacionadas: **¿Qué es la vida? (2)**, **¿Qué son los virus? (3)**, **¿Forman los virus su propio árbol de la vida? (4)** y **¿Son los virus una clase natural**, semejante por ejemplo a cuando hablamos de primates quienes han evolucionado a partir de un único ancestro, **o es una clase artificial? (5)**. Y aunque pareciese que estas preguntas debiesen responderse en el orden descrito, los resultados de investigación nacen en cualquier dirección, lo que complica aún más presentar una respuesta única a la pregunta inicial.
 
