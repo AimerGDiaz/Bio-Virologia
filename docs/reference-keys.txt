@@ -5,7 +5,5 @@ fig:jellyroll
 fig:analogy
 fig:zombificacion
 WhatVirusAre
-zombificación-viral-los-baculovirus-hacen-de-su-hospederos-una-estructura-dispersiva.
-domestic
-malariaVaccine
 zombificación-viral
+domestic
