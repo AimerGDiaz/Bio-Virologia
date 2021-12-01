@@ -7,3 +7,4 @@ fig:zombificacion
 WhatVirusAre
 zombificación-viral
 domestic
+zombificación-viral.

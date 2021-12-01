@@ -1,6 +1,6 @@
-# Domesticación viral: {#domestic}
+# Domesticación viral. {#domestic}
 
-**El kit de herramientas del biólogo molecular**
+**Adiestramiento biotecnológico de los virus y el desarrollo del kit de herramientas de la biología molecular**
 
 ¿Qué sería de la biología molecular si los virus no existiesen?. ¿Aún estaríamos debatiendo sobre el agente transformador de Griffith si no existiesen bacteriófagos?. ¿Tendríamos anticuerpos monoclonales si el premio nobel argentino César Milstein no hubiese dispuesto del virus de la rubéola capaces de inducir [hibridomas](http://www.quimicaviva.qb.fcen.uba.ar/contratapa/aprendiendo/capitulo10.htm), sin la actividad viral de inducir fusión celular?. ¿Cómo manipularíamos el comportamiento molecular de los organismos o líneas celulares genéticamente modificadas sin el promotor de expresión constitutiva del virus del mosaico del coliflor:CaMV 35S?
 
