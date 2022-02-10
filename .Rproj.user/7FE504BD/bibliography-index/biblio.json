@@ -661,6 +661,57 @@
             "title-short": "Redefining viruses",
             "type": "article-journal",
             "volume": "6"
+        },
+        {
+            "author": [
+                {
+                    "family": "Baker",
+                    "given": "Carlye A"
+                }
+            ],
+            "id": "baker2013hosta",
+            "issued": {
+                "date-parts": [
+                    [
+                        2013
+                    ]
+                ]
+            },
+            "publisher": "Florida Department of Agriculture; Consumer Services, Division of Plant …",
+            "title": "Hosta virus x, a potexvirus",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Valverde",
+                    "given": "Rodrigo A"
+                },
+                {
+                    "family": "Sabanadzovic",
+                    "given": "Sead"
+                },
+                {
+                    "family": "Hammond",
+                    "given": "John"
+                }
+            ],
+            "container-title": "Plant disease",
+            "id": "valverde2012viruses",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012
+                    ]
+                ]
+            },
+            "page": "600-611",
+            "publisher": "Am Phytopath Society",
+            "title": "Viruses that enhance the aesthetics of some ornamental plants: Beauty or beast?",
+            "title-short": "Viruses that enhance the aesthetics of some ornamental plants",
+            "type": "article-journal",
+            "volume": "96"
         }
     ],
     "project_biblios": [
