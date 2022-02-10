@@ -8,3 +8,8 @@ WhatVirusAre
 zombificación-viral
 domestic
 zombificación-viral.
+fig:morfo
+fig:cicloPlas
+fig:hosta
+fig:hostaX
+plantPand

@@ -329,6 +329,34 @@
         {
             "author": [
                 {
+                    "family": "Ryan",
+                    "given": "Kenneth J"
+                },
+                {
+                    "family": "Ray",
+                    "given": "C George"
+                },
+                {
+                    "family": "Muñoz",
+                    "given": "Bernardo Rivera"
+                }
+            ],
+            "id": "ryan2016microbiologia",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "publisher": "McGraw-Hill Interamericana",
+            "title": "Microbiologı́a médica: sherris",
+            "title-short": "Microbiologı́a médica",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
                     "family": "Forterre",
                     "given": "Patrick"
                 }
