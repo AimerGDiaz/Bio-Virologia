@@ -1,4 +1,6 @@
+# Proteínas ribosomales en genomas virales.
 
+**¿Qué hacen allí?**
 
 
 ¿Qué hacen proteínas ribosomales en los genomas de los fagos? Los fagos (o virus de bacterias) no tiene ribosomas porque no quieren tenerlos. Bueno, por supuesto que no es por deseo, o por decisión, pero a lo que nos referimos es que en muchos fagos, o al menos en un reciente análisis de 47 genomas de fagos que infectan la familia de bacterias Bacteroidetes, se encontraron genes codificantes de la proteína ribosomal "bS21", que al parecer llegó allí por robo de genes. Así que, ¿si los fagos tienen capacidad de robar genes, por qué no se han robado todo el ribosoma?, ¿Qué esta haciendo allí esta proteína ribosomal?. Cada vez que más estudios de ecología viral se adelantan, se obtienen más evidencias sobre la presencia de elementos ribosomales tomados de los genomas celulares. La virología no médica parece tener ejemplos de virus cuya convivencia con la vida celular es más sana. En esta ocasión, el laboratorio de la Dra. en microbiología Jillian F. Banfield (conocida por el reciente reporte de los BORGs), halló en el mismo lago en el que encontró los Borgs, y mediante la misma técnica de análisis metagenómico,

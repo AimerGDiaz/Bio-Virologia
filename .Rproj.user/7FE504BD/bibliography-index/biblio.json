@@ -712,6 +712,181 @@
             "title-short": "Viruses that enhance the aesthetics of some ornamental plants",
             "type": "article-journal",
             "volume": "96"
+        },
+        {
+            "author": [
+                {
+                    "family": "Luang-Suarkia",
+                    "given": "Dagwin"
+                },
+                {
+                    "family": "Mitja",
+                    "given": "Oriol"
+                },
+                {
+                    "family": "Ernst",
+                    "given": "Timo"
+                },
+                {
+                    "family": "Bennett",
+                    "given": "Shannon"
+                },
+                {
+                    "family": "Tay",
+                    "given": "Alfred"
+                },
+                {
+                    "family": "Hays",
+                    "given": "Russell"
+                },
+                {
+                    "family": "Smith",
+                    "given": "David W"
+                },
+                {
+                    "family": "Imrie",
+                    "given": "Allison"
+                }
+            ],
+            "container-title": "PLoS Neglected Tropical Diseases",
+            "id": "luang2018hyperendemic",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "page": "e0006254",
+            "publisher": "Public Library of Science San Francisco, CA USA",
+            "title": "Hyperendemic dengue transmission and identification of a locally evolved DENV-3 lineage, papua new guinea 2007-2010",
+            "type": "article-journal",
+            "volume": "12"
+        },
+        {
+            "author": [
+                {
+                    "family": "Nanaware",
+                    "given": "Nikita"
+                },
+                {
+                    "family": "Banerjee",
+                    "given": "Anwesha"
+                },
+                {
+                    "family": "Mullick Bagchi",
+                    "given": "Satarupa"
+                },
+                {
+                    "family": "Bagchi",
+                    "given": "Parikshit"
+                },
+                {
+                    "family": "Mukherjee",
+                    "given": "Anupam"
+                }
+            ],
+            "container-title": "Viruses",
+            "id": "nanaware2021dengue",
+            "issue": "10",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "page": "1967",
+            "publisher": "Multidisciplinary Digital Publishing Institute",
+            "title": "Dengue virus infection: A tale of viral exploitations and host responses",
+            "title-short": "Dengue virus infection",
+            "type": "article-journal",
+            "volume": "13"
+        },
+        {
+            "author": [
+                {
+                    "family": "Hadfield",
+                    "given": "James"
+                },
+                {
+                    "family": "Megill",
+                    "given": "Colin"
+                },
+                {
+                    "family": "Bell",
+                    "given": "Sidney M"
+                },
+                {
+                    "family": "Huddleston",
+                    "given": "John"
+                },
+                {
+                    "family": "Potter",
+                    "given": "Barney"
+                },
+                {
+                    "family": "Callender",
+                    "given": "Charlton"
+                },
+                {
+                    "family": "Sagulenko",
+                    "given": "Pavel"
+                },
+                {
+                    "family": "Bedford",
+                    "given": "Trevor"
+                },
+                {
+                    "family": "Neher",
+                    "given": "Richard A"
+                }
+            ],
+            "container-title": "Bioinformatics",
+            "id": "hadfield2018nextstrain",
+            "issue": "23",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "page": "4121-4123",
+            "publisher": "Oxford University Press",
+            "title": "Nextstrain: Real-time tracking of pathogen evolution",
+            "title-short": "Nextstrain",
+            "type": "article-journal",
+            "volume": "34"
+        },
+        {
+            "URL": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2022,
+                        1,
+                        10
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Organization",
+                    "given": "World Health"
+                }
+            ],
+            "id": "whodenv",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "title": "Dengue and severe dengue",
+            "type": "webpage"
         }
     ],
     "project_biblios": [

@@ -29,7 +29,8 @@ https://bookdown.org/home/about/
 csl: biomed-central.csl
 
 -
-
+ "3-domesticacion_viral.Rmd", 
+ 
 Publish as a website 
 https://rpubs.com/colleengerrity/bookdown-website-tutorial
 
@@ -42,6 +43,8 @@ https://stackoverflow.com/questions/57075704/insert-multiple-pages-before-body-w
 file.create('git/.nojekyll')
 options(knitr.duplicate.label = "allow")
 
+make it avaivlable in bookdown list 
+https://bookdown.org/home/about/ 
 -->
 # Bienvenidos al bookdown de BioVirología {-}
 

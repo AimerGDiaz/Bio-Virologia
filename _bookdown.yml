@@ -8,4 +8,5 @@ language:
     def: 'Definición '
     remark: 'Nota: '
 output_dir: "docs"
-rmd_files: ["index.Rmd", "0-Intro.Rmd", "1-Que_son_los_virus.Rmd",  "2-zombificacion.Rmd",  "3-domesticacion_viral.Rmd", "11-plant-pandemics.Rmd", "18-references.Rmd"]
+rmd_files: ["index.Rmd", "0-Intro.Rmd", "1-Que_son_los_virus.Rmd",  "2-zombificacion.Rmd", 
+"11-plant-pandemics.Rmd", "12-denv.Rmd", "18-references.Rmd"]

@@ -1,0 +1,61 @@
+# Hiperendemia del virus del Dengue.
+
+**50 años de circulación endémica en más de 100 países.**
+
+El virus del Dengue y la situación epidemiológica que este causa es un gran modelo para comprender el significado de una enfermedad viral endémica, escenario al que llegaremos en el futuro cercano de la pandemia de COVID-19.
+
+El dengue es una enfermedad viral transmitida por mosquitos (arboviral) principalmente de la especie *Aedes aegypti* y, en menor grado, de la especie *Ae. albopictus*. Es uno de los principales problemas sin vacunas eficaces de salud pública en las regiones tropicales y subtropicales. Por el carácter endémico de la enfermedad, esto es, por su circulación constante a lo largo del tiempo y de un modo predecible, cada año, alrededor de 400 millones de personas se infectan por el virus del dengue, con una tasa de mortalidad de alrededor del 20% entre los pacientes con dengue grave sin tratamiento, frente a 1.5 a 2% bajo cuidado médico (@luang2018hyperendemic). De allí que, una enfermedad viral endémica no es una enfermedad con repercusiones similares a la influenza.
+
+Dado los efectos del cambio climático, las poblaciones del mosquito vector han logrado, en los últimos años, propagarse rápidamente a todas las regiones tropicales y subtropicales del mundo, además de países estacionales de las zonas limítrofes. Sin embargo, la enfermedad está muy extendida en los trópicos, con variaciones locales en el riesgo que dependen de parámetros climáticos, factores sociales y ambientales (@luang2018hyperendemic).
+
+El virus del dengue (DENV) es un virus de ARN monocatenario de sentido positivo de la familia Flaviviridae. Su conformación genómica y organización como partícula viral o virión se muestra en la figura 1. El genoma, con tan solo 10.7Kb, posee dos regiones UTR en el extremo 5' y 3' respectivamente. Entre estas regiones existe un marco abierto de lectura (ORF) que codifica para 3 proteínas estructurales C (capside) , PrM (preMembrana) y E (envoltura) y para 7 proteínas no estructurales. Las regiones UTR y los bucles que se crean en ellas son de especial importancia en la asociación del material genético viral al ribosoma, mediando los cambios conformacionales en el genoma viral que facilitan su replicación (@nanaware2021dengue).
+
+<center>
+
+```{r genomeDenv, echo=FALSE, fig.cap='Conformación genómica y organización como partícula viral o virión. El virus del dengue (DENV) es un virus de ARN monocatenario de sentido positivo de la familia Flaviviridae. El genoma, con tan solo 10.7Kb,  posee dos regiones UTR en el extremo 5’ y 3’ respectivamente, tomado de @nanaware2021dengue', out.width='80%'}
+knitr::include_graphics('figures/DenvFigura1.png', dpi = NA)
+```
+
+</center>
+
+Al igual que otros virus de ARN, el DENV presenta una considerable diversidad genética, presenta una tasa de mutación de 5.5 nucleótidos por año. A razón de esto, actualmente el virus se ha diversificado en cuatro linajes genéticos, que a su vez presentan 4 serotipos antigénicamente distintos (DENV-1-DENV-4), es decir que cada linaje genético se diferencia inmunológicamente mediante pruebas de neutralización de suero (@nanaware2021dengue). En la figura 2 se muestra un árbol filogenético de los 4 serotipos conocidos actualmente, junto a la diversidad de cambios de aminoácidos que se han registrado en distintas partes del [genoma del virus y sus serotipos](https://nextstrain.org/dengue/all) (@hadfield2018nextstrain).\
+\
+<center>
+
+```{r DenvSerotypes, echo=FALSE, fig.cap='Árbol filogenético de los 4 serotipos conocidos actualmente, junto a la diversidad de cambios de aminoácidos que se han registrado en distintas partes del genoma del virus y sus serotipos, tomado de @hadfield2018nextstrain.', out.width='80%'}
+knitr::include_graphics('figures/DenvFigura2.png', dpi = NA)
+```
+
+</center>
+
+Análisis filogenéticos de las secuencias de pacientes infectados con el virus permiten realizar comparaciones en la divergencia entre los serotipos existentes y ayudan a predecir posibles mutaciones que originan serotipos nuevos. En la figura 3 se muestra cómo a medida que pasa el tiempo se van acumulando cambios en cada uno de los distintos serotipos observándose una mayor acumulación de cambios en el serotipo DENV1 (@hadfield2018nextstrain).
+
+\
+<center>
+
+```{r DenvPhyl, echo=FALSE, fig.cap='Filogenia en la que se ilustra el año de muestreo de cada secuencia empleada, se observa que, con el paso del tiempo se van acumulando cambios en cada uno de los distintos serotipos, sin embargo el serotipo DENV1 presenta la mayoría de cambios, lo que da lugar a una mayor divergencia., tomado de @hadfield2018nextstrain.', out.width='80%'}
+knitr::include_graphics('figures/DenvFigura3.png', dpi = NA)
+```
+
+</center>
+
+El ciclo de replicación viral se muestra en la figura 4. La partícula viral puede entrar a la célula humana huésped vía endocitosis, ya sea empleando receptores de la célula huésped o por endocitosis directa, mediada por anticuerpos, o mediada por recubrimiento con clatrina. Una vez dentro de la célula las partículas virales se translocan dentro de un endosoma al retículo endoplasmático donde se libera el RNA viral, el cual utiliza la maquinaria de replicación ribosómica para crear nuevas partículas virales inmaduras que son ensambladas en el complejo de Golgi, activadas mediante una maduración interpuesta por furina y finalmente liberadas vía exocitocis en la red trans de Golgi. Los cambios de pH dentro del endosoma y el exosoma son fundamentales para la replicación y la maduración del virus (@nanaware2021dengue).
+
+<center>
+
+```{r DenvCiclo, echo=FALSE, fig.cap=' La partícula viral puede entrar a la célula humana huésped vía endocitosis, ya sea empleando receptores de la célula huésped o por endocitosis directa, mediada por anticuerpos, o mediada por recubrimiento con clatrina. Una vez dentro de la célula las partículas virales se translocan dentro de un endosoma al retículo endoplasmático donde se libera el RNA viral, el cual utiliza la maquinaria de replicación ribosómica para crear nuevas partículas virales inmaduras que son ensambladas en el complejo de Golgi, activadas mediante una maduración interpuesta por furina y finalmente liberadas vía exocitocis en la red trans de Golgi. Los cambios de pH dentro del endosoma y el exosoma son fundamentales para la replicación y la maduración del virus, tomado de @nanaware2021dengue.', out.width='80%'}
+knitr::include_graphics('figures/DenvFigura4.png', dpi = NA)
+```
+
+</center>\
+Antes de 1970, solo nueve países habían sufrido epidemias de dengue grave. En la actualidad, la enfermedad es endémica en más de 100 países de las regiones de África, las Américas, el Mediterráneo Oriental, Asia Sudoriental y el Pacífico Occidental. Las regiones más gravemente afectadas son las Américas, Asia Sudoriental y el Pacífico Occidental; en Asia se concentra aproximadamente el 70% de la carga mundial de la enfermedad (@whodenv). Además del aumento del número de casos debido a la propagación de la enfermedad a nuevas zonas, entre ellas Europa, también se producen brotes epidémicos de carácter explosivo (@hadfield2018nextstrain).
+
+Se piensa que luego de la primera y la segunda guerra mundial, se empezó a diseminar el virus y el mosquito vector a numerosas partes del mundo desde el sudeste asiático. Esto ha provocado la condición hiperendémica actual de la enfermedad (@hadfield2018nextstrain). Situación que acontece cuando circulan los 4 distintos serotipos en una misma región del planeta, como se ilustra en la figura 5. Nótese como en casi todas las regiones existen los 4 serotipos simultáneamente, y que estas frecuencias pueden y varían en el tiempo. Europa es la única región donde solo hay dos serotipos DENV1 y DENV2. Y en las regiones nórdicas (donde el vector mosquito no habita) no existe el virus.
+
+<center>
+
+```{r DenvHyper, echo=FALSE, fig.cap='Hiperendemia mundial del virus Dengue. Distribución de los 4 serotipos por regiones. Aquellas regiones con presencia y circulación endógena de 4 serotipos se les denomina hiperendemia., tomado de @hadfield2018nextstrain', out.width='80%'}
+knitr::include_graphics('figures/DenvFigura5.png', dpi = NA)
+```
+
+</center>
