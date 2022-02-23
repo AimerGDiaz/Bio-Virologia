@@ -7,12 +7,12 @@ fig:zombificacion
 fig:hosta
 fig:hostaX
 fig:genomeDenv
-WhatVirusAre
-zombificación-viral.
-plantPand
-virus-del-dengue.
 fig:DenvSerotypes
 fig:DenvPhyl
 fig:DenvCiclo
 fig:DenvHyper
+WhatVirusAre
+zombificación-viral.
+plantPand
 hiperendemia-del-virus-del-dengue.
+fig:index
