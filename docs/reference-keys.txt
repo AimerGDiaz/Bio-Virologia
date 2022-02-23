@@ -15,4 +15,3 @@ WhatVirusAre
 zombificación-viral.
 plantPand
 hiperendemia-del-virus-del-dengue.
-fig:index
