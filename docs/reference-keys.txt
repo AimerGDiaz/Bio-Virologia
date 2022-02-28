@@ -11,7 +11,11 @@ fig:DenvSerotypes
 fig:DenvPhyl
 fig:DenvCiclo
 fig:DenvHyper
+fig:sixclades
+fig:sixcladesroot
+fig:migratory
 WhatVirusAre
-zombificación-viral.
+zombi
 plantPand
 hiperendemia-del-virus-del-dengue.
+paleovir

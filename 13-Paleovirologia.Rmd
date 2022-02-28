@@ -1,0 +1,68 @@
+# Aplicaciones de la Paleo-Virología. {#paleovir}
+
+**La historia co-evolutiva entre retrovirus endógenos y su huésped humano refleja el patrón de migración de nuestra especie.**
+
+Los humanos somos seres a los que nos gusta clasificar. Y nos gusta mucho más clasificarnos a nosotros mismos; así pues, tenemos nombres, apellidos, familias, tribus, nacionalidades, etc. Este afán por clasificar también está unido a una necesidad de conocer de dónde venimos, de cuál fue el recorrido de nuestros ancestros para llegar a donde estamos hoy en día (@terrell1977biology). Tradicionalmente estos estudios se hacen siguiendo registros de fósiles humanos, análisis arqueológicos, históricos, antropomórficos, socio-culturales y biogeográficos (@terrell1977biology). 
+
+Sin embargo, con el advenimiento de la era genómica esto ha cambiado radicalmente (@kolb2013using, @wohns2022unified, @kajan2020virus). Nuestra capacidad para determinar las relaciones entre individuos, poblaciones y especies se está transformando gracias a las colecciones en crecimiento, actualmente con miles de genomas obtenidos a partir de ADN antiguo, bases de datos de muestras de interés médico, a escala poblacional, sumado a los esfuerzos para secuenciar millones de especies eucariotas. Estas relaciones, y las distribuciones de la variación genética y fenotípica resultante, reflejan el complejo conjunto de procesos y acontecimientos selectivos, demográficos y moleculares que han dado forma a las especies y, por consiguiente, son una rica fuente de información sobre ellas (@kolb2013using, @wohns2022unified).
+
+Recientemente, los métodos para lograr inferir estas relaciones poblacionales en el humano han presentado numerosos retos debido al volumen de información disponible y el reto que implica depurarla (@wohns2022unified).  Estos estudios de genómica comparativa tienen el problema de poder llegar a ser costosos por muestra analizada, lo que restringe el número de muestras a utilizar, lo que conlleva a problemas de representación de las diversas etnias de la especie, y además, pueden dar resultados distintos, dependiendo de las regiones del genoma que se comparen o el método de estudio utilizados (SNLP, RFLP, ARN16s, etc.) (@kolb2013using, @wohns2022unified). Pero en particular, la variabilidad genética de estos marcadores limita la resolución temporal a evaluar, en otras palabras, la tasa de mutación en estas secuencias humanas es mucho más lenta que la tasa de migración.
+
+Debido a lo anterior expuesto, nuevos y mejores métodos para indagar sobre nuestra biogeografía se encuentran en desarrollo. Uno de los métodos novedosos propuestos es la utilización de secuencias del viroma humano, es decir retro-virus endógenos activos, cuya mutación, al ser mucho mayor que las secuencias no-virales del genoma humano, permiten indagar escalas temporales cercanas a las empleadas en el estudio de las migraciones humanas (@kolb2013using). 
+
+Los virus representan buenos candidatos para estos estudios debido a la íntima co-evolución que se da entre el virus y el huésped, donde una carrera de competencia (arms race) entre factores virulentos del virus y la respuesta del huésped moldean eventos de introducción, expulsión del genoma, eventos evolutivos que nos permiten calibrar relojes moleculares y otros aspectos de la biología de ambos organismos, principalmente a través del análisis de eventos de recombinación (@kolb2013using).
+
+<center>
+```{r sixclades, echo=FALSE, fig.cap='Árbol de secuencias consenso construido de una partición de 5kb del genoma del virus examinado mediante un análisis boostrap de  máxima similitud con 500 repeticiones. Un consenso del 70% se usó como valor umbral para realizar las agrupaciones. El clado I corresponde a poblaciones norteamericanas y europeas , el clado II americanas y del asía oriental y los clados IIIV  V y VI son de áfrica del éste. HSPV-2  se utilizó como grupo comparativo de afuera, tomado de @kolb2013using', out.width='80%'}
+knitr::include_graphics('figures/VHS1.png', dpi = NA)
+```
+</center>
+
+Los virus humanos siendo organismos de fácil secuenciamiento, en términos de la diminuta escala del genoma, y por lo general altamente conservados, este hecho ha permitido el desarrollo de una nueva especialidad en la virología evolutiva denominada paleo-virología, la cual, a partir del estudio de la coevolución huésped-parásito, se aproxima al entendimiento de eventos históricos de las especies, como la migración de las poblaciones humanas desde el lugar de origen, hasta  el alcance de la distribución mundial. 
+
+El virus del herpes simple (VHS-1) es un candidato que ha mostrado ser ideal para este tipo de análisis. Los herpesvirus son grandes virus de ADN de doble cadena con genomas que varían en tamaño de 124 a 295 kilobases. La subfamilia de los alfaherpesvirus se caracteriza por la capacidad de establecer infecciones latentes en los ganglios nerviosos sensoriales. Estudios filogenéticos anteriores han demostrado que los herpesvirus han coevolucionado con sus huéspedes.  El virus del herpes simple tipo 1 (HSV-1) es un  alfaherpesvirus con un genoma de aproximadamente 152 Kb. El VHS-1 causa lesiones mucocutáneas orales, así como queratitis y encefalitis, y es un importante patógeno humano (@kolb2013using)
+
+Mediante análisis filogenéticos y frecuencias de recombinación se ha determinado que el VHS-1 presenta una estructura mínima de seis clados, cada uno correlacionado con regiones geográficas distintas.  Los datos filogenéticos de las tasas de sustitución del VHS-1 sugiere una tasa de aproximadamente 1,38*10^7 subs/sitio/año. El análisis de recombinación del VHS-1 muestra evidencias de recombinación inter e intracladística (es decir recombinación dentro del mismo linaje) (@kolb2013using).
+
+Estas características del virus se han utilizado en un muestreo global de cepas de VHS-1 para el análisis filogenético y apoya la conclusión de que las cepas de VHS-1 han co-migrado con sus huéspedes humanos, dando lugar a clados virales geográficamente separados (@kolb2013using). En la figura 2 se puede observar como la historia evolutiva de cada clado de VHS-1 correlaciona geográfica y temporalmente, con los eventos migratorios y de separación geográfica de los grandes grupos de poblaciones humanas existentes a lo largo del tiempo (@kolb2013using).  
+
+<center>
+```{r sixcladesroot, echo=FALSE, fig.cap='Árbol filogenético ML enraizado (HSV-2 se uso como grupo externo) de las distintas variedades de VHS-1 y su correlación con los 6 grupos de poblaciones humanas establecidas en en estudio (números latinos a la derecha). Nótese como cada clado corresponde a una población en particular, evidenciando una co-evolución del virus con cada población humana. De allí que el análisis de diversidad genética de HSV-2 resulta en  una herramienta de análisis de migración y biogeografía humana. Los aislados virales de poblaciones actuales están coloreados según el país de origen: EE.UU.: azul claro, Reino Unido: azul oscuro, China: rojo, Corea del Sur: púrpura, Japón: amarillo y Kenia: verde, tomado de @kolb2013using', out.width='80%'}
+knitr::include_graphics('figures/VHS2.png', dpi = NA)
+```
+</center>
+
+La secuenciación múltiple de los genomas del VHS-1 reduce significativamente el costo de secuenciamiento a escala genómica humana,  por lo que los marcadores paleovirales se establecen como grandes sustitutos, no solo por ventaja económica, sino que también a nivel de la complejidad de los análisis computacionales requeridos para el estudio de la migración humana.
+
+A propósito, el reciente estudio de la genealogía genómica humana, que se posiciona como el esfuerzo más exhaustivo hasta el momento, al emplear un total de 3,601 genomas humanos actuales y 8 genomas antiguos. La historia de las migraciones humanas inferida a partir del análisis del marcador viral VHS-1, no dista significativamente de la propuesta genealógica reciente, la cual es computacionalmente mucho más demandante. 
+
+<center>
+```{r migratory, echo=FALSE, fig.cap='Comparación de las rutas migratorias del virus y los resultados del análsis genalógico de cerca de ~3600 genomas contemporaneos. Ambas aproximaciones dan soporte a la hipótesis del origen único del humano en el este del continente africano. Sin embargo, los eventos migratorios son capturados por la aproximación paleovirológica y no genealógica. Eventos de migración por tierra se representan con líneas amarillas; por aire/mar con la línea púrpura. Los países de origen de las cepas del presente estudio son China (rojo), Japón (naranja), Kenia (verde oscuro), Corea del Sur (púrpura), Reino Unido (azul oscuro) y Estados Unidos (azul claro). Tomado de @kolb2013using y @wohns2022unified', out.width='80%'}
+knitr::include_graphics('figures/VHS3.png', dpi = NA)
+```
+</center>
+
+A manera de comparación, adjuntamos el video suplementario de la más reciente genealogía humana (@kolb2013using y @@wohns2022unified).  Nótese que en ambos estudios se evidencia como origen único de todas las poblaciones humanas el este de áfrica, según el análisis de genomas humanos, hace unos 2 millones de años aproximadamente (80 mil generaciones). Mientras qué, este mismo hecho se evidencia en el tiempo estimado de divergencia de HSV-1 de HSV-2 es de 2.18 (±0.753) millones de años. 
+
+<center>
+![humances](./figures/HumanMig.mp4){width="80%"}.
+
+Localización estimada de los ancestros genéticos humanos: Una genealogía unificada de los genomas modernos y antiguos, tomado de @wohns2022unified
+</center>
+
+Con respecto a las diferencias entre ambos mapas, el sesgo muestral de los dos análisis prepondera la migración hacia américa vía Europa-Groenlandia, más no desde Asia, vía estrecho de Bering. No obstante, el agrupamiento de la cepa KOS (derivada de américa) con el clado asiático CR38 (derivado de China), R62 (Sur Corea), S23 y S25 (Japón), a diferencia del estudio genómico, aporta la resolución necesaria para no descartar que ambos escenarios migratorios ocurrieron. 
+
+En la tabla 1.  se muestra cómo distintos eventos de la evolución y migración humana corresponden con distintos eventos de diversificación del virus HSV-2. Lo que permite ilustrar la resolución de esta herramienta y su capacidad para indagar sobre la historia evolutiva y migratoria del humano, como también de otras especies, ya que, toda vida celular es a su vez un consorcio de holobiontes, en el que habitan y co-evolucionan cientos de linajes de vida viral o virucelular.
+
+<center>
+| Divergencia entre cepa o especie de Virus | TMRCA | Evento en las poblaciones humanas |
+|:--------------------|------------:|:-----------------------| 
+| HSV-1 y HSV-2 | 2.184 ± 0.753 mya | Origen aproximado del H. sapines |
+| Cepas de HSV-1 | 50.3 ± 16.7 kya | Emigración de África 60 kya |
+| Cepas de Eurasia | 32.8 ± 10.9 kya | Migración Asia-Europa 20-40 kya |
+| KOS y CR38 | 15.76 ± 5.3 kya | Poblamiento de América 12-20 kya |
+Tabla 1. Divergencia viral estimada vs evidencia temporal de los registros arqueológicos de los eventos de migración humana, tomado y traducido de @kolb2013using TMRCA: Tiempo hasta el ancestro común más reciente. 
+</center>
+
+
+El [video de la fuente](https://www.youtube.com/watch?v=xqy2-m080jY) (@wohns2022unified) ha sido editado con la canción Val d'inverno del grupo italiano Evoca. 

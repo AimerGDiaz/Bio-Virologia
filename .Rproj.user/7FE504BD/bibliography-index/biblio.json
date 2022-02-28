@@ -887,6 +887,155 @@
             },
             "title": "Dengue and severe dengue",
             "type": "webpage"
+        },
+        {
+            "author": [
+                {
+                    "family": "Terrell",
+                    "given": "John"
+                }
+            ],
+            "container-title": "World Archaeology",
+            "id": "terrell1977biology",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        1977
+                    ]
+                ]
+            },
+            "page": "237-248",
+            "publisher": "Taylor & Francis",
+            "title": "Biology, biogeography and man",
+            "type": "article-journal",
+            "volume": "8"
+        },
+        {
+            "author": [
+                {
+                    "family": "Kolb",
+                    "given": "Aaron W"
+                },
+                {
+                    "family": "Ané",
+                    "given": "Cécile"
+                },
+                {
+                    "family": "Brandt",
+                    "given": "Curtis R"
+                }
+            ],
+            "container-title": "PloS one",
+            "id": "kolb2013using",
+            "issue": "10",
+            "issued": {
+                "date-parts": [
+                    [
+                        2013
+                    ]
+                ]
+            },
+            "page": "e76267",
+            "publisher": "Public Library of Science San Francisco, USA",
+            "title": "Using HSV-1 genome phylogenetics to track past human migrations",
+            "type": "article-journal",
+            "volume": "8"
+        },
+        {
+            "author": [
+                {
+                    "family": "Wohns",
+                    "given": "Anthony Wilder"
+                },
+                {
+                    "family": "Wong",
+                    "given": "Yan"
+                },
+                {
+                    "family": "Jeffery",
+                    "given": "Ben"
+                },
+                {
+                    "family": "Akbari",
+                    "given": "Ali"
+                },
+                {
+                    "family": "Mallick",
+                    "given": "Swapan"
+                },
+                {
+                    "family": "Pinhasi",
+                    "given": "Ron"
+                },
+                {
+                    "family": "Patterson",
+                    "given": "Nick"
+                },
+                {
+                    "family": "Reich",
+                    "given": "David"
+                },
+                {
+                    "family": "Kelleher",
+                    "given": "Jerome"
+                },
+                {
+                    "family": "McVean",
+                    "given": "Gil"
+                }
+            ],
+            "container-title": "Science",
+            "id": "wohns2022unified",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "publisher": "American Association for the Advancement of Science",
+            "title": "A unified genealogy of modern and ancient genomes",
+            "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "family": "Kaján",
+                    "given": "Győző L"
+                },
+                {
+                    "family": "Doszpoly",
+                    "given": "Andor"
+                },
+                {
+                    "family": "Tarján",
+                    "given": "Zoltán László"
+                },
+                {
+                    "family": "Vidovszky",
+                    "given": "Márton Z"
+                },
+                {
+                    "family": "Papp",
+                    "given": "Tibor"
+                }
+            ],
+            "container-title": "Journal of molecular evolution",
+            "id": "kajan2020virus",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "41-56",
+            "publisher": "Springer",
+            "title": "Virus–host coevolution with a focus on animal and human DNA viruses",
+            "type": "article-journal",
+            "volume": "88"
         }
     ],
     "project_biblios": [

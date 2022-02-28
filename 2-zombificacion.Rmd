@@ -1,4 +1,4 @@
-# Zombificación viral.
+# Zombificación viral. {#zombi}
 
 **Los Baculovirus hacen de su hospederos una estructura dispersiva.**
 
