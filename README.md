@@ -22,10 +22,19 @@ Para lanzar mi Bookdown seguí estas guías:
 
 Hola Colaboradores,
 
-Victor y Roberto, bienvenidos a esta nueva etapa del proyecto. Github nos permite trabajar de manera sincronizada pero con un sistema de control de cambios del que pueden familiarizarse [acá](https://stackoverflow.com/questions/2745076/what-are-the-differences-between-git-commit-and-git-push).
+Victor, Juan y Roberto, bienvenidos a esta nueva etapa del proyecto. Github nos permite trabajar de manera sincronizada pero con un sistema de control de cambios del que para antes de hacer cualquier cambio, deben familiarizarse [acá](https://stackoverflow.com/questions/2745076/what-are-the-differences-between-git-commit-and-git-push). 
 
+En concreto es importante antes de editar saber que es `commit`, `push` y `pull`, pues github es un ambiente de coolaboración cuya sincronización esta controlada por cambios de versiones. En resumidas cuentas, se debe saber desde que branch o rama se hacen las ediciones, lo ideal es que no sea main, sino grammar, esto se observa una vez al dar click al lápiz del margen superior derecho: 
 
-Por cierto los roles por ahora son Victor -escritor / editor- y Roberto -diseñador / escritor (aún no confirmado, recuerda que Victor, Natalia o yo podemos editar tus textos)- , así que para familiarizar a Roberto con la introducción de contenido gráfico, pondré la imagen del link anterior:
+<center>
+<img src="figures/Capture.PNG" width="50%"/>
+</center>
+
+En efecto me encuentro editando este mismo documento en la rama grammar. Una vez termino la edición, para guardar los cambios debo especificar en el recuadro inferior 
+<center>
+<img src="figures/committing.PNG" width="50%"/>
+</center>
+Dan click en commit changes. 
 
 <center>
 <img src="figures/MgaV9.png" width="50%"/>
