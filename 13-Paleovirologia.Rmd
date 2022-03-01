@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Aplicaciones de la Paleo-Virología. {#paleovir}
 
 **La historia co-evolutiva entre retrovirus endógenos y su huésped humano refleja el patrón de migración de nuestra especie.**
