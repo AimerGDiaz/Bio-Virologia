@@ -1,0 +1,3 @@
+# Borrador de Post para aprender la gramática de R markdown 
+
+[Explorar esta entrada](https://github.com/fefong/markdown_readme#anchor-links)

@@ -32,7 +32,6 @@ bookdown::publish_book(render = 'local')
 csl: biomed-central.csl
 
 -
- "3-domesticacion_viral.Rmd", 
  
 Publish as a website 
 https://rpubs.com/colleengerrity/bookdown-website-tutorial
@@ -43,6 +42,7 @@ https://moderndive.com/index.html
 
 Add a nicer beginning 
 https://stackoverflow.com/questions/57075704/insert-multiple-pages-before-body-with-bookdown 
+
 file.create('git/.nojekyll')
 options(knitr.duplicate.label = "allow")
 
