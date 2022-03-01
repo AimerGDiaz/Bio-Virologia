@@ -36,7 +36,7 @@ En efecto me encuentro editando este mismo documento en la rama grammar. Una vez
 </center>
 Dan click en `commit changes`. Puede que los cambios se noten en el documento, pero aún no están sincronizados en común, este paso lo debo hacer yo. Para evaluar la compresión de los requisitos mínimos para editar, la tarea es corregir la siguiente frase:
 
-Yo, Juan Corao, no comprendo absolutamente nada aún del sistema de edición y control github.
+Yo, Juan Corao, esoy empezando a entender cómo se edita y se hacen cambios en github.
 
 <center>
 <img src="figures/MgaV9.png" width="50%"/>
