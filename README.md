@@ -34,7 +34,9 @@ En efecto me encuentro editando este mismo documento en la rama grammar. Una vez
 <center>
 <img src="figures/committing.PNG" width="50%"/>
 </center>
-Dan click en commit changes. 
+Dan click en `commit changes`. Puede que los cambios se noten en el documento, pero aún no están sincronizados en común, este paso lo debo hacer yo. Para evaluar la compresión de los requisitos mínimos para editar, la tarea es corregir la siguiente frase:
+
+Yo, Juan Corao, esoy empezando a entender cómo se edita y se hacen cambios en github.
 
 <center>
 <img src="figures/MgaV9.png" width="50%"/>

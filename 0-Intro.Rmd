@@ -1,4 +1,4 @@
-# Prefacio {-}
+## ¿Qué son los Bookdowns? {-}
 
 El presente bookdown se une a la serie de obras contemporáneas cuya marca distintiva a los formatos tradicionales radica en el hecho de la obra está intencionalmente inacabada, en constante desarrollo, revisión y edición (aún en esta etapa inicial de selección y migración del contenido de las paginas en Facebook). 
 
