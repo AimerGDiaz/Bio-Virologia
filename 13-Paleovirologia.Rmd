@@ -22,6 +22,8 @@ Los virus representan buenos candidatos para estos estudios debido a la íntima 
 knitr::include_graphics('figures/VHS1.png', dpi = NA)
 ```
 </center>
+--------------------
+## Co-diversidficación virus del herpes simple y poblaciones humanas.
 
 Los virus humanos siendo organismos de fácil secuenciamiento, en términos de la diminuta escala del genoma, y por lo general altamente conservados, este hecho ha permitido el desarrollo de una nueva especialidad en la virología evolutiva denominada paleo-virología, la cual, a partir del estudio de la coevolución huésped-parásito, se aproxima al entendimiento de eventos históricos de las especies, como la migración de las poblaciones humanas desde el lugar de origen, hasta  el alcance de la distribución mundial. 
 
@@ -36,16 +38,20 @@ Estas características del virus se han utilizado en un muestreo global de cepas
 knitr::include_graphics('figures/VHS2.png', dpi = NA)
 ```
 </center>
+--------------------
+## Migración holobionte humano - VHS2
 
 La secuenciación múltiple de los genomas del VHS-1 reduce significativamente el costo de secuenciamiento a escala genómica humana,  por lo que los marcadores paleovirales se establecen como grandes sustitutos, no solo por ventaja económica, sino que también a nivel de la complejidad de los análisis computacionales requeridos para el estudio de la migración humana.
 
-A propósito, el reciente estudio de la genealogía genómica humana, que se posiciona como el esfuerzo más exhaustivo hasta el momento, al emplear un total de 3,601 genomas humanos actuales y 8 genomas antiguos. La historia de las migraciones humanas inferida a partir del análisis del marcador viral VHS-1, no dista significativamente de la propuesta genealógica reciente, la cual es computacionalmente mucho más demandante. 
+A propósito, el reciente genealogía genómica humana, que se posiciona como el esfuerzo más exhaustivo hasta el momento, al emplear un total de 3,601 genomas humanos actuales y 8 genomas antiguos. La historia de las migraciones humanas inferida a partir del análisis del marcador viral VHS-1, no dista significativamente de la propuesta genealógica reciente, la cual es computacionalmente mucho más demandante. 
 
 <center>
 ```{r migratory, echo=FALSE, fig.cap='Comparación de las rutas migratorias del virus y los resultados del análsis genalógico de cerca de ~3600 genomas contemporaneos. Ambas aproximaciones dan soporte a la hipótesis del origen único del humano en el este del continente africano. Sin embargo, los eventos migratorios son capturados por la aproximación paleovirológica y no genealógica. Eventos de migración por tierra se representan con líneas amarillas; por aire/mar con la línea púrpura. Los países de origen de las cepas del presente estudio son China (rojo), Japón (naranja), Kenia (verde oscuro), Corea del Sur (púrpura), Reino Unido (azul oscuro) y Estados Unidos (azul claro). Tomado de @kolb2013using y @wohns2022unified', out.width='80%'}
 knitr::include_graphics('figures/VHS3.png', dpi = NA)
 ```
 </center>
+--------------------
+## Relojes evolutivos a diferente tasa de mutación
 
 A manera de comparación, adjuntamos el video suplementario de la más reciente genealogía humana (@kolb2013using y @@wohns2022unified).  Nótese que en ambos estudios se evidencia como origen único de todas las poblaciones humanas el este de áfrica, según el análisis de genomas humanos, hace unos 2 millones de años aproximadamente (80 mil generaciones). Mientras qué, este mismo hecho se evidencia en el tiempo estimado de divergencia de HSV-1 de HSV-2 es de 2.18 (±0.753) millones de años. 
 
@@ -69,4 +75,4 @@ En la tabla 1.  se muestra cómo distintos eventos de la evolución y migración
 Tabla 1. Divergencia viral estimada vs evidencia temporal de los registros arqueológicos de los eventos de migración humana, tomado y traducido de @kolb2013using TMRCA: Tiempo hasta el ancestro común más reciente. 
 </center>
 
-El [video de la fuente](https://www.youtube.com/watch?v=xqy2-m080jY) (@wohns2022unified) ha sido editado con la canción Val d'inverno del grupo italiano Evoca.
+El [video de la fuente](https://www.youtube.com/watch?v=xqy2-m080jY) (@wohns2022unified) ha sido editado con la canción Val d'inverno del grupo italiano [Evoca](https://www.youtube.com/watch?v=Nc9P5p96Jt0).
