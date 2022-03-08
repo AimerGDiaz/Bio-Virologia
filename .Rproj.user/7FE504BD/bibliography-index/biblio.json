@@ -1036,6 +1036,167 @@
             "title": "Virus–host coevolution with a focus on animal and human DNA viruses",
             "type": "article-journal",
             "volume": "88"
+        },
+        {
+            "author": [
+                {
+                    "family": "Schoch",
+                    "given": "Conrad L"
+                },
+                {
+                    "family": "Ciufo",
+                    "given": "Stacy"
+                },
+                {
+                    "family": "Domrachev",
+                    "given": "Mikhail"
+                },
+                {
+                    "family": "Hotton",
+                    "given": "Carol L"
+                },
+                {
+                    "family": "Kannan",
+                    "given": "Sivakumar"
+                },
+                {
+                    "family": "Khovanskaya",
+                    "given": "Rogneda"
+                },
+                {
+                    "family": "Leipe",
+                    "given": "Detlef"
+                },
+                {
+                    "family": "Mcveigh",
+                    "given": "Richard"
+                },
+                {
+                    "family": "O’Neill",
+                    "given": "Kathleen"
+                },
+                {
+                    "family": "Robbertse",
+                    "given": "Barbara"
+                },
+                {
+                    "literal": "others"
+                }
+            ],
+            "container-title": "Database",
+            "id": "schoch2020ncbi",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "publisher": "Oxford Academic",
+            "title": "NCBI taxonomy: A comprehensive update on curation, resources and tools",
+            "title-short": "NCBI taxonomy",
+            "type": "article-journal",
+            "volume": "2020"
+        },
+        {
+            "author": [
+                {
+                    "family": "Urrezola",
+                    "given": "Jon Umerez"
+                }
+            ],
+            "container-title": "Investigación y ciencia",
+            "id": "urrezola2021signos",
+            "issue": "540",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "page": "46-47",
+            "publisher": "Prensa Cientı́fica",
+            "title": "Los signos y el significado en la naturaleza",
+            "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "family": "Robertson",
+                    "given": "Wesley E"
+                },
+                {
+                    "family": "Funke",
+                    "given": "Louise FH"
+                },
+                {
+                    "dropping-particle": "de la",
+                    "family": "Torre",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Fredens",
+                    "given": "Julius"
+                },
+                {
+                    "family": "Elliott",
+                    "given": "Thomas S"
+                },
+                {
+                    "family": "Spinck",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Christova",
+                    "given": "Yonka"
+                },
+                {
+                    "family": "Cervettini",
+                    "given": "Daniele"
+                },
+                {
+                    "family": "Böge",
+                    "given": "Franz L"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Kim C"
+                },
+                {
+                    "literal": "others"
+                }
+            ],
+            "container-title": "Science",
+            "id": "robertson2021sense",
+            "issue": "6546",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "page": "1057-1062",
+            "publisher": "American Association for the Advancement of Science",
+            "title": "Sense codon reassignment enables viral resistance and encoded polymer synthesis",
+            "type": "article-journal",
+            "volume": "372"
+        },
+        {
+            "author": [
+                {
+                    "family": "Romero",
+                    "given": "Javier"
+                }
+            ],
+            "container-title": "Signa: Revista de la Asociación Española de Semiótica",
+            "id": "romero29biosemiotica",
+            "page": "787-805",
+            "title": "Biosemiótica: Hacia una teorÍa general de los signos de la naturaleza humana y no humana",
+            "title-short": "Biosemiótica",
+            "type": "article-journal",
+            "volume": "29"
         }
     ],
     "project_biblios": [

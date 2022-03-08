@@ -1,0 +1,4 @@
+# El asedio viral del código genético
+
+**La bacteria sintética Syn61 (*E. coli*) es el primer organismo inmune a cualquier infección viral**
+
