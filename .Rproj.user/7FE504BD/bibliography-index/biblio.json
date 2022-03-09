@@ -1197,6 +1197,61 @@
             "title-short": "Biosemiótica",
             "type": "article-journal",
             "volume": "29"
+        },
+        {
+            "author": [
+                {
+                    "family": "Ling",
+                    "given": "Jiqiang"
+                },
+                {
+                    "family": "O’donoghue",
+                    "given": "Patrick"
+                },
+                {
+                    "family": "Söll",
+                    "given": "Dieter"
+                }
+            ],
+            "container-title": "Nature Reviews Microbiology",
+            "id": "ling2015genetic",
+            "issue": "11",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015
+                    ]
+                ]
+            },
+            "page": "707-721",
+            "publisher": "Nature Publishing Group",
+            "title": "Genetic code flexibility in microorganisms: Novel mechanisms and impact on physiology",
+            "title-short": "Genetic code flexibility in microorganisms",
+            "type": "article-journal",
+            "volume": "13"
+        },
+        {
+            "author": [
+                {
+                    "family": "Vera",
+                    "given": "Luis Franco"
+                }
+            ],
+            "container-title": "Revista de la Real Academia de Ciencias Exactas, Fı́sicas y Naturales",
+            "id": "vera2008codigo",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008
+                    ]
+                ]
+            },
+            "page": "201-214",
+            "publisher": "Real Academia de Ciencias Exactas, Fı́sicas y Naturales",
+            "title": "El código genético cumple 40 años",
+            "type": "article-journal",
+            "volume": "102"
         }
     ],
     "project_biblios": [
