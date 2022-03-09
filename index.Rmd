@@ -1,7 +1,8 @@
 --- 
-title: 'BioVirología:'
+title: 'BioVirología'
 subtitle: 'La biología de los virus'
-date: "2021, pero en constante desarrollo."
+author: "Aimer G. Díaz, Víctor P. Avellaneda, Juan Corao, Roberto Nájera y Natalia A. Chaparro"
+date: "2021-, pero en constante desarrollo."
 output:
   html_document:
     df_print: paged
@@ -13,17 +14,24 @@ bibliography:
 - packages.bib
 - References_Bibtex.bib
 description: 
-  BioVirología es el primer libro electrónico e interactivo de virología biológica y el primero de divulgación científica en español empleando el formato de libros Bookdown.
+  BioVirología es el primer libro electrónico e interactivo de virología biológica y el primero de divulgación científica en español, empleando el formato de libros Bookdown.
 link-citations: yes
 biblio-style: apalike
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/biomed-central.csl
 lang: es
 github-repo: AimerGDiaz/Bio-Virologia
 site: bookdown::bookdown_site
-cover-image: "figures/Portrait.png"
+cover-image: "figures/Portrait.gif"
 ---
+# Bienvenidos al bookdown de BioVirología {-}
+
+```{r index, echo=FALSE}
+knitr::include_graphics('figures/Portrait.gif', dpi = NA)
+```
+
 <!--date: "`r format(Sys.time(), '%B %d, %Y')`"-->
 <!-- Launch the bookdown to bookdown website 
+--------------------
 follow 
 https://bookdown.org/home/about/ 
 bookdown::publish_book(render = 'local')
@@ -49,28 +57,48 @@ options(knitr.duplicate.label = "allow")
 make it avaivlable in bookdown list 
 https://bookdown.org/home/about/ 
 -->
-# Bienvenidos al bookdown de BioVirología {-}
-
-```{r index, echo=FALSE}
-knitr::include_graphics('figures/Portrait.gif', dpi = NA)
-```
 
 ## Prefacio {-}
 
-El presente Bookdown es un el producto de la integración de tres medios de divulgación científica en formato de Blog en Facebook: [Biovirología](https://www.facebook.com/BioViral/), [Mimivirus](https://www.facebook.com/Mimivirus-100736401569015) y [Quantum Rabbit](https://www.facebook.com/Medicina88). En el que re-lanzamos e inmortalizamos los contenidos desarrollados en las tres páginas bajo el formato nada tradicional de libro electrónico interactivo: Bookdown, un formato web con las características de los libros electrónicos clásicas -consultable en pdf, epub- y disponible para celular, tablet u ordenador de escritorio, junto con todas las posibilidades de edición y de contenido de un sitio web. Por lo que en este formato se puede escribir, editar y hasta interactuar con los lectores, además de insertar gráficas, videos, animaciones (como nuestra portada, que por cierto representa el [virión del virus Dengue](https://www.ebi.ac.uk/pdbe/entry/search/index/?searchParams=%7B%22q_scop_family%22:%5B%7B%22value%22:%22Virus%20envelope%20proteins%22,%22condition1%22:%22AND%22,%22condition2%22:%22Contains%22%7D%5D,%22resultState%22:%7B%22tabIndex%22:0,%22paginationIndex%22:1,%22perPage%22:%2210%22,%22sortBy%22:%22Sort%20by%22%7D%7D), hecho animación en [Ezgif](https://ezgif.com/video-to-gif); códigos escritos en los lenguajes de programación R, bash, perl, python (entre otros), o emplear, incluso, comandos del lenguaje estructurado TeX (con el que se generan documentos LaTex). Funcionando por tanto como un notebook en el que se puede visualizar el output o la salida de los códigos en él escritos. Así, con esta transición  el producto de integración de estos tres blogs de divulgación científica en español es el primer bookdown de divulgación científica en español, además del primero en virología biológica o biovirología.
+El presente Bookdown es un el producto de la integración de tres medios de divulgación científica en formato de Blog en Facebook: [Biovirología](https://www.facebook.com/BioViral/), [Mimivirus](https://www.facebook.com/Mimivirus-100736401569015) y [Quantum Rabbit](https://www.facebook.com/Medicina88). En el que re-lanzamos e inmortalizamos los contenidos desarrollados en las tres páginas bajo el formato nada tradicional de libro electrónico interactivo: Bookdown, un formato web con las características de los libros electrónicos clásicas -consultable en pdf, epub- y disponible para celular, tablet u ordenador de escritorio, junto con todas las posibilidades de edición y de contenido de un sitio web. Por lo que en este formato se puede escribir, editar y hasta interactuar con los lectores, además de insertar gráficas, vídeos, animaciones (como nuestra portada, que por cierto representa el [virión del virus Dengue](https://www.ebi.ac.uk/pdbe/entry/search/index/?searchParams=%7B%22q_scop_family%22:%5B%7B%22value%22:%22Virus%20envelope%20proteins%22,%22condition1%22:%22AND%22,%22condition2%22:%22Contains%22%7D%5D,%22resultState%22:%7B%22tabIndex%22:0,%22paginationIndex%22:1,%22perPage%22:%2210%22,%22sortBy%22:%22Sort%20by%22%7D%7D), hecho animación en [Ezgif](https://ezgif.com/video-to-gif)); códigos escritos en los lenguajes de programación R, bash, perl, python (entre otros), o emplear, incluso, comandos del lenguaje estructurado TeX (con el que se generan documentos LaTex). Funcionando por tanto como un notebook en el que se puede visualizar el output o la salida de los códigos en él escritos. Así, con esta transición  el producto de integración de estos tres blogs de divulgación científica en español es el primer bookdown de divulgación científica en español, además del primero en virología biológica o biovirología.
 
-## Interacción {-}
+--------------------
 
-¿Deseas comentar, corregir, sugerir, opinar o preguntar algo sobre el `Bookdown`? Puedes hacerlo [en esta sección](https://github.com/AimerGDiaz/Bio-Virologia/discussions/10). 
+## Autores {-}
 
+* **Aimer G. Díaz**: MSc. Bioinformático y Biólogo de la Universidad Nacional de Colombia. Fundador del blog de divulgación de virología biológica o no-médica "Bio-Virología". Co-fundador, escritor y editor del blog de divulgación científica [Biología Teórica para T@dos](https://bioteorica.wixsite.com/bioteorica/blog) (En [Facebook](https://www.facebook.com/BioTeoricaParaTodos/)), además de escribir para [Biología Molecular México](http://www.biologiamolecularmexico.com/) (En [Facebook](https://www.facebook.com/biologiamolecularmexico/)). Actualmente estudiante de doctorado y miembro investigador del Centro para el estudio de la evolución en acción BEACON. Los ejes temáticos en los que se concentra su investigación y divulgación científica son Virología, Bioinformática, Biología Evolutiva y Filosofía de la Biología, pese a la diversidad de áreas todas estas convergen alrededor de la Virología evolutiva computacional. 
+
+* **Víctor Parra Avellaneda**: Estudia la licenciatura en Biología en el Centro Universitario de Ciencias Biológicas y Agropecuarias de la Universidad de Guadalajara. Fundador del blog de divulgación científica Mimivirus [(en Facebook)](https://www.facebook.com/Mimivirus-100736401569015), enfocado en virología. Los ejes temáticos abordados en su divulgación científica son la virología, ingeniería genética, microbiología y biología sintética. Por otra parte, también se desempeña en el ámbito literario, específicamente en la ciencia ficción. Es autor de la novela satírica El intrigante caso de Locostein, (Editorial Dreamers, 2019), ha publicado sus relatos en revistas literarias como Axxón, Marabunta, Penumbria, Sci:fdI (revista de la Universidad Complutense de Madrid), Almiar; en inglés en las revistas The Temz Review, Nymphs y Teleport Magazine; y en francés en Dumas de demain. Fue becario del PECDA Nayarit 2018-2019 en la categoría de cuento. Es fundador y co-editor de la revista literaria de ficción especulativa Primero Sueño.
+
+* **Juan Corao**:  Biólogo con especialidad en biología celular de la Universidad de los Andes, Mérida, Venezuela. Como profesional siempre ha buscado un enfoque multidisciplinario e integrativo dirigido a la conservación de la biodiversidad y agro-biodiversidad, realizando múltiples trabajos de asesoramiento ambiental en manejo de fuentes y nacientes de agua en distintos ecosistemas y países, así como en el diseño de planes de manejo ambiental para múltiples fines. Ha trabajado como asesor para la empresa privada, ONU mujeres Ecuador,  Instituto Nacional de Investigaciones Agrícolas INIA Venezuela. También maneja una empresa de generación de semillas de hongos comestibles y distintos bioinsumos para el sector agrícola. Actualmente es profesor de genética en el departamento de Biología, Facultad de Ciencias, Universidad de los Andes, Mérida Venezuela. Sus intereses  académicos tienen que ver con la metagenómica aplicada a la conservación y al monitoreo del cambio climático y su impacto en la biodiversidad. Para el 2022 comienza un doctorado en ecología tropical en el Instituto de Ciencias Ambientales y Ecológicas ICAE, ULA. 
+
+
+* **Roberto Nájera**: Autodidacta en Biología molecular, fisiología, farmacología, cinética enzimática y biología de sistema. Fundador del blog [Quantum Rabbit](https://www.facebook.com/Medicina88) de divulgación científica y del canal homonimo de animaciones científicas de procesos fisiológicos y bioquímicos en [YouTube](https://www.youtube.com/channel/UC21O3WpoUEXuu6ZmvkFHOCA).  Sus intereses radican en especial en la compresión del Envejecimiento, cáncer, Bio-ingeniería de proteínas y Modelación matemática del metabolismo celular.
+
+
+* **Natalia Alejandra Chaparro**:  Magíster en Filosofía de la Universidad Nacional de Colombia con licenciatura en español y filología clásica. Bajo el cobijo del amor a la sabiduría, Natalia busca conocer y reflexionar la vida con todas sus particularidades.
+
+--------------------
 ## Licencia {-}
 
-Este obra está protegida bajo una licencia de [Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es_ES)
+Esta obra está protegida bajo una licencia de [Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es_ES)
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+## ¿Cómo citar la obra? {-}
+
+* Cita corta: 
+Gutiérrez-Díaz A. et al. (2021). BioVirología: La biología de los virus. https://aimergdiaz.github.io/Bio-Virologia/
+
+* Cita formal: 
+Gutiérrez-Díaz, A. A., Parra-Avellaneda, V., Corao, J., Nájera, R., & Chaparro, N. A. (2021, Septiembere). Biovirología: La Biología de los Virus.  https://aimergdiaz.github.io/Bio-Virologia/
+
+###  Interacción {-}
+¿Deseas comentar, corregir, sugerir, opinar o preguntar algo sobre el `Bookdown`? Puedes hacerlo [en esta sección](https://github.com/AimerGDiaz/Bio-Virologia/discussions/10). 
+
 <!-- https://www.facebook.com/permalink.php?story_fbid=174758050915684&id=107088044349352-->
 
-## Contenido del blog en facebook en proceso de migración {-}
+### Contenido del blog en facebook en proceso de migración {-}
 
 <details>
 <summary> **Lista de post publicados en** [Facebook](https://www.facebook.com/permalink.php?story_fbid=174758050915684&id=107088044349352)</summary>

@@ -17,9 +17,10 @@ knitr::include_graphics('figures/DenvFigura1.png', dpi = NA)
 ```
 
 </center>
+--------------------
+## Genética y evolución del virus del Dengue
 
-Al igual que otros virus de ARN, el DENV presenta una considerable diversidad genética, presenta una tasa de mutación de 5.5 nucleótidos por año. A razón de esto, actualmente el virus se ha diversificado en cuatro linajes genéticos, que a su vez presentan 4 serotipos antigénicamente distintos (DENV-1-DENV-4), es decir que cada linaje genético se diferencia inmunológicamente mediante pruebas de neutralización de suero (@nanaware2021dengue). En la figura 2 se muestra un árbol filogenético de los 4 serotipos conocidos actualmente, junto a la diversidad de cambios de aminoácidos que se han registrado en distintas partes del [genoma del virus y sus serotipos](https://nextstrain.org/dengue/all) (@hadfield2018nextstrain).\
-\
+Al igual que otros virus de ARN, el DENV presenta una considerable diversidad genética, cuenta con una tasa de mutación de 5.5 nucleótidos por año. A razón de esto, actualmente el virus se ha diversificado en cuatro linajes genéticos, que a su vez presentan 4 serotipos antigénicamente distintos (DENV-1-DENV-4), es decir que cada linaje genético se diferencia inmunológicamente mediante pruebas de neutralización de suero (@nanaware2021dengue). En la figura 2 se muestra un árbol filogenético de los 4 serotipos conocidos actualmente, junto a la diversidad de cambios de aminoácidos que se han registrado en distintas partes del [genoma del virus y sus serotipos](https://nextstrain.org/dengue/all) (@hadfield2018nextstrain).
 
 <center>
 
@@ -36,8 +37,9 @@ Análisis filogenéticos de las secuencias de pacientes infectados con el virus 
 ```{r DenvPhyl, echo=FALSE, fig.cap='Filogenia en la que se ilustra el año de muestreo de cada secuencia empleada, se observa que, con el paso del tiempo se van acumulando cambios en cada uno de los distintos serotipos, sin embargo el serotipo DENV1 presenta la mayoría de cambios, lo que da lugar a una mayor divergencia., tomado de @hadfield2018nextstrain.', out.width='80%'}
 knitr::include_graphics('figures/DenvFigura3.png', dpi = NA)
 ```
-
 </center>
+--------------------
+## Ciclo de vida del virus Dengue
 
 El ciclo de replicación viral se muestra en la figura 4. La partícula viral puede entrar a la célula humana huésped vía endocitosis, ya sea empleando receptores de la célula huésped o por endocitosis directa, mediada por anticuerpos, o mediada por recubrimiento con clatrina. Una vez dentro de la célula las partículas virales se translocan dentro de un endosoma al retículo endoplasmático donde se libera el RNA viral, el cual utiliza la maquinaria de replicación ribosómica para crear nuevas partículas virales inmaduras que son ensambladas en el complejo de Golgi, activadas mediante una maduración interpuesta por furina y finalmente liberadas vía exocitocis en la red trans de Golgi. Los cambios de pH dentro del endosoma y el exosoma son fundamentales para la replicación y la maduración del virus (@nanaware2021dengue).
 
@@ -47,9 +49,10 @@ El ciclo de replicación viral se muestra en la figura 4. La partícula viral pu
 knitr::include_graphics('figures/DenvFigura4.png', dpi = NA)
 ```
 
-</center>
+</center>\
+--------------------
+## Hiperendemia del virus del Dengue
 
-\
 Antes de 1970, solo nueve países habían sufrido epidemias de dengue grave. En la actualidad, la enfermedad es endémica en más de 100 países de las regiones de África, las Américas, el Mediterráneo Oriental, Asia Sudoriental y el Pacífico Occidental. Las regiones más gravemente afectadas son las Américas, Asia Sudoriental y el Pacífico Occidental; en Asia se concentra aproximadamente el 70% de la carga mundial de la enfermedad (@whodenv). Además del aumento del número de casos debido a la propagación de la enfermedad a nuevas zonas, entre ellas Europa, también se producen brotes epidémicos de carácter explosivo (@hadfield2018nextstrain).
 
 Se piensa que luego de la primera y la segunda guerra mundial, se empezó a diseminar el virus y el mosquito vector a numerosas partes del mundo desde el sudeste asiático. Esto ha provocado la condición hiperendémica actual de la enfermedad (@hadfield2018nextstrain). Situación que acontece cuando circulan los 4 distintos serotipos en una misma región del planeta, como se ilustra en la figura 5. Nótese como en casi todas las regiones existen los 4 serotipos simultáneamente, y que estas frecuencias pueden y varían en el tiempo. Europa es la única región donde solo hay dos serotipos DENV1 y DENV2. Y en las regiones nórdicas (donde el vector mosquito no habita) no existe el virus.

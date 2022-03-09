@@ -1,3 +1,11 @@
 # Borrador de Post para aprender la gramática de R markdown 
 
 [Explorar esta entrada](https://github.com/fefong/markdown_readme#anchor-links)
+
+Monocultivos, reproduccion clonal y los virus de la banana (Musa spp.)
+=====================================================================
+#Introducción 
+Los virus en plantas son uno de los principales causantes de perdidas de distintos cultivos a nivel global. Sin embarbo su manejo, control y erradicación son temas muy poco explorado, sobretodo con sus contrapartes animales y principalmete humanas. 
+##La banana, su biología y su manejo agrícola
+##Virus que atacan a Musaceas
+##
