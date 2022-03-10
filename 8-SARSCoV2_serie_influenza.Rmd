@@ -1,3 +1,12 @@
 # Interferencia viral.
 
 SARS-CoV-2 y el virus de la influenza. 
+
+La vigilancia epidemiológica tanto de gripe común como influenza reporta que la circulación de los virus estacionales en el hemisferio sur causantes de estas enfermedades parece haber sido interrumpida, para finales del 2021, ya sea esto por la efectividad de las cuarentenas o por la circulación de SARS-CoV-2 (figura 2), esta última a través del fenómeno de interacción inter-específica conocido como interferencia viral, aún falta investigación para esclarecer cuál de los dos escenarios explica la reducción de casos de gripe en el hemisferio sur, pero la llegada de esta temporada de gripe e influenza al hemisferio Norte provee un buen escenario para explorar esta pregunta. 
+
+¿Han habido eventos de interferencia viral en pandemias previas ?
+
+Si, en la pandemia de influenza A (causada por H1N1pdm09) del 2009 el inicio de la temporada de circulación de Rinovirus ayudó a disminuir la circulación del virus causante de la pandemia, análisis clínicos retrospectivos (Figura 4) y experimentales (Figura 5) reportan que el Rinovirus interfiere en la replicación de la influenza y viceversa. 
+Los estudios en interacción viral intra-especifica (misma especie) e inter-especificas (frente a otras especies), campo de intereses de la ecología viral, aún están en una etapa prematura, mucho más en el caso de SARS-CoV-2, los datos que se recolecten en el periodo de influenza del hemisferio norte ayudaran a guiar las investigaciones en torno a cómo interactúa SARS-CoV-2 con otros virus. 
+Te imaginas que en el futuro una respuesta complementaria a las cuarentenas sea la liberación de un virus con capacidad interferente, con el fin de lograr reducir la propagación de virus emergentes, por ahora desconocidos, si bien esto es ciencia ficción por ahora, refleja la importancia de pensar en los virus no solo como agentes causantes de enfermedades. 
+Aclaración: Lo anterior no significa que no debas vacunarte contra la influenza, si bien, no hay evidencia de sinergía entre las dos enfermedades, la vacunación contra la influenza ayuda a mantener los centros de atención médica disponibles para quienes sufren complicaciones a causa de la COVID-19 u otras enfermedades.

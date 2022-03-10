@@ -9,4 +9,4 @@ language:
     remark: 'Nota: '
 output_dir: "docs"
 rmd_files: ["index.Rmd", "0-Intro.Rmd", "1-Que_son_los_virus.Rmd",  "2-zombificacion.Rmd", 
-"11-plant-pandemics.Rmd", "12-denv.Rmd", "13-Paleovirologia.Rmd", "14-codigo.Rmd", "18-references.Rmd"]
+"11-plant-pandemics.Rmd", "12-denv.Rmd", "13-Paleovirologia.Rmd", "14-codigo.Rmd", "8-cronicasSARSCoV2.Rmd", "18-references.Rmd"]

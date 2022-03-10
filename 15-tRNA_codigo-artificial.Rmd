@@ -2,3 +2,15 @@
 
 **La bacteria sintética Syn61 (*E. coli*) es el primer organismo inmune a cualquier infección viral**
 
+
+
+
+¿Y cuál es el código genético de los virus gigantes? 
+El genoma de Mimivirus codifica 4 aminoacil-ARNt sintetasas (ArgRS, CysRS, MetRS, y TyrRS) cuya función es ligar o unir un aminoácido de manera específica a los ARN de transferencia afines (tRNA-Arg, tRNA-Cys, tRNA-Met, y tRNA-Tyr). 
+Adicionalmente, el genoma de 1.18Mb de los mimivirus codifica cerca de 50 ARNs de transferencia, entre los que destacan las diversas copias de tRNAs de Leucina: tRNA-Leu-1, tRNA-Leu-2 y tRNA-Leu-3, uno de los aminoácidos más frecuentes de sus proteínas virales. 
+Los análisis del transcripción de estos genes virales revelaron que se expresan de forma regulada, durante el ciclo de replicación viral, por lo que es poco probable que sean pseudogenes. Además, los estudios funcionales y estructurales de las metionil- y tirosil-ARNt sintetasas de Mimivirus demostraron que son enzimas bioquímicamente activas. 
+Así que no sólo los genomas de los virus gigantes codifican genes inesperados, sino que estos genes no agrupan cercanamente a sus homólogos celulares, lo que descarta su origen por transferencia horizontal de genes (HGT). 
+Para la fecha del artículo fuente (2012), y hasta donde estamos enterados, la presencia de maquinaria de traducción y tRNAs propios sugiere que los factores codificados por el virus funcionan de una manera diferente a la de sus homólogos celulares. Sin embargo, discernir estos procesos no es una tarea sencilla, que requiere mayor exploración. 
+https://www.facebook.com/BioViral/posts/370862908374358
+Extensión de la fuente 5:
+Jeudy, S., Abergel, C., Claverie, J. M., & Legendre, M. (2012). Translation in giant viruses: a unique mixture of bacterial and eukaryotic termination schemes. PLoS genetics, 8(12), e1003122.
