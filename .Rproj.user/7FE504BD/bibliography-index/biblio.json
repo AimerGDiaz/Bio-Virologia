@@ -572,7 +572,7 @@
             },
             "publisher": "Youtube",
             "title": "Death march of the zombie caterpillars.",
-            "type": "webpage"
+            "type": ""
         },
         {
             "author": [
@@ -873,10 +873,10 @@
             },
             "author": [
                 {
-                    "family": "Organization",
-                    "given": "World Health"
+                    "family": "WHO"
                 }
             ],
+            "container-title": "World Health Organization",
             "id": "whodenv",
             "issued": {
                 "date-parts": [
@@ -886,7 +886,7 @@
                 ]
             },
             "title": "Dengue and severe dengue",
-            "type": "webpage"
+            "type": ""
         },
         {
             "author": [
