@@ -16,42 +16,43 @@ knitr::include_graphics('figures/CodigoVariaciones.PNG', dpi = NA)
 ```
 </center>
 --------------------
-## Polisemia del código genético
+## Polisemia del código genético {#polisemia}
 
-Estos dos *idiomas* moleculares presentan *dialectos* o variaciones tanto en *significado* (polisemia) como en frecuencia de uso, tal cual como el idioma español. Que pese a ser común a México y Colombia, la palabra “camión” no significa lo mismo en estos dos países, por ejemplo. Para un colombiano "camión" no designa de ninguna forma a lo que se designa con la palabra “bus”. En los idiomas bio-moleculares, para un eucariota el codón “UGA” o “TGA” es *leído* por el ARN de transferencia tRNA-Ter, cuya función es detener la biosíntesis de proteínas. Sin embargo, en las mitocondrias del mismo eucariota, como también en las bacterias del género Mycoplasma y Spiroplasma, el mismo codón “UGA” o “TGA” no significa lo mismo, es “interpretado” por el ARN de transferencia tRNA-Trp, como el signo que indica la adición del aminoácido Triptófano (W) (Figura 2 códigos II, IV y V).  
+Estos dos *idiomas* moleculares presentan *dialectos* o variaciones tanto en *significado* (polisemia) como en frecuencia de uso, tal cual como el idioma español. Que pese a ser común a México y Colombia, la palabra “camión” no significa lo mismo en estos dos países, por ejemplo. Para un colombiano "camión" no designa de ninguna forma a lo que se designa con la palabra “bus”. En los idiomas bio-moleculares, para un eucariota el codón “UGA” o “TGA” es *leído* por el ARN de transferencia tRNA-Ter, cuya función es detener la biosíntesis de proteínas. Sin embargo, en las mitocondrias del mismo eucariota, como también en las bacterias del género Mycoplasma y Spiroplasma, el mismo codón “UGA” o “TGA” no significa lo mismo, es “interpretado” por el ARN de transferencia tRNA-Trp, como el signo que indica la adición del aminoácido Triptófano (W) ([figura 2](variaciones1) códigos II, IV y V).  
 
 <center>
 ```{r variaciones1, echo=FALSE, fig.cap=c('Variaciones del código genético estándar con énfasis en los codones que inician por el ribonucleótido C y T. Para los códigos genéticos de genes nucleares, se resalta el color azul; mitocondrial, plastidial y bacteriano resaltado en color verde. Las variaciones para cada código se resaltan en amarillo. Los codones de parada TGA y TAG  presentan coloración roja, debido a la relación de estos codones con el aminoácido Selenocisteina y Pirrolisina, respectivamente.','Variaciones del código genético estándar para los codones A y G. [Los datos](https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=cgencodes) para la presente grafica fueron tomados de (@schoch2020ncbi).'), out.width='90%'}
 knitr::include_graphics(c('figures/CodigoG.png', 'figures/CodigoG2.png'), dpi = NA)
 ```
 </center>
-
 --------------------
-## Un codón, *un signo* y varios significados.
+
+## Un codón, *un signo* y varios significados. {#signo}
 
 Este mismo fenómeno es parte de las evidencias que soportan lo que el biólogo evolutivo, Maynard Smith, sostuvo acerca del carácter fundamental del componente *semántico* o *intencional* -comunicativo- de la biología molecular, en particular, y la biología en general. Lo que quiere decir que no está en las leyes de la fisicoquímica la asociación UGA – Stop, o UGA – W, es una cuestión de biosemiótica y evolución biológica. En otras palabras, y para alivio de los mexicanos, no es que esté errado decirle camión al bus, o bus al camión, no hay nada en el vehículo de cuatro ruedas que lo asocie inequívocamente a la palabra camión o bus, estas dos palabras cumplen equivalentemente su función de *signo*, para los dos dialectos
 
-Hasta la fecha se han descubierto 25 dialectos ([Figura 2](#variaciones1)), 12 de estos constituyen diferentes códigos genéticos nucleares, los 13 adicionales son códigos genéticos bacterianos, de arqueas no-eucariotas, además de mitocondriales o de mitocondrias evolutivamente modificadas, como los kinetoplastidos de los Tripanosomas y los hidrogenosomas de algunos protozooarios.  
+Hasta la fecha se han descubierto 25 dialectos ([figura 2](#variaciones1)), 12 de estos constituyen diferentes códigos genéticos nucleares, los 13 adicionales son códigos genéticos bacterianos, de arqueas no-eucariotas, además de mitocondriales o de mitocondrias evolutivamente modificadas, como los kinetoplastidos de los Tripanosomas y los hidrogenosomas de algunos protozooarios.  
 
 Las 25 variaciones del código genético dispuestas en la ([figura 2](#variaciones1)) no incluyen los casos de expansión codónica del aminoácido 21 y 22, que son a su vez en los conceptos del presente ensayo, ejemplos adicionales de polisemia codónica. En la ([figura 2](#variaciones1)) se señala en rojo en la primera gráfica las tripletas codónicas 12 y 15 (TAG y UGA), que en la mayoría de códigos codifican para los codones de parada canónicos. Sin embargo, tanto en el código estándar eucarionte, como el código bacteriano o arqueano no-eucarionte, donde no siempre estos codones *se interpretan* como señal de terminación de la síntesis de proteínas, pueden ser el *signo*, *interpretado* por la maquinaria de traducción que idnica la introducción de los aminoácidos **selenocisteína** (21) y **pirrolisina** (21) (@ling2015genetic). 
 
-Los dos aminoácidos traduccionales adicionales, lo que significa que a diferencia de los más de 100 aminoácidos postraduccionales que puede presentar una proteína cualquiera, la pirrolisina y selenocisteína son también transportados por ARNs de transferencia (tRNAs). Aunque en su biogenésis derivan, el primero de ellos del aminoácido lisina y el segundo de la adición de selenio en la cisteína, en lugar del azufre (@ling2015genetic). Pero esto poco nos informa sobre, ¿cómo se da la desambiguación de estos codones polisémicos?
+Los dos aminoácidos traduccionales adicionales, lo que significa que a diferencia de los más de 100 aminoácidos postraduccionales que puede presentar una proteína cualquiera, la pirrolisina y selenocisteína son también transportados por ARNs de transferencia (tRNAs) ([figura 3](#21Y22)). Aunque en su biogenésis derivan, el primero de ellos del aminoácido lisina y el segundo de la adición de selenio en la cisteína, en lugar del azufre (@ling2015genetic). Pero esto poco nos informa sobre, ¿cómo se da la desambiguación de estos codones polisémicos?
 
 --------------------
-## Expansión del código, expansión de significados.
+## Expansión del código, expansión de significados. {#expans}
 
 El mecanismo de codificación para la selenocisteína presenta diversos aspectos únicos y difiere para cada uno de los dos dominios de la vida, bacteria vs arqueas-eucariota (@ling2015genetic). La maquinaria de biosíntesis de proteínas inserta selenocisteína al encontrar el codón UGA sólo cuando este, a su vez se encuentra acompañado en el mRNA de una secuencia auxiliar, denominada elemento SECIS (del ingles selenocysteine insertion sequence). Un corto motivo específico de ARN que se caracteriza por plegarse en una estructura secundaria característica ([figura](#21y22)). En bacterias, los elementos SECIS se localizan inmediatamente después del codón UGA; mientras que en arqueas y eucariotas, se encuentra en la región 3′ no traducida (3′ UTR) del ARNm, habilitando múltiples codones UGA para codificar residuos de selenocisteína (@vera2008codigo).
 
 Una historia diferente ocurre para el aminoácido pirrolisina, en dicho caso, similar a como funcionan los cambios en los 24 códigos alternos, lo que ocurre es la reasignación codónica, es decir, el codón no es leído por los factores de liberación (RF), encargados normalmente de interpretar la señal de parada. En cambio, el tRNA con el anticodon complementario (AUC) se encarga de reconocer dicho codón y transportar el residuo de pirrolisina (@ling2015genetic).
 
 <center>
-```{r 21Y22, echo=FALSE, fig.cap='Estructura química y mecanismo de desambiguación de los aminoácidos traduccionales 21 selenocisteína y 22 pirrolisina. La manera en que el residuo Sec es cargado por tRNA-Sec requiere en arqueas y eucariotas un paso intermediario de fosforilización y de eliminación del grupo fosfato, además de la participación de un factor de elongación específico SelB.', out.width='90%'}
+```{r 21Y22, echo=FALSE, fig.cap='Estructura química y mecanismo de desambiguación de los aminoácidos traduccionales 21 selenocisteína y 22 pirrolisina. La manera en que el residuo Sec es cargado por tRNA-Sec requiere en arqueas y eucariotas un paso intermediario de fosforilización y de eliminación del grupo fosfato, además de la participación de un factor de elongación específico SelB. Imagen tomada y modificad de [@ling2015genetic]'}
 knitr::include_graphics('figures/21y22AA.png', dpi = NA)
 ```
 </center>
 
 --------------------
-##  ¿Diversdiad actual o reglejo de la diversidad de LUCA?
+
+## ¿Diversdiad actual o reflejo de la diversidad de LUCA? {#actorefl}
 
 Antes de proceder, introducimos rápidamente la temática subsecuente, la primera reasignación y modificación artificial, o en los términos semánticos del presente capítulo, la primera re-significación artificial. El histórico caso del código genético sintético de la bacteria Syn61 (*E. coli*), el aminoácido correspondiente a los tRNAs UCA y UCG (los dos *interpretados* como Serina en bacterias), se re asignaron a los aminoácidos artificiales "XXX" y "YYY", respectivamente. Las implicaciones biosemióticas de esta modificación, reflejan la intima dependencia de los virus por el sistema de traducción huésped. Esto dado a que los bacteriófagos capaces de infectar la cepa de *E. coli* no modificada, no pueden manipular el sistema de decodificación de Syn61, lo que conlleva a la perdida de la capacidad de producir correctamente las proteínas necesarias para llevar el ciclo de replicación del fago (@robertson2021sense). 
 
@@ -60,4 +61,4 @@ Finalmente, un último nivel de variación, similar al de los idiomas humanos, r
 La diversidad de idiomas, dialectos y el habla (o sesgo codónico relativo) de cada especie podrían ser evidencia de procesos evolutivos de antaño, o en curso, un problema típico de la biología evolutiva, el orden de los factores si importa, pero lamentablemente aún se desconoce, es otra cuestión que entra a la bolsa de preguntas evolutivas del tipo ¿Qué fue primero, el proto-huevo o el proto-amniota?, en este contexto serían: 
 
 ¿Dos códigos, que como el español y el italiano, tienen un único origen?, es decir, ¿en la comunidad de linajes descrita como LUCA, existía un único código, o ya se encontraban conviviendo idiomas diferentes en intercambio y sincretismo?. 
-La pregunta ha adquirido relevancia recientemente, gracias al descubrimiento de tRNAs codificados en el genoma de los virus gigantes, lo que abre nuevas posibilidades sobre el idioma que emplean los gigantes del mundo virocelular, ¿codifican el mismo aminoácido del huésped o representan idiomas virales ancestrales, estos últimos reminiscencias del mundo de LUCA y su comunidad viral asociada?. 
+La pregunta ha adquirido relevancia recientemente, gracias al descubrimiento de tRNAs codificados en el genoma de los virus gigantes, lo que abre nuevas posibilidades sobre el idioma que emplean los gigantes del mundo virocelular, ¿codifican el mismo aminoácido del huésped o representan idiomas virales ancestrales, estos últimos reminiscencias del mundo de LUCA y su comunidad viral asociada?.

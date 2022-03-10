@@ -1,8 +1,3 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 # Aplicaciones de la Paleo-Virología. {#paleovir}
 
 **La historia co-evolutiva entre retrovirus endógenos y su huésped humano refleja el patrón de migración de nuestra especie.**
@@ -23,7 +18,7 @@ knitr::include_graphics('figures/VHS1.png', dpi = NA)
 ```
 </center>
 --------------------
-## Co-diversidficación virus del herpes simple y poblaciones humanas.
+## Co-diversidficación virus del herpes simple y poblaciones humanas. {#codiver}
 
 Los virus humanos siendo organismos de fácil secuenciamiento, en términos de la diminuta escala del genoma, y por lo general altamente conservados, este hecho ha permitido el desarrollo de una nueva especialidad en la virología evolutiva denominada paleo-virología, la cual, a partir del estudio de la coevolución huésped-parásito, se aproxima al entendimiento de eventos históricos de las especies, como la migración de las poblaciones humanas desde el lugar de origen, hasta  el alcance de la distribución mundial. 
 
@@ -39,7 +34,7 @@ knitr::include_graphics('figures/VHS2.png', dpi = NA)
 ```
 </center>
 --------------------
-## Migración holobionte humano - VHS2
+## Migración holobionte humano - VHS2 {#vhs2}
 
 La secuenciación múltiple de los genomas del VHS-1 reduce significativamente el costo de secuenciamiento a escala genómica humana,  por lo que los marcadores paleovirales se establecen como grandes sustitutos, no solo por ventaja económica, sino que también a nivel de la complejidad de los análisis computacionales requeridos para el estudio de la migración humana.
 
@@ -51,7 +46,7 @@ knitr::include_graphics('figures/VHS3.png', dpi = NA)
 ```
 </center>
 --------------------
-## Relojes evolutivos a diferente tasa de mutación
+## Relojes evolutivos a diferentes tasas de mutación {#relojes}
 
 A manera de comparación, adjuntamos el video suplementario de la más reciente genealogía humana (@kolb2013using y @@wohns2022unified).  Nótese que en ambos estudios se evidencia como origen único de todas las poblaciones humanas el este de áfrica, según el análisis de genomas humanos, hace unos 2 millones de años aproximadamente (80 mil generaciones). Mientras qué, este mismo hecho se evidencia en el tiempo estimado de divergencia de HSV-1 de HSV-2 es de 2.18 (±0.753) millones de años. 
 
