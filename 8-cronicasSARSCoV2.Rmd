@@ -1,4 +1,4 @@
-# Crónicas de la Sindemia de COVID-19 (2019-) 
+# Crónicas Sindemia de COVID-19 {#covid}
 
 **El inicio de la década en aislamiento**
 
@@ -6,12 +6,12 @@ La historia aún en curso de la COVID-19 (del ingles Coronavirus Disease) inici�
 
 La convergencia de múltiples factores como la elevada tasa de propagación del SARS-CoV-2, la baja mortalidad, el medio de contagio, el estado de interconectividad área en el mundo para finales del 2019, junto a la negligencia en el manejo de la situación por parte del gobierno Chino, que pese a la experiencia vivida frente al brote epidémico de un virus afín con el virus de SARS-CoV-1 en el 2003, retrasó la activación de las alarmas epidemiológicas del mundo, con un prematuro reporte de la situación a la Organización Mundial de la Salud (OMS), la cual amplificó mediante un [twit del 14 de Enero del 2020](https://twitter.com/WHO/status/1217043229427761152), en el que se  afirmó:
 
-> Las investigaciones preliminares llevadas a cabo por las autoridades chinas no han encontrado pruebas claras de transmisión de persona a persona del nuevo #coronavirus (2019-nCoV) identificado en Wuhan, China. 
+> "Las investigaciones preliminares llevadas a cabo por las autoridades chinas no han encontrado pruebas claras de transmisión de persona a persona del nuevo #coronavirus (2019-nCoV) identificado en Wuhan, China". 
 
 La OMS declaró a la COVID-19 como brote epidémico el 30 de enero del 2020, posteriormente dado al avance del brote alrededor del mundo, la enfermedad sufrió un cambio del estado epidemiológico, considerandose como pandemia el 11 de marzo de 2020. Una vez la situación. Las características clínicas de COVID-19 son variadas, desde el estado asintomático hasta el síndrome de dificultad respiratoria aguda y la disfunción de múltiples órganos. Las características clínicas pueden incluir fiebre, tos, dolor de garganta, dolor de cabeza, fatiga, anosmia o disfunciones olfatorias y gustativas, mialgia o dolor muscular y falta de aliento (gamero2021secuelas). En un subconjunto de pacientes, al final de la primera semana la enfermedad puede progresar a la neumonía, la insuficiencia respiratoria y la muerte. Esta progresión se asocia con un aumento extremo de las citoquinas inflamatorias, fenómeno descrito como tormenta de citocinas, en las que se incluyen elevadas cantidades de IL2, IL7, IL10, GCSF, IP10, MCP1, MIP1A y TNFα (@gamero2021secuelas).
 
 --------------------
-## ¿Pandemia o Sindemia de COVID-19? 
+## ¿Pandemia o Sindemia de COVID-19? {#panosin}
 
 Una vez alcanzado el primer millón de infecciones alrededor del mundo, Richard Horton (@horton2020offline), considero el enfoque exclusivo de enfermedad infecciosa, como sobre-simplificador, proponiendo a cambio el concepto de Sindemia, propuesto por el antropólogo médico Merrill Singer, en 1990. Con el que se une los conceptos de sinergia y pandemia, situación que en la acepción original apela al evento cuando "dos o más enfermedades interactúan de forma tal que causan un daño mayor que la mera suma de estas dos enfermedades (@horton2020offline). Según Horton, el coronavirus es una 'sindemia' porque el SARS-CoV-2 interactúa con enfermedades no transmisibles (diabetes, cáncer, problemas cardiacos, etc.) y además lo hace en un contexto social y ambiental caracterizado por la inequidad o desigualdad social. 
 

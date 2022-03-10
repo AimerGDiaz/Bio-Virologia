@@ -85,7 +85,7 @@ Esta obra está protegida bajo una licencia de [Creative Commons Reconocimiento-
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-## ¿Cómo citar la obra? {-}
+**¿Cómo citar la obra?**
 
 * Cita corta: 
 Gutiérrez-Díaz A. et al. (2021). BioVirología: La biología de los virus. https://aimergdiaz.github.io/Bio-Virologia/
@@ -93,12 +93,13 @@ Gutiérrez-Díaz A. et al. (2021). BioVirología: La biología de los virus. htt
 * Cita formal: 
 Gutiérrez-Díaz, A. A., Parra-Avellaneda, V., Corao, J., Nájera, R., & Chaparro, N. A. (2021, Septiembere). Biovirología: La Biología de los Virus.  https://aimergdiaz.github.io/Bio-Virologia/
 
-###  Interacción {-}
+**Interacción**
+
 ¿Deseas comentar, corregir, sugerir, opinar o preguntar algo sobre el `Bookdown`? Puedes hacerlo [en esta sección](https://github.com/AimerGDiaz/Bio-Virologia/discussions/10). 
 
 <!-- https://www.facebook.com/permalink.php?story_fbid=174758050915684&id=107088044349352-->
 
-### Contenido del blog en facebook en proceso de migración {-}
+**Contenido del blog en facebook en proceso de migración**
 
 <details>
 <summary> **Lista de post publicados en** [Facebook](https://www.facebook.com/permalink.php?story_fbid=174758050915684&id=107088044349352)</summary>
