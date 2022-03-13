@@ -7,7 +7,8 @@
 * Virus  latentes, pero no dormidos: diferencia entre infección aguda, lenta, crónica y latente (https://www.ncbi.nlm.nih.gov/books/NBK8538/)  
 
 * Virus y simbiosis el origen de la RNA polimerasa mitocondrial  
-
+2006.Bacteriophage origins of mitochondrial replication and transcription proteins
+2018.R.Structural basis of mitochondrial transcription
 * Virus ambidiestros (ssRNA + or -) o ambisense
 
 * 	¿Es el viroma del genoma humano, fósiles de infecciones pasadas o virus domesticados? 

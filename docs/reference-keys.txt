@@ -41,3 +41,10 @@ expans
 actorefl
 covid
 panosin
+virosimbiosis
+plydnaeggs
+fig:PolydnaCycle
+fig:ichnovirus
+fig:smbvmirnas
+los-pdvs-no-son-los-únicos-virus-involucrados-en-este-tipo-de-simbiosis-también-se-conocen-otros-virus-persistentes-endógenos-como-reovirus-de-doble-cadena-de-arn-que-también-pueden-suprimir-la-defensa-del-hospedero-mientras-que-no-son-patogénicos-para-la-avispa.-de-hecho-en-un-estudio-transcriptómico-de-bracovirus-sus-análisis-señalan-la-sincronización-temporal-en-la-expresión-genética-del-virus-que-deviene-en-producción-de-partículas-virales-sin-inducir-la-expresión-de-los-genes-inmunes-de-la-avispa-es-decir-los-virus-no-se-perciben-como-ajenos-los-dos-organismos-por-tanto-conforman-un-holobionte-inmunológicamente-estable-villarreal2008origin-gauthier2020chromosomal.
+resisvir

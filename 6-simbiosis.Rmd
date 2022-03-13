@@ -1,0 +1,49 @@
+# Simbiosis Viro-Celulares {#virosimbiosis}
+ 
+**Los Polydnavirus inmuno-comprometen a los hospederos de las avispas parasitoides**
+
+La simbiosis es un fenómeno conspicuo en las comunidades biológicas. Hoy se sabe que múltiples elementos derivados de virus y otros parásitos genéticos se han integrado en los genomas de muchos organismos celulares. Aportando elementos simbiogenéticos que han contribuido principalmente en la evolución de los sistemas inmunes (que por definición, son los fundamentos basales de los organismos para distinguir lo propio de lo ajeno, desde bacterias hasta humanos @villarreal2008bacteria,@broecker2019evolution. La relación entre dos familias de avispas parasitoides y dos géneros de la misma familia viral, representa uno de los ejemplos de simbiosis virus-células más emblemáticos. 
+
+Los virus, como los microorganismos en general, han sido un anatema que los biólogos evolutivos históricamente han excluido. No obstante, recientemente una larga lista de fenómenos nos permiten revaluar la extensión del impacto de los virus en la evolución biológica @villarreal2008bacteria, @broecker2019evolution, @villarreal2008origin. 
+
+Los insectos son la clase de animales con más diversidad de especies registradas. Estos organismos tan exitosos cuentan con un sorprendente sistema inmune innato capaz de protegerles y reconocer parásitos y otros agentes infecciosos. El orden Hymenoptera (avispas, abejas y hormigas) consiste en más de 225,000 especies que se dividen en varias familias, de las que la mayoría se ubican en el suborden monofilético Apocrita, originándose hace unos 200 millones de años @volkoff2020unconventional.
+
+Desde los años 70, se descubrieron partículas virales asociadas a avispas parasitoides, como elementos necesarios en el desarrollo del parasitismo desus hospederos. Estas avispas son de vida libre durante la adultes, y es en este estadio que, en el calyx de su tracto reproductivo se acumulan y reproducen viriones de Polydnavirus (PDVs). Estás partículas infecciosas se inyectan junto a huevos fertilizados en otros artrópodos, usualmente en larvas de otros insectos, que son devorados una vez eclosionan las larvas emergentes, las cuales emplean el cuerpo del hospedero para su propio desarrollo y crecimiento ([figura 1](#PolydnaCycle))@volkoff2020unconventional,@burke2012polydnaviruses.
+
+<center>
+```{r PolydnaCycle, echo=FALSE, fig.cap='Ciclo de vida de las avispas parasitoides y sus virus. Los PDV´s son virus de doble cadena de ADN, que permanecen como provirus en el genoma de avispas hembras y macho, pero es en el calyx del tracto reproductivo de la hembra donde se acumulan e inyecta  junto con sus huevos fertilizados en la larva hospedera y es el sistema inmune de ésta de quien los PDV defienden a la larva. Imagen tomada de @burke2012polydnaviruses', out.width='70%'}
+knitr::include_graphics('figures/Polydna1.png', dpi = NA)
+```
+</center>
+--------------------
+
+## Co-infección polydnavirus y huevos de avispa parasitoide {#plydnaeggs}
+
+Debido a su estilo de vida parasitoide estas avispas requieren de efectores para regular la fisiología y evadir el sistema inmune de su hospedero, esto con el fin de garantizar el desarrollo de sus crías. Distintos mecanismos son empleados para lograr estos dos objetivos, entre los que se encuentran la producción de veneno, liberación de teratocitos (células embrionales de la avispa) y su asociación con PDVs @volkoff2020unconventional,@burke2012polydnaviruses,@tang2021micrornas.
+
+Los PDVs incluye a los taxa Bracovirus e Ichnovirus, virus dsDNA, cuyos nombres derivan de las dos familias de avispas parasitoides no-relacionadas directamente entre sí Braconidae e Ichneumonidae respectivamente. Lo que podría significar que la domesticación de los PDVs se dió en dos ocasiones independientes. La secuenciación del genoma de las avispas *H. didymator* y *C. sonorensis* reveló la compleja organización genómica de los Ichnovirus endógenos, que consta de dos componentes: los segmentos provirales, rodeados por repeticiones DRJ y por otro lado los genes de replicación, como se ve descrito en la [figura 2](#ichnovirus) @volkoff2020unconventional. 
+
+<center>
+```{r ichnovirus, echo=FALSE, fig.cap='Arquitectura genómica de Ichnovirus. En los cromosomas de la avispa se ubican dispersos los loci de Ichnovirus, que consisten por un lado en los segmentos provirales (derecha) rodeados de secuencias repetidas directamente (DRJ) que permiten la recombinación homóloga y la  circularización de la molécula, y por otro lado los genes de replicación (izquierda) IVSPERs, para IchnoVirus Structural Proteins Encoding Regions. Éstos últimos se transcriben solo en el calyx del tejido reproductivo de la avispa. Imagen de @volkoff2020unconventional', out.width='60%'}
+knitr::include_graphics('figures/Polydna2.png', dpi = NA)
+```
+</center>
+
+Los PDV poseen genes que al ser removidos de los genomas endógenos, pese a que producen viriones acompañantes de los huevos de las avispas, éstos últimos son rechazados por el sistema inmune del hospedero,e vitando su desarrollo. Dentro de estos genes que inhiben o evaden distintas vías de la respuesta inmune de los hospederos se encuentran algunos microRNAs, responsables de inhibir la señalización anti-viral mediada por los receptores Toll, junto a la cascada JAK/STAT o los receptores de ecdisona (hormona importante para el desarrollo de los insectos), tal como se ilustra en la [figura 3](#smbvmirnas)  (@burke2012polydnaviruses,@tang2021micrornas).
+
+Los PDVs no son los únicos virus involucrados en este tipo de simbiosis, también se conocen otros virus persistentes (endógenos) como reovirus (de doble cadena de ARN), que también pueden suprimir la defensa del hospedero, mientras que no son patogénicos para la avispa. De hecho, en un estudio transcriptómico de Bracovirus, sus análisis señalan la sincronización temporal en la expresión genética del virus, que deviene en producción de partículas virales, sin inducir la expresión de los genes inmunes de la avispa, es decir los virus no se perciben como ajenos, los dos organismos por tanto conforman un holobionte inmunológicamente estable @villarreal2008origin, @gauthier2020chromosomal.
+
+--------------------
+## Resistencia viral de la co-infección viru-celular {#resisvir}
+
+Hasta el momento, se han descrito 3 niveles de asociación y co-evolución, huésped artrópodo (1) de las avistas parasitoides (2), que emplean PDVs como antígenos inmuno-comprometedores, pero esta historia está lejos de terminar ahí, uan cuarta interacción complica más el escenario. Esta última como estrategia defensiva de los hospederos (1) de las avispas parasitoides y sus virus simbiontes (2 y 3). El cuarto miembro de la interacción son bacterias endosimbiontes cuticulares de insectos, capaces de protegerlos contra el parasitismo. 
+
+<center>
+```{r smbvmirnas, echo=FALSE, fig.cap='Se ha demostrado que  *Snellenius manilae bracovirus* (SmBV) posee 2 miRNAs involucrados en inhibir la respuesta inmune del hospedero de la avispa, la Larva de *S. litura*, ya que, con la inhibición de estos 2 miRNAs se restaura la actividad de encapsulación y fagocitosis de los hemocitos de la larva hospedera, favoreciendo la eliminación de los huevos de la avispa parasitaria. Toamdo de @tang2021micrornas', out.width='80%'}
+knitr::include_graphics('figures/Polydna3.png', dpi = NA)
+```
+</center>
+
+Debido al potencial en el uso agricola de holobiontes avispa-PDVs, se ha intentado realziar control biológico de insectos cosiderados plaga, que, sin embargo son capaces de resistir a las avispas parasitoides, esto a razón de de la asociación entre la bacteria *Hamiltonella defensa* y el áfido *Acyrthosiphon pisum*, que es protegido, en parte, por proteínas que aquellas bacterias sintetizan en su cutícula @oliver2009bacteriophages. Curiosamente, en cuanto al origen de las proteínas protectoras, estas se han asociado al bacteriofago lambda (λ), denominado *A. pisum secondary endosymbiont (APSE)* @oliver2009bacteriophages. En particular, una variante del Fago APSE-2 expresa una toxina importante para proteger al áfido, la  cytolethal distending toxin (cdtB), un gen considerado como *factor letal de parasitoide*, cuya lista aún continúa en crecimiento en investigaciones recientes @oliver2009bacteriophages, @eleftherianos2013endosymbiotic.
+
+El caso de las avispas parasitoides asociadas con virus es un ejemplo dorado para el estudio de la biología y ecología de los virus, como era de esperarse concluimos este post renunciando a una biología sin éstos, pues considerar a los virus como elmentos importantes en las redes tróficas ha demostrado no solo ser necesario, sino esclarecedor, aunque al mismo tiempo  confuso y complicado, pero sobretodo nos ofrece una visión más integral y visceralmente biológica; siempre y cuando tengamos en cuenta que, el ejemplo dorado de este post no es más que un puñado de puntos en la constelación de las interacciones biológicas, que durante los últimos 3,600 millones de años de evolución han venido estableciéndose a todas las escalas de observación (desde molecular hasta organísmica-holobionte, ecológica) y abren el espacio para nuevas interpretaciones de la vida, de la identidad, lo social,  de la cooperación y en general de la viro-evolución biológica, o evolución incluyente de los virus @villarreal2008bacteria, @broecker2019evolution, @villarreal2008origin.
