@@ -35,10 +35,7 @@ knitr::include_graphics('figures/Portrait.gif', dpi = NA)
 follow 
 https://bookdown.org/home/about/ 
 bookdown::publish_book(render = 'local')
-
-
-csl: biomed-central.csl
-
+Bibliography https://app.bibguru.com/p/e2042536-b4db-40df-9eb6-ddc09b6d97c3 
 -
  
 Publish as a website 
@@ -56,6 +53,13 @@ options(knitr.duplicate.label = "allow")
 
 make it avaivlable in bookdown list 
 https://bookdown.org/home/about/ 
+
+add large files with git large file storage 
+https://docs.github.com/en/repositories/working-with-files/managing-large-files/configuring-git-large-file-storage 
+
+in the folder of the reposirory 
+git lfs track "*.mp4" 
+git add figures/Quatum.mp4
 -->
 
 ## Prefacio {-}
@@ -107,7 +111,7 @@ Gutiérrez-Díaz, A. A., Parra-Avellaneda, V., Corao, J., Nájera, R., & Chaparr
 
 1. Virus que embellecen la primavera. [Bookdown](#vircolor),  [Facebook](https://www.facebook.com/BioViral/posts/166521528808498) 
 
-1. El viroma humano. [Bookdown](#viroma), [Facebook]()
+1. El viroma humano. 
 
   2.1 El viroma del genoma humano. [Bookdown](#viroma_genoma), [Facebook](https://www.facebook.com/permalink.php?story_fbid=108452037546286&id=107088044349352)
 

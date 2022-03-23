@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>9.6 Extensión del modelo a SARS-CoV-2 | BioVirología</title>
+  <meta name="description" content="9.6 Extensión del modelo a SARS-CoV-2 | BioVirología es el primer libro electrónico e interactivo de virología biológica y el primero de divulgación científica en español, empleando el formato de libros Bookdown." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="9.6 Extensión del modelo a SARS-CoV-2 | BioVirología" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:image" content="/figures/Portrait.gif" />
+  <meta property="og:description" content="9.6 Extensión del modelo a SARS-CoV-2 | BioVirología es el primer libro electrónico e interactivo de virología biológica y el primero de divulgación científica en español, empleando el formato de libros Bookdown." />
+  <meta name="github-repo" content="AimerGDiaz/Bio-Virologia" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="9.6 Extensión del modelo a SARS-CoV-2 | BioVirología" />
+  
+  <meta name="twitter:description" content="9.6 Extensión del modelo a SARS-CoV-2 | BioVirología es el primer libro electrónico e interactivo de virología biológica y el primero de divulgación científica en español, empleando el formato de libros Bookdown." />
+  <meta name="twitter:image" content="/figures/Portrait.gif" />
+
+<meta name="author" content="Aimer G. Díaz, Víctor P. Avellaneda, Juan Corao, Roberto Nájera y Natalia A. Chaparro" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="poblamod.html"/>
+<link rel="next" href="qué-ocurre-en-áfrica.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/core-js-2.5.3/shim.min.js"></script>
+<script src="libs/react-17.0.0/react.min.js"></script>
+<script src="libs/react-17.0.0/react-dom.min.js"></script>
+<script src="libs/reactwidget-1.0.0/react-tools.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="libs/reactable-binding-0.2.3/reactable.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">BioVirología</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Bienvenidos al bookdown de BioVirología</a>
+<ul>
+<li class="chapter" data-level="" data-path="prefacio.html"><a href="prefacio.html"><i class="fa fa-check"></i>Prefacio</a></li>
+<li class="chapter" data-level="" data-path="autores.html"><a href="autores.html"><i class="fa fa-check"></i>Autores</a></li>
+<li class="chapter" data-level="" data-path="licencia.html"><a href="licencia.html"><i class="fa fa-check"></i>Licencia</a></li>
+<li class="chapter" data-level="" data-path="qué-son-los-bookdowns.html"><a href="qué-son-los-bookdowns.html"><i class="fa fa-check"></i>¿Qué son los Bookdowns?</a></li>
+<li class="chapter" data-level="" data-path="descripción-de-la-obra.html"><a href="descripción-de-la-obra.html"><i class="fa fa-check"></i>Descripción de la obra</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="WhatVirusAre.html"><a href="WhatVirusAre.html"><i class="fa fa-check"></i><b>1</b> ¿Qué son los virus?</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="gigavir.html"><a href="gigavir.html"><i class="fa fa-check"></i><b>1.1</b> El descubrimiento de los virus gigantes</a></li>
+<li class="chapter" data-level="1.2" data-path="virocelula.html"><a href="virocelula.html"><i class="fa fa-check"></i><b>1.2</b> La perspectiva virocelular</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="zombi.html"><a href="zombi.html"><i class="fa fa-check"></i><b>2</b> Zombificación viral.</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="virorganismos.html"><a href="virorganismos.html"><i class="fa fa-check"></i><b>2.1</b> Viro-organismos</a></li>
+<li class="chapter" data-level="2.2" data-path="zombinsec.html"><a href="zombinsec.html"><i class="fa fa-check"></i><b>2.2</b> Zombificación de insectos</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="virosimbiosis.html"><a href="virosimbiosis.html"><i class="fa fa-check"></i><b>3</b> Simbiosis Viro-Celulares</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="plydnaeggs.html"><a href="plydnaeggs.html"><i class="fa fa-check"></i><b>3.1</b> Co-infección polydnavirus y huevos de avispa parasitoide</a></li>
+<li class="chapter" data-level="3.2" data-path="resisvir.html"><a href="resisvir.html"><i class="fa fa-check"></i><b>3.2</b> Resistencia viral de la co-infección viru-celular</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="plantPand.html"><a href="plantPand.html"><i class="fa fa-check"></i><b>4</b> Pandemias virales a escala mundial en plantas.</a></li>
+<li class="chapter" data-level="5" data-path="denv.html"><a href="denv.html"><i class="fa fa-check"></i><b>5</b> Hiperendemia del virus del Dengue.</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="genevodenv.html"><a href="genevodenv.html"><i class="fa fa-check"></i><b>5.1</b> Genética y evolución del virus del Dengue</a></li>
+<li class="chapter" data-level="5.2" data-path="ciclodenv.html"><a href="ciclodenv.html"><i class="fa fa-check"></i><b>5.2</b> Ciclo de vida del virus Dengue</a></li>
+<li class="chapter" data-level="5.3" data-path="hiperende.html"><a href="hiperende.html"><i class="fa fa-check"></i><b>5.3</b> Hiperendemia del virus del Dengue</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="paleovir.html"><a href="paleovir.html"><i class="fa fa-check"></i><b>6</b> Aplicaciones de la Paleo-Virología.</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="codiver.html"><a href="codiver.html"><i class="fa fa-check"></i><b>6.1</b> Co-diversidficación virus del herpes simple y poblaciones humanas.</a></li>
+<li class="chapter" data-level="6.2" data-path="vhs2.html"><a href="vhs2.html"><i class="fa fa-check"></i><b>6.2</b> Migración holobionte humano - VHS2</a></li>
+<li class="chapter" data-level="6.3" data-path="relojes.html"><a href="relojes.html"><i class="fa fa-check"></i><b>6.3</b> Relojes evolutivos a diferentes tasas de mutación</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="codigo.html"><a href="codigo.html"><i class="fa fa-check"></i><b>7</b> ¿Es universal el código genético?</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="polisemia.html"><a href="polisemia.html"><i class="fa fa-check"></i><b>7.1</b> Polisemia del código genético</a></li>
+<li class="chapter" data-level="7.2" data-path="signo.html"><a href="signo.html"><i class="fa fa-check"></i><b>7.2</b> Un codón, <em>un signo</em> y varios significados.</a></li>
+<li class="chapter" data-level="7.3" data-path="expans.html"><a href="expans.html"><i class="fa fa-check"></i><b>7.3</b> Expansión del código, expansión de significados.</a></li>
+<li class="chapter" data-level="7.4" data-path="actorefl.html"><a href="actorefl.html"><i class="fa fa-check"></i><b>7.4</b> ¿Diversdiad actual o reflejo de la diversidad de LUCA?</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="covid.html"><a href="covid.html"><i class="fa fa-check"></i><b>8</b> Crónicas Sindemia de COVID-19</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="panosin.html"><a href="panosin.html"><i class="fa fa-check"></i><b>8.1</b> ¿Pandemia o Sindemia de COVID-19?</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="sistema-de-grupos-sanguineo-abo-y-enfermedades-virales.html"><a href="sistema-de-grupos-sanguineo-abo-y-enfermedades-virales.html"><i class="fa fa-check"></i><b>9</b> Sistema de grupos sanguineo ABO y enfermedades virales</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="resumen-gráfico-del-modelo-idp-abo.html"><a href="resumen-gráfico-del-modelo-idp-abo.html"><i class="fa fa-check"></i><b>9.1</b> Resumen gráfico del Modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.2" data-path="QRABO.html"><a href="QRABO.html"><i class="fa fa-check"></i><b>9.2</b> Revisión animada del Modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.3" data-path="basesmod.html"><a href="basesmod.html"><i class="fa fa-check"></i><b>9.3</b> Bases del modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.4" data-path="evidencias.html"><a href="evidencias.html"><i class="fa fa-check"></i><b>9.4</b> Evidencias del modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.5" data-path="poblamod.html"><a href="poblamod.html"><i class="fa fa-check"></i><b>9.5</b> Escala poblacional del modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.6" data-path="modeSARSCoV2.html"><a href="modeSARSCoV2.html"><i class="fa fa-check"></i><b>9.6</b> Extensión del modelo a SARS-CoV-2</a></li>
+<li class="chapter" data-level="9.7" data-path="qué-ocurre-en-áfrica.html"><a href="qué-ocurre-en-áfrica.html"><i class="fa fa-check"></i><b>9.7</b> ¿Qué ocurre en África?</a></li>
+<li class="chapter" data-level="9.8" data-path="extensiones-del-modelo-idp-abo.html"><a href="extensiones-del-modelo-idp-abo.html"><i class="fa fa-check"></i><b>9.8</b> Extensiones del modelo IDP-ABO</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="referencias.html"><a href="referencias.html"><i class="fa fa-check"></i>Referencias</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">BioVirología</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="modeSARSCoV2" class="section level2" number="9.6">
+<h2><span class="header-section-number">9.6</span> Extensión del modelo a SARS-CoV-2</h2>
+<p>Ahora el grupo sanguíneo A es más susceptible en los primeros análisis publicados <span class="citation">[<a href="#ref-breiman2020harnessing" role="doc-biblioref">3</a>]</span> simplemente porque la población base del estudio, probablemente presenta un mayor número de individuos con dicho genotipo. De hecho, en la mayoría de los países en donde se ha hecho este análisis, el grupo A es más frecuente con respecto a B y AB. Al igual que el grupo sanguíneo O no significa que presente una mayor inmunidad intrínseca. Ya que, si una persona de tipo sanguíneo O contrae el virus, producirá viriones tipo O y por ende, los viriones libreados burlaran cualquier barrera inmune innata contra los antígenos ABO.</p>
+<p>La ventaja inmunitaria del grupo O es relativa a las freceuncais genotípocas de la población. De allí que quienes presenten dicho genotipo en lugares donde la frecuencia de los demás grupos sanguíneos es alta, dicha persona contará con esta protección. De esta forma las frecuencias genotípicas son un componente esencial del modelo IDP-ABO; el cual predice que las poblaciones que cuenten con una frecuencia genotípica balanceada de los 4 grupos (es decir que los 4 grupos estén con una frecuencia mayor al 10%), presentarán menor tasa de transmisión, de manera inetresante, aquellos países son mayoritariamente Africanos y Asiáticos (ver frecuencias de Sur Corea en la <a href="#IDPABO">figura 2</a> y <a href="#aboworld">figura 6</a>. Mientras que aquellos lugares donde la diversidad genotípica es menor o donde hay desbalances de frecuencias como en EE.UU. (<a href="#aboworld">Figura 6</a> y frecuencias de USA en la <a href="#IDPABO">Figura 2</a>), Ecuador y en general Europa Occidental, presentan tasas de transmisión mayores dada por la dominancia o imbalance poblacional de los grupos sanguíneos O y A respectivamente.</p>
+<center>
+<div class="figure"><span style="display:block;" id="fig:aboworld"></span>
+<img src="figures/abo_pop.png" alt="Distribución y polimorfismo de la frecuencia de los alelos $i^A$, $i^B$ y $i^O$, más no la frecuencia genotípica AB, A, B y O a nivel mundial. Aquellos lugares que en el mundo presentan una alta concentración de un único alelo aumentarán los genotipos más homocigotos (color azul, rojo en los extremos superiores; amarillo y blanco extremos inferiores). Mientras que la presencia equilibrada de los 3 alelos aumentaría las frecuencias genotípicas Heterocigotas (colores del medio naranja y rojo claro).. Imagén tomada y modificada de @ABOworld" width="100%" />
+<p class="caption">
+Figura 9.6: Distribución y polimorfismo de la frecuencia de los alelos <span class="math inline">\(i^A\)</span>, <span class="math inline">\(i^B\)</span> y <span class="math inline">\(i^O\)</span>, más no la frecuencia genotípica AB, A, B y O a nivel mundial. Aquellos lugares que en el mundo presentan una alta concentración de un único alelo aumentarán los genotipos más homocigotos (color azul, rojo en los extremos superiores; amarillo y blanco extremos inferiores). Mientras que la presencia equilibrada de los 3 alelos aumentaría las frecuencias genotípicas Heterocigotas (colores del medio naranja y rojo claro).. Imagén tomada y modificada de <span class="citation">[<a href="#ref-ABOworld" role="doc-biblioref">6</a>]</span>
+</p>
+</div>
+</center>
+<p>La información de la frecuencia alélica permite observar indirectamente la diversidad poblacional (a nivel de polimorfismo alélico), no obstante, dado a que la reproducción en las poblaciones humanas es no aleatoria, más bien basada en el modelo de reproducción selectiva (o assortative mating en ingles), para tener una idea de protección poblacional asociada a la diversidad genotípica, se tomaron los datos de 34 poblaciones humanas recolectadas a partir de distintos bancos de sangre de las poblaciones ilustradas (<span class="citation">[<a href="#ref-Wikipediablood" role="doc-biblioref">7</a>]</span>). La tabla es interactiva, así que busca tu país (puede que no esté):</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="modeSARSCoV2.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">reactable</span>(abofreq , <span class="at">defaultPageSize =</span> <span class="dv">5</span>, <span class="at">minRows =</span> <span class="dv">5</span>, <span class="at">searchable =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
+<div id="htmlwidget-32a86faae3610be63f29" class="reactable html-widget" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-32a86faae3610be63f29">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"País":["Alemania","Arabia Saudita","Australia","Austria","Bélgica","Brasil","México","España","Canadá","Colombia","Dinamarca","Estados Unidos","Estonia","Finlandia","Francia","Hong Kong","India","Irlanda","Islandia","Israel","Italia","Japón","Hungría","Noruega","Nueva Zelanda","Países Bajos","Perú","Polonia","Portugal","Sudáfrica","Suecia","Taiwán","Turquía","Población ponderada media"],"Población":["81,305,856","26,534,504","22,015,576","8,219,743","10,438,353","199,321,413","120,210,121","47,737,941","34,300,083","47,121,089","5,543,453","313,847,465","1,274,709","5,262,930","65,630,692","7,153,519","1,205,073,612","4,722,028","313,183","7,590,758","61,261,254","127,368,088","9,982,000","5,038,137","4,327,944","16,730,632","31,237,385","38,415,284","10,781,459","48,810,427","9,103,788","23,234,936","79,749,461","2,261,025,244"],"O+":["35%","36%","40%","30%","37%","36%","56%","35%","39%","61.30%","35%","37.40%","30%","28%","36%","40%","36.50%","47%","47.60%","32%","40%","29.90%","32%","34%","38%","39.50%","73.70%","31%","36.20%","39%","32%","43.90%","29.80%","36.44%"],"A+":["37%","24%","31%","37%","38%","34%","30%","36%","36%","26.11%","37%","35.70%","31%","37%","37%","26%","22.10%","26%","26.40%","34%","36%","39.80%","44%","40.80%","32%","35%","18%","32%","39.80%","32%","37%","25.90%","37.80%","28.27%"],"B+":["9%","33%","8%","12%","7%","8%","4%","8%","7.60%","2.28%","8%","8.50%","20%","15%","9%","27%","30.90%","9%","9.30%","17%","17%","19.90%","16%","6.80%","9%","6.70%","5.90%","15%","6.60%","12%","10%","23.90%","14.20%","20.59%"],"AB+":["4%","2%","2%","5%","2.50%","2.50%","3.00%","2.50%","2.50%","1.47%","4%","3.40%","6%","7%","3%","7%","6.40%","2%","1.60%","7%","7%","9.90%","8%","3.40%","3%","2.50%","1.38%","7%","2.90%","3%","5%","6.00%","7.20%","5.06%"],"O-":["6%","2%","9%","6%","7%","9%","5%","9%","7%","5.13%","6%","6.60%","4.50%","5%","6%","0.31%","2.00%","8%","8.40%","3%","7%","0.15%","0.15%","6%","9%","7.50%","0.34%","6%","6.00%","7%","6%","0.10%","3.90%","4.33%"],"A-":["6%","0.50%","7%","7%","7%","8%","1%","7%","6%","2.70%","7%","6.30%","4.50%","5%","7%","0.19%","0.80%","5%","4.60%","4%","6%","0.20%","0.20%","7.20%","6%","7%","0.27%","6%","6.60%","5%","7%","0.10%","4.70%","3.52%"],"B-":["2%","1%","2%","2%","1%","2%","1%","2%","1.40%","0.70%","2%","1.50%","3%","2%","1%","0.14%","1.10%","2%","1.70%","2%","1.50%","0.10%","0.10%","1.20%","2%","1.30%","0%","2%","1.10%","2%","2%","0.01%","1.60%","1.39%"],"AB-":["1%","0.23%","1%","1%","0.50%","0.50%","0.50%","0.50%","0.50%","0.31%","1%","0.60%","1%","1%","1%","0.05%","0.20%","1%","0.40%","1%","0.50%","0.05%","0.05%","0.60%","1%","0.50%","0%","1%","0.50%","1%","1%","0.02%","0.80%","0.45%"]},"columns":[{"accessor":"País","name":"País","type":"factor"},{"accessor":"Población","name":"Población","type":"character"},{"accessor":"O+","name":"O+","type":"factor"},{"accessor":"A+","name":"A+","type":"factor"},{"accessor":"B+","name":"B+","type":"factor"},{"accessor":"AB+","name":"AB+","type":"factor"},{"accessor":"O-","name":"O-","type":"factor"},{"accessor":"A-","name":"A-","type":"factor"},{"accessor":"B-","name":"B-","type":"factor"},{"accessor":"AB-","name":"AB-","type":"factor"}],"searchable":true,"defaultPageSize":5,"paginationType":"numbers","showPageInfo":true,"minRows":5,"dataKey":"7191ab8564515c1acf4c81e4669db20b","key":"7191ab8564515c1acf4c81e4669db20b"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="modeSARSCoV2.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#more of reactable https://glin.github.io/reactable/articles/examples.html#searching </span></span></code></pre></div>
+<hr />
+</div>
+<h3>Referencias</h3>
+<div id="refs" class="references csl-bib-body">
+<div id="ref-breiman2020harnessing" class="csl-entry">
+3. Breiman A, Ruvën-Clouet N, Le Pendu J. Harnessing the natural anti-glycan immune response to limit the transmission of enveloped viruses such as SARS-CoV-2. PLoS Pathogens. 2020;16:e1008556.
+</div>
+<div id="ref-ABOworld" class="csl-entry">
+6. ABO-NX model (teaching resource). Wsu.edu.
+</div>
+<div id="ref-Wikipediablood" class="csl-entry">
+7. contributors W. Grupo sanguíneo. Wikipedia, The Free Encyclopedia.
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="poblamod.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="qué-ocurre-en-áfrica.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/8-SARSCoV2_serie.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

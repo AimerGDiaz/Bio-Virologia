@@ -1364,6 +1364,307 @@
             "title-short": "Offline",
             "type": "article-journal",
             "volume": "396"
+        },
+        {
+            "author": [
+                {
+                    "family": "Villarreal",
+                    "given": "LP"
+                }
+            ],
+            "id": "villarreal2008bacteria",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008
+                    ]
+                ]
+            },
+            "publisher": "University of California Press, Berkeley, California",
+            "title": "From bacteria to belief: Immunity and security. In “‘natural security: A darwinian approach to a dangerous world’”(SRD, and t. Taylor, eds.)",
+            "title-short": "From bacteria to belief",
+            "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Broecker",
+                    "given": "Felix"
+                },
+                {
+                    "family": "Moelling",
+                    "given": "Karin"
+                }
+            ],
+            "container-title": "Frontiers in microbiology",
+            "id": "broecker2019evolution",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "page": "51",
+            "publisher": "Frontiers",
+            "title": "Evolution of immune systems from viruses and transposable elements",
+            "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "family": "Volkoff",
+                    "given": "Anne-Nathalie"
+                },
+                {
+                    "family": "Cusson",
+                    "given": "Michel"
+                }
+            ],
+            "container-title": "Viruses",
+            "id": "volkoff2020unconventional",
+            "issue": "10",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "1170",
+            "publisher": "Multidisciplinary Digital Publishing Institute",
+            "title": "The unconventional viruses of ichneumonid parasitoid wasps",
+            "type": "article-journal",
+            "volume": "12"
+        },
+        {
+            "author": [
+                {
+                    "family": "Burke",
+                    "given": "Gaelen R"
+                },
+                {
+                    "family": "Strand",
+                    "given": "Michael R"
+                }
+            ],
+            "container-title": "Insects",
+            "id": "burke2012polydnaviruses",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012
+                    ]
+                ]
+            },
+            "page": "91-119",
+            "publisher": "Molecular Diversity Preservation International",
+            "title": "Polydnaviruses of parasitic wasps: Domestication of viruses to act as gene delivery vectors",
+            "title-short": "Polydnaviruses of parasitic wasps",
+            "type": "article-journal",
+            "volume": "3"
+        },
+        {
+            "author": [
+                {
+                    "family": "Tang",
+                    "given": "Cheng-Kang"
+                },
+                {
+                    "family": "Tsai",
+                    "given": "Chih-Hsuan"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Carol-P"
+                },
+                {
+                    "family": "Lin",
+                    "given": "Yu-Hsien"
+                },
+                {
+                    "family": "Wei",
+                    "given": "Sung-Chan"
+                },
+                {
+                    "family": "Lu",
+                    "given": "Yun-Heng"
+                },
+                {
+                    "family": "Li",
+                    "given": "Cheng-Hsun"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Yueh-Lung"
+                }
+            ],
+            "container-title": "Communications biology",
+            "id": "tang2021micrornas",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "page": "1-11",
+            "publisher": "Nature Publishing Group",
+            "title": "MicroRNAs from snellenius manilae bracovirus regulate innate and cellular immune responses of its host spodoptera litura",
+            "type": "article-journal",
+            "volume": "4"
+        },
+        {
+            "author": [
+                {
+                    "family": "Oliver",
+                    "given": "Kerry M"
+                },
+                {
+                    "family": "Degnan",
+                    "given": "Patrick H"
+                },
+                {
+                    "family": "Hunter",
+                    "given": "Martha S"
+                },
+                {
+                    "family": "Moran",
+                    "given": "Nancy A"
+                }
+            ],
+            "container-title": "Science",
+            "id": "oliver2009bacteriophages",
+            "issue": "5943",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009
+                    ]
+                ]
+            },
+            "page": "992-994",
+            "publisher": "American Association for the Advancement of Science",
+            "title": "Bacteriophages encode factors required for protection in a symbiotic mutualism",
+            "type": "article-journal",
+            "volume": "325"
+        },
+        {
+            "author": [
+                {
+                    "family": "Villarreal",
+                    "given": "Luis P"
+                }
+            ],
+            "id": "villarreal2008origin",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008
+                    ]
+                ]
+            },
+            "publisher": "Springer Science & Business Media",
+            "title": "Origin of group identity: Viruses, addiction and cooperation",
+            "title-short": "Origin of group identity",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Gauthier",
+                    "given": "Jérémy"
+                },
+                {
+                    "family": "Boulain",
+                    "given": "Hélène"
+                },
+                {
+                    "dropping-particle": "van",
+                    "family": "Vugt",
+                    "given": "Joke JFA"
+                },
+                {
+                    "family": "Baudry",
+                    "given": "Lyam"
+                },
+                {
+                    "family": "Persyn",
+                    "given": "Emma"
+                },
+                {
+                    "family": "Aury",
+                    "given": "Jean-Marc"
+                },
+                {
+                    "family": "Noel",
+                    "given": "Benjamin"
+                },
+                {
+                    "family": "Bretaudeau",
+                    "given": "Anthony"
+                },
+                {
+                    "family": "Legeai",
+                    "given": "Fabrice"
+                },
+                {
+                    "family": "Warris",
+                    "given": "Sven"
+                },
+                {
+                    "literal": "others"
+                }
+            ],
+            "container-title": "BioRxiv",
+            "id": "gauthier2020chromosomal",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "publisher": "Cold Spring Harbor Laboratory",
+            "title": "Chromosomal resolution reveals symbiotic virus colonization of parasitic wasp genomes",
+            "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "family": "Eleftherianos",
+                    "given": "Ioannis"
+                },
+                {
+                    "family": "Atri",
+                    "given": "Jaishri"
+                },
+                {
+                    "family": "Accetta",
+                    "given": "Julia"
+                },
+                {
+                    "family": "Castillo",
+                    "given": "Julio"
+                }
+            ],
+            "container-title": "Frontiers in physiology",
+            "id": "eleftherianos2013endosymbiotic",
+            "issued": {
+                "date-parts": [
+                    [
+                        2013
+                    ]
+                ]
+            },
+            "page": "46",
+            "publisher": "Frontiers",
+            "title": "Endosymbiotic bacteria in insects: Guardians of the immune system?",
+            "title-short": "Endosymbiotic bacteria in insects",
+            "type": "article-journal",
+            "volume": "4"
         }
     ],
     "project_biblios": [

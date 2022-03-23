@@ -1,7 +1,179 @@
-# Membranoma y epigenética de SARS-CoV-2 
+# Sistema de grupos sanguineo ABO y enfermedades virales {#aboySC2}
 
-https://www.facebook.com/permalink.php?story_fbid=188174372907385&id=107088044349352 
+**Hipótesis de Inmunidad dependiente del polimorfismo de los alelos del grupo sanguíneo ABO (IDP-ABO)**
+
+¿Cómo los virus envueltos, y por ende SARS-CoV-1 y SARS-CoV-2, usan el sistema de antígenos ABO para evadir el reconocimiento del sistema inmune?, ¿Por qué las personas de tipo sanguíneo AB son más propensos a ser hospitalizados, seguido de A, B y finalmente O? o ¿Por qué las de tipo O son las que menos han sido hospitalizadas?, ¿Es esto independiente de la región de estudio?. A todas estas preguntas yace una razón central:
+
+> Los virus envueltos al robar la membrana de las células huesped, usan el sistema de antígenos ABO para evadir el reconocimiento del sistema inmune de sus próximos huéspedes @casalino2020beyond, como se ilustra en:
+
+<center>
+```{r glucidos, echo=FALSE, fig.cap='Modelo computacional de las proteína Spike del virus SARS-CoV-2, sin y con glicosilaciones en los aminoácidos disponibles. La presencia de amplias areas cubiertas de glúcidos evidencia un efecto inmunoprotectivo de los antígenos disponibles. Imagen tomada de @casalino2020beyond', out.width='60%'}
+knitr::include_graphics('figures/glicanos.jpg', dpi = NA)
+```
+</center>
+
+No obstante una urgente aclaración previo al desarrollo de la nota radica en que, este efecto es poblacional, por lo que es relativo o dependiente a las frecuencias genotípicas de los cuatro grupos sanguíneos generales, AB, A, B, O, del sistema polialélico co-dominante compuesto por los alelos $i^A$, $i^B$ e $i^O$ o $i$. La nota es importante porque si este efecto presenta consecuencias relevantes a nivel epidemiológico, la hipótesis podría brindar luces a la pregunta: 
+
+> ¿Por qué sí las condiciones de pobreza agravan los síntomas de la COVID-19, las peores cifras de la pandemia se están dando en América continental y Europa, más no en África?.
+
+Para la epidemia de; 2003 de SARS-CoV-1, los investigadores Nathalie Ruvoen-Clouet y Jacques Le Pendu han propuesto un modelo epidemiológico soportado en evidencia experimental, que toma en cuenta la diversidad genética de una población de los alelos del grupo sanguíneo ABO (posteriormente extendido también para el sistema de antígenos sanguíneos independiente, el sistema Rh). Los mismos autores propone  extender sus predicciones al virus SARS-CoV-2 (@guillon2008inhibition, @breiman2020harnessing). Sin embargo la dimensión de los alcances de este modelo ha sido extendido bajo la propuesta del grupo del hematólogo Dr. Eduardo Muñiz-Diaz @yamamoto2020blood, quienes denominan a la hipótesis como: 
+
+> El Polimorfismo del grupo sanguineo ABO inhibe la infección de  SARS-CoV-2 y afecta la progesión de la COVID-19.
+
+Previo a dicho nombre, [sugerimos el titulo](https://www.facebook.com/permalink.php?story_fbid=188174372907385&id=107088044349352): 
+
+> Hipótesis de Inmunidad basada en la Diversidad Poblacional de los grupos ABO (IDP-ABO)
+
+--------------------
+## Resumen gráfico del Modelo IDP-ABO
+
+Que en resumen quiere decir que, cuanta mayor sea la frecuencia en una población de los 3 genotipos responsables de determinar el grupo sanguíneo ABO ([Figura 2](#IDPABO)), mayor será el efecto protector en la transmisión de virus SARS-CoV o SARS-CoV-2. Esto al reducir la tasa de transmisión del virus (en términos epidemiológicos, menor valor `Rho`), puesto que los virus portaran antígenos ABO fácilmente reconocibles como elementos extraños según cada sistema inmunológico al que se enfrente, [gráficamente](#IDPABO) y en [animación](#QRABO) resumimos la hipótesis como:
+
+<center>
+```{r IDPABO, echo=FALSE, fig.cap='Esquema del Modelo de Inmunidad basada en la Diversidad Poblacional de los grupos ABO (IDP-ABO). En el panel superior se describe las bases genéticas y moleculares de la determinación del grupo sanguíneo, al igual que se ilustra una representación de cómo lucirían los antígenos expuestos en eritrocitos y viriones. En la parte inferior se ilustra en sí el modelo IDP-ABO, en especial como los donores universales "O" tienen una tasa de transmisión mayor (lineá continua) y a su vez son el tipo sanguíneo más resistente, pues genera anticuerpos tanto en contra del antígeno A como del antígeno B. Se ilustran además las frecuencias de los grupos sanguíneos en dos poblaciones, para USA donde dos grupos sanguíneos están subrepresentados (<10%); mientras que en Sur Corea todos los grupos están representados en la población.', out.width='100%'}
+knitr::include_graphics('figures/sistemaABO.png', dpi = NA)
+```
+</center>
+
+--------------------
+## Revisión animada del Modelo IDP-ABO {#QRABO}
+
+<center>
+![Reducción de la transmisión dependiente del grupo ABO](./figures/Quatum.mp4){width="100%"}.
+
+Animación y revisión del mecanismo de evasión del reconocimiento inmune, mediado por el robo de los antígenos ABO por parte del virus envuelto SARS-CoV-2. Autoría gráfica de Roberto Nájera, desarrollo del contenido Roberto Nájera y Aimer G. Díaz. 
+</center>
+
+
+
+
+En las secciones restantes de la presente sección abordaremos la pregunta: ¿Por qué es confiable el modelo, en que se basa y con qué evidencias experimentales y/o computacionales cuenta?.
+
+--------------------
+## Bases del modelo IDP-ABO {#basesmod}
+
+Ahora bien, antes de entrar a las evidencias del modelo IDP-ABO, es improtante introducir algunas bases conceptuales sobre las que reposa. 
+
+La base molecular del tipo sanguineo con la que cada ser humano nace está determinada por el tipo de glúcido terminal adicionado por una enzima glicosiltransferasa codificada ya sea por el alelo $i^A$ (N-Acetilgalactosamina), $i^B$ (Galactosa) o el alelo no funcional $i$. El sistema ABO es tan solo 1 de los 36 sistemas sanguíneos, junto con el sistema Rh (codificado por un gen independiente, en este caso con tan solo dos alelos, presencia "+" y ausencia o "-"), siendo estos dos los sistemas más conocidos e importantes a la hora de realizar transferencias sanguíneas o de órganos @misevic2018abo. Su importancia radica en que este antígeno es adicionado a lípidos de membrana y múltiples tipos de proteínas en varios tipos de células ([Figura 3](#ABO)), haciendo a esta modificación prácticamente ubicua en el cuerpo y no solo en los eritrocitos como se suele creer. Como organismos diploides, todas nuestras células portan dos alelos de este gen. La combinación de los 3 alelos en parejas forman el genotipo, que junto a la regla de dominancia serial: 
+
+<center>
+> ( $i^A$ = $i^B$ ) > $i^O$
+</center>
+
+Que significa que los alelos $i^A$ e $i^B$ son igualmente dominantes entre sí, es decir se expresan en conjunto, sin embargo, en presencia del alelo $i^A$ o $i^B$, se compensa la ausencia de glúcido a causa de la carencia del alelo $i^O$. Con esta regla se determina el grupo sanguíneo al que pertenecemos, descritos más claramente en la [figura 2](#IDPABO). 
+
+<center>
+```{r ABO, echo=FALSE, fig.cap='¿En dónde portan los antígenos ABO tanto las células como los viriones, y cuál es su naturaleza química?. El Grupo sanguíneo A es la presencia de N-acetil-glicosamina en las cadenas de polisacáridos, mientras el grupo B se da por la presencia de galactosa. El grupo O se refiere a la ausencia de estas dos modificaciones, de allí que los individuos sin los dos glúcidos A y B, reconocen y reaccionan inmunológicamente contra estos compuestos como antígenos o entes moleculares no-propios. El panel de la derecha ilustra la proteína viral "Spike" linealmente junto con los sitios de glicosilación. Imagenes tomadas y modificadas de @casalino2020beyond', out.width='100%'}
+knitr::include_graphics('figures/glicanosABO_enSpike.png', dpi = NA)
+```
+</center>
+
+--------------------
+## Evidencias del modelo IDP-ABO {#evidencias}
+
+Los virus SARS-CoV son virus envueltos. Lo que significa que roban la membrana celular una vez el virión es ensamblado y liberado de la célula que infecta. Pero el virión no solo escapa con parte de la membrana del huésped, que porta lípidos con antígenos ABO según el genotipo del huésped, sino que también hurta las proteínas de membrana, que yacen junto a la famosa proteína Spike. Estas últimas, al ser sintetizadas en la célula huésped, sufre, adiciones del antígeno ABO del huésped ([Figura 1](#glucidos)). En otras palabras, los SARS-CoV circulantes se pueden clasificar por su tipo sanguíneo. Si el grupo sanguíneo del huésped es A, los viriones que se producirán en esta persona serán A; de ser O el grupo sanguíneo, el huésped generará viriones tipo O (sin antígenos).
+
+Al igual que en las transferencias sanguíneas donde se le denomina al grupo sanguíneo O como donor universal, el virión no generará una reacción inmune innata e inmediata en ningún otro huésped independiente de su tipo sanguíneo. Lo que lo convertiría a este grupo sanguíneo en dispersores universales. Pero al mismo tiempo serían los menos susceptibles, ya que los individuos con dicho genotipo generan anticuerpos contra los antígenos A y B, lo que permite también reconocer fácilmente viriones adornados con estos grupos. El caso opuesto lo constituye los receptores universales o el grupo sanguíneo AB, que al producir los dos antígenos A y B, no producen anticuerpos contra ninguno de ellos. Por ende, pueden recibir cualquier tipo de sangre y a su vez, ser los más susceptibles de recibir viriones de cualquier tipo; pues el virión burla esta primera respuesta inmune. 
+
+La principal evidencia de la presencia de los grupos ABO en la proteína Spike de tanto de SARS-CoV-2 yace en estudios estructurales, en los que se ha caracterizado el rol anti-inmune de los glúcidos en la proteína Spike del SARS-CoV-2 (@casalino2020beyond). Pero este no fue el caso para los autores del primer estudio, empleando el virus afín SARS-CoV-1 (@guillon2008inhibition), a la conclusión de que la proteína Spike de SARS-CoV-1 presentaba glicosilaciones tipo ABO se llegó a travez de un fantástico diseño experimental ([Figura 4](#exdesgin)), mediante análisis de citometría de flujo y microscopia confocal: 
+
+<center>
+```{r exdesgin, echo=FALSE, fig.cap='Diseño experimental de Guillon P. et al. @guillon2008inhibition. Quienes generaron células CHO, es decir que no expresan ni el antígeno A, ní la proteína Spike (cuadro superior izquierdo o mock); otro grupo de células capaces de expresar la proteína Spike (Fut2/SP). Células CHO capaces de expresar el antígeno A (Fut2/A) y células capaces de expresar tanto el antígeno A como la proteína Spike (Fut2/A/SP). Mediante análisis de microscopia confocal Guillon P. et al. @guillon2008inhibition evidenciaron que la proteína Spike (quimérica con la proteína verde fluorescente GFP) localiza en la membrana de las células CHO. Al igual que el antígeno A (detectado mediante anticuerpos anti-A), al sobrelapar ambas imágenes se hallá que las dos señales ópticas co-localizan. Empleando los anticuerpos anti-A y mediante un ensayo de adherencia célula-célula,usando tanto células CHO (Fut2/A/SP) como células Vero con expresión de ACE, evaluaron el efecto en la interacción de un anticuerpo  contra el antígeno A, suministrado en diferentes dosis, empleando como control negativo a un anticuerpo irreleavante (IgG). Imagenes tomadas y modificadas de @guillon2008inhibition', out.width='100%'}
+knitr::include_graphics('figures/sarscov1abo.png', dpi = NA)
+```
+</center>
+
+--------------------
+## Escala poblacional del modelo IDP-ABO {#poblamod}
+
+Con los ensayos de co-localización e interacción se evidenció, no solo que la proteína Spike presenta las mismas glicosilaciones que puede reconocer un anticuerpo anti-A, sino también demostraron que estas glicosilaciones son necesarias para que se dé la unión entre Spike al receptor ACE2. Al tratar las células que presentaban la proteína Spike glicosilada con diferentes dosis de anticuerpo A, redujeron drásticamene y de manera dosis dependiente el número de interacciones entre células con receptores ACE y células con proteína Spike. Con esto encontraron la relación inversa esperada: cuanta más alta la concentración del anticuerpo A, menor es el número de células adherentes por interacción directa. 
+
+De lo anterior se concluye que los viriones de SARS-CoV-1 están glicosilados con el sistema de antígenos ABO, y por ende estan sujetos a las reglas inmunológicas de la transfusión sanguínea. Pero ¿qué tiene el antígeno A que no tiene el antígeno B?, ¿Por qué no son igualmente susceptibles?. De ser correcto el modelo IDP-ABO, no hay nada especial en el antígeno A o B. Es la presencia constitutiva de antígeno A, B o AB; lo que confiere susceptibilidad al mismo antígeno, pero dispuesto en las proteínas y membranas de los viriones. Mientras que, la ausencia de antígeno de quienes son tipo “O”, confiere una barrera innata frente a viriones que presentan el antígeno A, B o AB. Esto permite escalar el modelo a nivel poblacional y palntear que hay una tasa de transmisión diferencial de los virus SARS-CoV-1 en función del grupo sanguíneo del huésped. 
+
+Esta maravillosa hipótesis también fue planteada y evaluada por Guillon P. et al. @guillon2008inhibition, para ello cuantificaron los dos índices (β1 transmisión sin barrera y β2 transmisión con barrera), para evaluar mediante un modelo estadístico si β1 > β2, o al contrario, como hipótesis nula β1= β2. El estudio se desarrollaría con datos de la población de Hong Kong, con los que predijeron como estas dos tasas de transmisión, empleando tres escenarios de protección inferidos a traves de los datos de contagio y severidad segrados según el grupo sanguíneo de la persona hospitalizada. Con esos datos y suposiciones, los autores generaron mejores curvas epidemiológicas que las generadas usando la hipótesis nula, es decur considerando una tasa exclusiva de transmisión ([Figura 5](#curvas)).
+
+<center>
+```{r curvas, echo=FALSE, fig.cap='Guillon P. et al. (2008) empleando las frecuencias de los grupos sanguíneos de Hong Kong, discriminaron el valor de transmisión por grupo sanguíneo @guillon2008inhibition. Encontrando dos comportamientos significativamente diferentes, donde siendo β1 la tasa de transmitión sin barrera y β2 la tasa de transmisión con barrera, β1 > β2 . Empleando estos dos factores y los datos de la población de Hong Kong, asumiendo tres escenarios de protección asociada a los grupos sanguíneos, generaron como resultado modelos que se acercaban más a las curvas con datos reales, que las predicciones de aquellos modelos que consideraban una única tasa de transmisión,  β1 = β2. Imagenes tomadas y odificadas de @guillon2008inhibition', out.width='100%'}
+knitr::include_graphics('figures/abocurves.png', dpi = NA)
+```
+</center>
+
+--------------------
+## Extensión del modelo a SARS-CoV-2 {#modeSARSCoV2}
+
+Ahora el grupo sanguíneo A es más susceptible en los primeros análisis publicados @breiman2020harnessing simplemente porque la población base del estudio, probablemente presenta un mayor número de individuos con dicho genotipo. De hecho, en la mayoría de los países en donde se ha hecho este análisis, el grupo A es más frecuente con respecto a B y AB. Al igual que el grupo sanguíneo O no significa que presente una mayor inmunidad intrínseca. Ya que, si una persona de tipo sanguíneo O contrae el virus, producirá viriones tipo O y por ende, los viriones libreados burlaran cualquier barrera inmune innata contra los antígenos ABO.
+
+La ventaja inmunitaria del grupo O es relativa a las freceuncais genotípocas de la población. De allí que quienes presenten dicho genotipo en lugares donde la frecuencia de los demás grupos sanguíneos es alta, dicha persona contará con esta protección. De esta forma las frecuencias genotípicas son un componente esencial del modelo IDP-ABO; el cual predice que las poblaciones que cuenten con una frecuencia genotípica balanceada de los 4 grupos (es decir que los 4 grupos estén con una frecuencia mayor al 10%), presentarán menor tasa de transmisión, de manera inetresante, aquellos países son mayoritariamente Africanos y Asiáticos (ver frecuencias de Sur Corea en la [figura 2](#IDPABO) y [figura 6](#aboworld). Mientras que aquellos lugares donde la diversidad genotípica es menor o donde hay desbalances de frecuencias como en EE.UU. ([Figura 6](#aboworld) y frecuencias de USA en la [Figura 2](#IDPABO)), Ecuador y en general Europa Occidental, presentan tasas de transmisión mayores dada por la dominancia o imbalance poblacional de los grupos sanguíneos O y A respectivamente.
+
+<center>
+
+```{r aboworld, echo=FALSE, fig.cap='Distribución y polimorfismo de la frecuencia de los alelos $i^A$, $i^B$ y $i^O$, más no la frecuencia genotípica AB, A, B y O a nivel mundial. Aquellos lugares que en el mundo presentan una alta concentración de un único alelo aumentarán los genotipos más homocigotos (color azul, rojo en los extremos superiores; amarillo y blanco extremos inferiores). Mientras que la presencia equilibrada de los 3 alelos aumentaría las frecuencias genotípicas Heterocigotas (colores del medio naranja y rojo claro).. Imagén tomada y modificada de @ABOworld', out.width='100%'}
+knitr::include_graphics('figures/abo_pop.png', dpi = NA)
+```
+</center>
+
+La información de la frecuencia alélica permite observar indirectamente la diversidad poblacional (a nivel de polimorfismo alélico), no obstante, dado a que la reproducción en las poblaciones humanas es no aleatoria, más bien basada en el modelo de reproducción selectiva (o assortative mating en ingles), para tener una idea de protección poblacional asociada a la diversidad genotípica, se tomaron los datos de 34 poblaciones humanas recolectadas a partir de distintos bancos de sangre de las poblaciones ilustradas (@Wikipediablood). La tabla es interactiva, así que busca tu país (puede que no esté):  
+
+```{r, csv2md, eval=TRUE, include=FALSE}
+#in vim s/\%u200b//  
+my_packages <-  c("reactable", "stringr")
+not_installed <- my_packages[!(my_packages %in% installed.packages()[ , "Package"])] 
+if(length(not_installed)) install.packages(not_installed, repos='http://cran.us.r-project.org')
+
+abofreq <- read.csv("figures/ABO_frecuencias.csv", header = TRUE, sep = ",", dec = ".",
+                         comment.char = "", strip.white = TRUE,
+                         stringsAsFactors = TRUE, encoding="UTF-8")
+# R to Rmarkdown conversion 
+# https://stackoverflow.com/questions/41690802/convert-csv-file-contents-to-markdown
+library(stringr , quietly = T)
+colnames(abofreq) <- str_replace_all(colnames(abofreq),colnames(abofreq), c("País","Población","O+","A+","B+","AB+","O-","A-","B-","AB-"))
+
+abofreq$Población <- formatC(abofreq$Población, format="f", big.mark = ",", digits=0)
+dashes <- paste(rep("---", ncol(abofreq)), collapse = "|")
+# conversion whitout reactable function 
+#abofreqRM <- capture.output(
+ # write.table(abofreq, stdout(), quote = FALSE, sep = "|", row.names = FALSE))
+#abofreqRMout <- sprintf("|%s|", c(abofreqRM[1], dashes, abofreqRM[-1]))
+library(reactable, quietly = "T")
+```
+
+```{r, csv2md , eval=TRUE, include=TRUE}
+reactable(abofreq , defaultPageSize = 5, minRows = 5, searchable = TRUE)
+#more of reactable https://glin.github.io/reactable/articles/examples.html#searching 
+```
+
+--------------------
+## ¿Qué ocurre en África? {#africa}
+
+Para el primer año de la pandemia, y al alcanzar el primer millón de defunciones (con soporte de evidencia por o con COVID-19). Para el continente Africano, la situación vivida no fue tan crítica como la de Europa o América, lo que representó una sorpresa para muchos, como lo han hecho explicito algunos medios de prensa ([Figura ](#excessdeath) @Wu_McCann_Katz_Peltier_Singh_2020 y @Viglione_2020). 
+
+La primera explicación contemplada es que dada la condición generalizada de altos niveles de pobreza del continente africano, se ha  subregistrado la letalidad considerablemente. Pero este no es el caso, el número de pruebas realizadas en Sudáfrica lo ubicaba en el puesto 17 de los países con el mayor número de pruebas de detección realizadas para finales del año 2020 (@Wu_McCann_Katz_Peltier_Singh_2020). Además, Sudáfrica fue uno de los de los pocos países que reportaron un patrón atípico en el número de excesos de muertes (desviación del número de muertos del 2020 frente al promedio de años anteriores) durante la cuarentena (@Wu_McCann_Katz_Peltier_Singh_2020, @Viglione_2020), en la [figura 6](#excessdeath) se observa que durante en vez de aumentar la mortalidad, esta se redujo para el 2020; es decir la cuarentena en Sudáfrica disminuyó las muertes asociadas con accidentes de tráfico entre otras causas ([Figura 6](#excessdeath)). 
+
+<center>
+```{r excessdeath, echo=FALSE, fig.cap='En la sección superior se ilustra el número de muertos por covid reportados por continente, para el periodo en el que se alcanzó el primer millón de muertos -Sep 2020-. En la sección inferior se ilsutra el número de excesos de muertes (desviación del número de muertos del 2020 frente al promedio de años anteriores) en Sudáfrica. Este panel reportó un valor atípico, el número de excesos de muertes durante la cuarentena fue inferior, es decir el número de decesos para el 2020 disminuyó. Probablemente la cuarentena previnó las muertes asociadas con accidentes de tráfico entre otros factores. Imagén tomada y modificada de @Wu_McCann_Katz_Peltier_Singh_2020 y @Viglione_2020', out.width='100%'}
+knitr::include_graphics('figures/deaths.png', dpi = NA)
+```
+</center>
+
+Posterior a este análisis de la información disponible, estudios subsecuentes sostienen la relevancia de la hipótesis IDP-ABO en relación a la baja mortalidad por COVID-19 en África, (@wamai2021could): 
+
+> "... Un estudio GWAS (región (3p21.31) mostró que el grupo sanguíneo ABO "A", tiene el mayor riesgo de insuficiencia respiratoria asociada a COVID-19, mientras que el grupo O tiene el menor riesgo. Los estudios han demostrado que las poblaciones africanas tienen una proporción particularmente alta de grupo O, casi el 50%, que es más alta que en las poblaciones blancas y asiáticas. Es posible que esta mayor prevalencia de O pueda estar confiriendo un mayor efecto protector en las poblaciones africanas en comparación con otros grupos con menor prevalencia de O; sin embargo, ningún estudio ha llegado a esta conclusión. Si bien esta hipótesis se ve en cierto modo cuestionada por la carga particularmente pesada de COVID-19 a la que se enfrentan los afroamericanos en los EE.UU. Con los que probablemente compartirían algunas o la mayoría de estas ventajas genéticas. No obstante, en los afroamericanos se observan niveles más elevados de Enfermedades no transmisibles que en las poblaciones africanas continentales, lo que podría ayudar a explicar esta discrepancia junto con otros factores socioeconómicos y culturales adversos" (@wamai2021could).
+
+Notése la omisión a la dependencia poblacional e incluso el énfasis aún en la susceptibilidad del grupo A. En conclusión, al igual que muchos otros maravillosos fenómenos de la biología, la diversidad genotípoca y fenotípica importa y confiere a las poblaciones biológicas resistencia a retos evolutivos como las infecciones virales.
+
+--------------------
+## Grupo sanguineo frente a otros virus  {#nosarsco2}
+
+El grupo del doctor Eduardo Muniz-Diaz @yamamoto2020blood considera que esta hipótesis explica también la mayor susceptibilidad en pacientes adultos mayores y con predisposiciones de tipo cardiovascular, o asociados a desordenes metabólicos, como diabetes y obesidad, esto sustentando en el vínculo del grupo sanguíneo y el factor vWF. Adicionalmente, además de la adición de estudios sobre el grupo sanguíneo Rh, responsable en las mujeres embarazadas en una segunda instancia, del rechazo inmunológico de neonatos con Rh diferente al materno, serán temas que se abordaran en esta sección en una ocasión posterior. Incluyendo hipótesis y modelos adicionales con los que se evalúa el comportamiento del grupo sanguíneo ABO frente a otros virus,
+
+<!-- 
+El concepto de membranoma y la epigenética viral.
+
+Existen varias interpretaciones sobre qué es la epigenética, muchas de ellas se refieren a los fenómenos heredables que regulan la expresión del ADN y no están en últimas codificados por el ADN. Sin embargo, el padre de la epigenética, Conrad Waddington, fue  mucho más amplio: 
+" (El conjunto de) interacciones dinámicas entre el entorno de desarrollo y el genoma que llevan a la producción del fenotipo" 
+En esta concepción amplia yace el entendimiento de la herencia y manutención de la membrana, no solo de los organismos celulares, sino de aquellos nano-organismos envueltos. La cuál no se encuentra codificada en el genoma.  Pero a diferencia de las células, para los virus la membrana deriva del hospedero que infectan, por lo que, independiente del genotipo, la membrana del hospedero establece una serie de restricciones, es decir, la membrana es un epigenotipo que restringe o favorece el desarrollo del programa genético de los virus. 
+Por ejemplo, la membrana como característica no-genética heredable es de suma importancia en relación con el grupo sanguíneo. Aquellas personas infectadas por un coronavirus con antígenos del grupo sanguíneo AB, infectarán con mayor éxito solo a aquellos que no presenten anticuerpos contra este antígeno, es decir, a otros AB. 
 
 https://www.facebook.com/BioViral/posts/288078113319505
 
-https://www.facebook.com/permalink.php?story_fbid=192190539172435&id=107088044349352
+--> 
