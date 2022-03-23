@@ -71,7 +71,7 @@ Todos estas anomalidades llevaron en el 2008 a varios autores a cuestionar la de
 Esquemáticamente, dado el carácter obligado del parasitismo viral, la filogenia de los organismos codificadores de capside representarían un árbol especular o reflejo al árbol de los organismos ribocelulares @raoult2008redefining:
 
 <center>
-```{r capsideencode, echo=FALSE, fig.cap='Representación de los dos imperios de la vida, organismso codificantes de ribosomas frente a los organismos codificantes de cápsides. Así como los tres dominios de la vida han evolucionado a partir un ancestro común universal. Los tres dominios tienen ribosomas, pero carecen de cápside. No obstante, varos grupos de virus infectivos de cada dominio codifican cápsides, pero no ribosomas. Tomado y modificado de @raoult2008redefining', out.width='80%'}
+```{r capsideencode, echo=FALSE, fig.cap='Representación de los dos imperios de la vida, organismso codificantes de ribosomas frente a los organismos codificantes de cápsides. Así como los tres dominios de la vida han evolucionado a partir un ancestro común universal. Los tres dominios tienen ribosomas, pero carecen de cápside. No obstante, varos grupos de virus infectivos de cada dominio codifican cápsides, pero no ribosomas. Tomado y modificado de @raoult2008redefining', out.width='60%'}
 knitr::include_graphics('figures/capsideenco.PNG', dpi = NA)
 ```
 </center>
@@ -87,7 +87,7 @@ En resumen, y en términos concluyentes, sobre la evolución de Mmivirus, Brande
 
 Así mimivirus presenta un origen no celular, pero ha alimentado su genoma con genes de diversas fuentes a través de HGT, gráficamente se puede observar los patrones filogenéticos distribuidos a lo largo de los tres dominions de la vida celular, empleando para ello tan solo el análisis filogenético de al menos 5 genes de Mimivirus @moreira2008giant: 
 <center>
-```{r chimera, echo=FALSE, fig.cap='Representación de los dos imperios de la vida, organismso codificantes de ribosomas frente a los organismos codificantes de cápsides. Así como los tres dominios de la vida han evolucionado a partir un ancestro común universal. Los tres dominios tienen ribosomas, pero carecen de cápside. No obstante, varos grupos de virus infectivos de cada dominio codifican cápsides, pero no ribosomas. Tomado y modificado de @moreira2008giant', out.width='100%'}
+```{r chimera, echo=FALSE, fig.cap='Empleando 5 genes de Mimivirus (resaltados en amarillos), rastreando la evolución génica de cada gen, los genes más cercanos presentan historias tan dispares como MIMI_R141, de origen euglenozoo; el gen MIMI_R877 y MIMI_L498 derivado de los protozooarios Conosa; finalmente los genes MIMI_L254 y MIMI_L393 con origen bacteriano. Como ejemplos, la gran parte de los genes de Mimivirus se distribuyen entre los eucariotas y bacterias, o al lianaje previo a la diversificación entre estos, es decir comunes a LUCA. Sin embargo, este método está restringido a genes con homología. Tomado y modificado de @moreira2008giant', out.width='140%'}
 knitr::include_graphics('figures/chimera.png', dpi = NA)
 ```
 </center>
