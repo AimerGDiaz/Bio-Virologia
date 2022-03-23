@@ -1,0 +1,96 @@
+# La revolución de los virus gigantes {#mimivirus}
+
+La revolución aún en curso de los virus gigantes empezó con un descubrimiento sin precedentes. En 2003, el virólogo frances Bernard La Scola se encontraba estudiando muestras de agua donde había amebas eucariotas de la especie *Acanthamoeba polyphaga*, infectadas por un patógeno de gran tamaño, previamente clasificado en 1992 como una bacteria cocoliforme, sin clasificar a nivel de especie, pero con evidencia  bioquímica que la posicionaba como gram positiva, de allí que de le desginó el nombre *Bradfordcoccus sp.* @claverie2009mimivirus. 
+
+Más de 10 años después, mediante análisis micrsocópicos más detallados, Bernard se encontró con la sorpresa de que esa bacteria en realidad era ¡un virus!. El primer virus visible bajo microscopio óptico, y el primero en dar positivo a un test de tinción de gram ([Figura 1](#mimivirgram)). La Scola lo llamó *Acanthamoeba polyphaga mimivirus*, por ser un “mimo” o imitación de la apariencia de una bacteria @scola2003giant. De hecho, La Scola para dimensionar la relevancia de sus hallazgos fotografió un virión de *Mimivirus* junto a un ejemplar de la bacteria *Ureaplasma urealyticum*: 
+
+<center>
+```{r mimivirgram, echo=FALSE, fig.cap='(A) Virión de *Mimivirus* (indacod con flechas) en *A. polyphaga* citocentrifugado como partículas Gram-positivas. (B) Microscopía electrónica de *Mimivirus* y *U. urealyticum.* (C) Árbol filogenético a partir del alineamiento de las secuencias de la subunidad pequeña de la ribonucleótido reductasa. Se obtienen árboles similares con las subunidades grandes de la ribonucleótido reductasa y la topoisomerasa 2. Tomado de La Scola @scola2003giant.', out.width='70%'}
+knitr::include_graphics('figures/grampositive.jpeg', dpi = NA)
+```
+</center>
+
+--------------------
+## El primer virus gigante descubierto {#primergigavir}
+
+*Mimivirus* fue el primer virus gigante de la familia Mimiviridae. Y cambió el rumbo de la virología porque tiene muchas características inusuales, como una cápside pseudo-icosaédrica que presenta una forma de estrella de mar en uno de sus vértices, a través de la cual se libera el ADN de doble cadena, el cual es uno de los genomas más grandes que existen en virus, llegando a tener 1.2 millones de pares de bases, mayor que el de algunas bacterias incluso. También tiene una densa capa fibrilar de glicoproteína que cubre la cápside, y es capaz de teñir ante tinción de gram. Su función se piensa que está relacionada a la adherencia a glicanos presentes en su ambiente, ya sea glicanos de bacterias u otros mimivirus @colson2017mimivirus.  
+
+<center>
+![vid1](./figures/Virus_gigantes.mp4){width="80%"}.
+
+Fragmento del documental "The Virus Hunter", traducido por la cadena televisiva española Oasis @VirusHunt, Video completo disponible en [YouTube](https://www.youtube.com/watch?v=yGOLf9EDYsk).
+
+</center>
+
+A manera de referencia, los autores @moreira2008giant que proponen como explicación el modelo de robo de genes como mecanismo causante del gigantismo actual de los virus gigantes, y a su vez, como evidencia de origen de estos virus como genes celulares escapados, presenta como ventaja que explica como en la evolución de estos nano-organismos se ha aumentando el tamaño del genoma de estos virus. Ya que, los virus ancestrales de todo el grupo comparten un conjunto básico de unos 40 genes que codifican proteínas clave necesarias para la formación de la estructura del virión y su replicación, ([Figura 1](#mimivirgram)), Por lo que consideran: 
+
+> "La mayoría de los genes del Mimivirus con homólogos en los organismos celulares parecen haber sido adquiridos por transferencia genética horizontal del virus. Esto apoya firmemente que Mimivirus no define un nuevo dominio de la vida. El Mimivirus ciertamente adquirió la mayoría de estos genes ya sea de sus huéspedes eucarióticos o de otros parásitos que coexisten en el mismo huésped. En ese sentido, este virus parece haber seguido una estrategia similar a la de otros parásitos para interferir en los procesos celulares del huésped a través de la modificación y expresión de los genes adquiridos del huésped por la transferencia genética horizontal. Nuestros datos también sugieren que los huéspedes primarios de los Mimivirus son los Amebozoos, ya que la mayoría de los ORFs mimivirales de origen eucariótico, con una filogenia resuelta, están estrechamente relacionados con los homólogos de este grupo. No obstante, detectamos transferencia genética horizontal de supuestos huéspedes alternativos, como la heterolobosea (p. ej., Naegleria) y las cintoplásticas". @moreira2008giant
+
+> "A pesar de que los Mimivirus parecen tener la capacidad de infectar también a los humanos, identificamos sólo un caso de una probable adquisición de genes de animales, las glicosiltransferasas MIMI_L230 y MIMI_R699. 
+Este pequeño número sugiere que la infección humana recientemente notificada por este virus puede ser un acontecimiento relativamente raro o muy reciente". @moreira2008giant
+
+--------------------
+## Ciclo de vida {#lifeciclemim}
+
+Los estudios ampliados de los virus gigantes de las amebas revelaron que tienen complejidades genéticas, proteómicas y estructurales que no se creía que existieran entre los virus y que son comparables a las de las bacterias, las arqueas y los pequeños eucariotas. Las partículas de virus gigantes contienen ARNs mensajeros, capaces de traducir más de 100 proteínas. Tienen repertorios genéticos más amplios que los de otros virus y, en particular, algunos codifican componentes de la maquinaria de traducción, como 6 genes de tRNAs (fenómeno difícil de hallar en otros virus dsDNA) y Aminoacil tRNA sintetasas @colson2017mimivirus. Los ciclos de infección de los virus gigantes de las amebas implican la entrada de virus por fagocitosis amebiana y la replicación en fábricas virales ([Figura 2](#mimilife)).
+
+<center>
+```{r mimilife, echo=FALSE, fig.cap='Esquema del ciclo de replicación del mimivirus *Acanthamoeba polyphaga (APMV)*. Las partículas del virus pueden verse en la superficie de una ameba *Acanthamoeba sp.* en la primera fase del ciclo. Tras la entrada del virus a través de la fagocitosis, comienza la fase de eclipse y la liberación del genoma del APMV en el citoplasma de la ameba, sembrando las fábricas virales, que aparece en un lugar diferente al del núcleo celular. A partir de ∼8 h post-infección, el ensamblaje de las partículas de virus puede verse en la periferia de la fábrica de virus. La lisis amebiana se produce ∼12 h después de la infección. Tomado y modificado de @colson2017mimivirus.', out.width='100%'}
+knitr::include_graphics('figures/mimilife.PNG', dpi = NA)
+```
+</center>
+
+-------------------- 
+## Un virus con sistema inmune anti-viral {#mimivire}
+
+Un aspecto revolucionario adicional de los *Mimivirus* fue el descubrimiento de que son susceptibles a la infección de otros virus, ahora denominados virófagos, contra los que los mimivirus se defienden mediante el sistema de resistencia de los virófagos mimivirus **(MIMIVIRE)**, que por si fuera poco está asociado genómicamente a la isla de elementos transponibles que consituyen el excepcional moviloma de mimivirus @colson2017mimivirus..
+
+El genoma del APMV contiene cuatro grupos principales de genes, incluidos los genes centrales que se comparten con los poxvirus, ascovirus, iridovirus, asfarvirus, ficodnavirus y otros virus gigantes de las amebas ([Figura 1](#mimivirgram)), así como grandes conjuntos de genes transferidos horizontalmente, genes parálogos (o genes que intervinieron en grandes eventos de duplicación del genoma) y genes huérfanos (también conocidos como genes ORFan), en el sentido de que las proteínas que producen carecen una anotación funcional, e incluso en ocasiones no están asociadas filogenéticamente a ninguna otra especie de organismo celular @colson2017mimivirus. 
+
+<center>
+```{r mimivirusUniq, echo=FALSE, fig.cap='Principales características estructurales de los viriones de mimivirus Acanthamoeba polyphaga (APMV). Las flechas negras relacionan el APMV con las principales características del repertorio de genes y el contenido de ácidos nucleicos del APMV, incluidos su moviloma y sus ARNm, que se muestran en recuadros grises. La flecha roja indica que los virófagos pueden infectar fábricas de mimivirus. El signo menos señala al elemento de resistencia a los virófagos de los mimivirus (MIMIVIRE). * Las definiciones de los genes y sus funciones son putativas, así como su relación con otros genes virales. ‡ Corresponde a genes de mimivirus, cuya coincidencia más cercana en la base de datos de secuencias de proteínas del NCBI GenBank es de un virus que no pertenece a la familia Mimiviridae (excepto los mimivirus distantes). || Se indican las proporciones máximas y mínimas de los genes que se infiere que están implicados en la transferencia lateral. NCLDV, virus de ADN grande nucleocitoplásmico; VLTF2, factor de transcripción tardía viral 2. Tomado y modificado de @colson2017mimivirus.', out.width='100%'}
+knitr::include_graphics('figures/mimivirusUniq.png', dpi = NA)
+```
+</center>
+
+-------------------- 
+## Repercursiones de los virus gigantes {#repercusiones}
+
+**¿Gigantismo por robo de genes, escape celular o legado de una forma de vida aún por descubrir?** 
+
+Tal y como se comentó en el pequeño [documental adjunto previamente](#mimivirus), existen genes que carecen de homología con respecto a los genes ya anotados disponibles. CUyo porigen permite considerar como más probable un origen independiente a los organismos huéspedes. En Mimivirus se estima que sus genes huérfanos representan el 3% del contenido genético previsto, y la proporción de proteínas codificadas como huérfanas es también muy alta (40%) en las partículas de APMV19. El genoma del APMV también contiene promotores de genes tempranos y tardíos, y los ARNm se expresan como transcritos poliadenilados que suelen terminar con secuencias palindrómicas cortas capaces de formar estructuras similares a las horquillas del pelo. Se describieron eventos de recodificación del código genético, es decir mimivirus no emplea para la traducción el código estándar @jeudy2012translation. En especial con diversos cambios en la codificación de los factores de terminación de la traducción, que son exclusivos para el genoma del APMV @jeudy2012translation. 
+
+Por si fuera poco, el genoma de Mimivirus presenta adicionalmente genes con splicing alternativo, tanto a nivel de ARN como proteína, es decir los genes expresan mRNAs con intrones, que pueden ser traducidos en proteínas con inteínas, fragmentos de residuos que son eliminados de la proteína final madura. Aunque esto último ocurre en unos pocos genes conservados, incluidos los que codifican la proteína de la cápside mayor y la ADN polimerasa @colson2017mimivirus.
+
+Todos estas anomalidades llevaron en el 2008 a varios autores a cuestionar la definición de virus, su exclusión como organismos, proponiendo cambiar este ecesarion teniendo en cuenta nuevas características:
+
+> "Sugerimos que todos los organismos celulares pueden definirse adecuadamente como organismos codificadores del ribosoma (OCR), en contraposición a los virus. Curiosamente, en contraste con la opinión que defiende Lwoff, las mitocondrias y los cloroplastos se clasificarían como reovirus basados en esta definición (en lugar de como orgánulos celulares) porque contienen su propio aparato de traducción. En efecto, no hay una diferencia clara, ni morfológica ni genética, entre las mitocondrias, los simbiontes y las bacterias intracelulares como *Candidatus Carsonella spp.* y *Rickettsia spp.*"
+(…)
+"Proponemos redefinir los virus como **organismos** codificantes de cápside que están compuestos de proteínas y ácidos nucleicos que se autoensamblan en una nucleocápside, no se multiplican por fisión binaria y utilizan un organismo codificador de ribosoma para la síntesis de sus proteínas y la producción de la energía y las moléculas precursoras que se requieren para su ciclo de vida" @raoult2008redefining".
+
+Esquemáticamente, dado el carácter obligado del parasitismo viral, la filogenia de los organismos codificadores de capside representarían un árbol especular o reflejo al árbol de los organismos ribocelulares @raoult2008redefining:
+
+<center>
+```{r capsideencode, echo=FALSE, fig.cap='Representación de los dos imperios de la vida, organismso codificantes de ribosomas frente a los organismos codificantes de cápsides. Así como los tres dominios de la vida han evolucionado a partir un ancestro común universal. Los tres dominios tienen ribosomas, pero carecen de cápside. No obstante, varos grupos de virus infectivos de cada dominio codifican cápsides, pero no ribosomas. Tomado y modificado de @raoult2008redefining', out.width='80%'}
+knitr::include_graphics('figures/capsideenco.PNG', dpi = NA)
+```
+</center>
+
+-------------------- 
+## Origen viral e influencia celular {#mimihgt}
+
+En resumen, y en términos concluyentes, sobre la evolución de Mmivirus, Brandes, N. y Linial M. concluyen para el 2019 @brandes2019giant, que:
+
+> "Se han propuesto dos modelos para la evolución de los virus gigantes. Según el modelo reductivo, un genoma celular ancestral se redujo en tamaño, lo que llevó a la dependencia del genoma resultante de las células huéspedes. La presencia de genes portadores de funciones celulares en casi todos los virus gigantes (por ejemplo, los componentes de traducción) es coherente con este modelo. Una teoría alternativa y más aceptada aboga por un modelo de expansión. Según este modelo, los actuales virus gigantes se originaron a partir de virus ancestrales más pequeños que portaban sólo unas pocas docenas de genes, y a través de las duplicaciones de genes y la transferencia horizontal de genes (HGT), se han expandido y diversificado rápidamente". @brandes2019giant
+
+> "Este modelo concuerda con los estudios de metagenómica y la oleada de descubrimientos de virus gigantes en los últimos años, que sugieren un intercambio masivo de genes entre los virus gigantes y una variedad de organismos que comparten los mismos ecosistemas (por ejemplo, la referencia). La mayoría de los genes de los virus gigantes, y específicamente los Mimiviridae, se han originado en las células que parasitan (principalmente amebas y bacterias). Basándose en los árboles filogenéticos, es probable que los extensos eventos de HGT hayan llevado a sus genomas al estado quimérico". @brandes2019giant
+
+Así mimivirus presenta un origen no celular, pero ha alimentado su genoma con genes de diversas fuentes a través de HGT, gráficamente se puede observar los patrones filogenéticos distribuidos a lo largo de los tres dominions de la vida celular, empleando para ello tan solo el análisis filogenético de al menos 5 genes de Mimivirus @moreira2008giant: 
+<center>
+```{r chimera, echo=FALSE, fig.cap='Representación de los dos imperios de la vida, organismso codificantes de ribosomas frente a los organismos codificantes de cápsides. Así como los tres dominios de la vida han evolucionado a partir un ancestro común universal. Los tres dominios tienen ribosomas, pero carecen de cápside. No obstante, varos grupos de virus infectivos de cada dominio codifican cápsides, pero no ribosomas. Tomado y modificado de @moreira2008giant', out.width='100%'}
+knitr::include_graphics('figures/chimera.png', dpi = NA)
+```
+</center>
+
+<!-- La Scola evolutionary impact https://www.sciencedirect.com/science/article/pii/S0168170205002376?via%3Dihub#fig5 
+Host range https://www.sciencedirect.com/science/article/pii/S002220110900086X?via%3Dihub#fig2 -->

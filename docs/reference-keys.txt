@@ -63,3 +63,14 @@ poblamod
 modeSARSCoV2
 africa
 nosarsco2
+fig:mimivirgram
+fig:mimilife
+fig:mimivirusUniq
+mimivirus
+lifeciclemim
+mimivire
+repercusiones
+primergigavir
+fig:capsideencode
+fig:chimera
+mimihgt
