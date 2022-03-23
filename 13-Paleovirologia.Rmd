@@ -51,7 +51,8 @@ knitr::include_graphics('figures/VHS3.png', dpi = NA)
 A manera de comparación, adjuntamos el video suplementario de la más reciente genealogía humana (@kolb2013using y @@wohns2022unified).  Nótese que en ambos estudios se evidencia como origen único de todas las poblaciones humanas el este de áfrica, según el análisis de genomas humanos, hace unos 2 millones de años aproximadamente (80 mil generaciones). Mientras qué, este mismo hecho se evidencia en el tiempo estimado de divergencia de HSV-1 de HSV-2 es de 2.18 (±0.753) millones de años. 
 
 <center>
-![humances](https://youtu.be/s9TsJA9nyHc){width="80%"}
+[![](http://img.youtube.com/vi/s9TsJA9nyHc/1.jpg)](http://www.youtube.com/watch?v=s9TsJA9nyHc){width="100%"}
+
 <!--(./figures/HumanMig.mp4){width="80%"}.-->
 
 Localización estimada de los ancestros genéticos humanos: Una genealogía unificada de los genomas modernos y antiguos, tomado de @wohns2022unified
