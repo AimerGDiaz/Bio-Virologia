@@ -52,8 +52,78 @@
 
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/core-js-2.5.3/shim.min.js"></script>
+<script src="libs/react-17.0.0/react.min.js"></script>
+<script src="libs/react-17.0.0/react-dom.min.js"></script>
+<script src="libs/reactwidget-1.0.0/react-tools.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="libs/reactable-binding-0.2.3/reactable.js"></script>
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
@@ -141,6 +211,17 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="8.1" data-path="panosin.html"><a href="panosin.html"><i class="fa fa-check"></i><b>8.1</b> ¿Pandemia o Sindemia de COVID-19?</a></li>
 </ul></li>
+<li class="chapter" data-level="9" data-path="aboySC2.html"><a href="aboySC2.html"><i class="fa fa-check"></i><b>9</b> Sistema de grupos sanguineo ABO y enfermedades virales</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="resumen-gráfico-del-modelo-idp-abo.html"><a href="resumen-gráfico-del-modelo-idp-abo.html"><i class="fa fa-check"></i><b>9.1</b> Resumen gráfico del Modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.2" data-path="QRABO.html"><a href="QRABO.html"><i class="fa fa-check"></i><b>9.2</b> Revisión animada del Modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.3" data-path="basesmod.html"><a href="basesmod.html"><i class="fa fa-check"></i><b>9.3</b> Bases del modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.4" data-path="evidencias.html"><a href="evidencias.html"><i class="fa fa-check"></i><b>9.4</b> Evidencias del modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.5" data-path="poblamod.html"><a href="poblamod.html"><i class="fa fa-check"></i><b>9.5</b> Escala poblacional del modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.6" data-path="modeSARSCoV2.html"><a href="modeSARSCoV2.html"><i class="fa fa-check"></i><b>9.6</b> Extensión del modelo a SARS-CoV-2</a></li>
+<li class="chapter" data-level="9.7" data-path="africa.html"><a href="africa.html"><i class="fa fa-check"></i><b>9.7</b> ¿Qué ocurre en África?</a></li>
+<li class="chapter" data-level="9.8" data-path="nosarsco2.html"><a href="nosarsco2.html"><i class="fa fa-check"></i><b>9.8</b> Grupo sanguineo frente a otros virus</a></li>
+</ul></li>
 <li class="chapter" data-level="" data-path="referencias.html"><a href="referencias.html"><i class="fa fa-check"></i>Referencias</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -169,34 +250,34 @@ div.csl-indent {
 <div class="figure"><span style="display:block;" id="fig:smbvmirnas"></span>
 <img src="figures/Polydna3.png" alt="Se ha demostrado que  *Snellenius manilae bracovirus* (SmBV) posee 2 miRNAs involucrados en inhibir la respuesta inmune del hospedero de la avispa, la Larva de *S. litura*, ya que, con la inhibición de estos 2 miRNAs se restaura la actividad de encapsulación y fagocitosis de los hemocitos de la larva hospedera, favoreciendo la eliminación de los huevos de la avispa parasitaria. Toamdo de @tang2021micrornas" width="80%" />
 <p class="caption">
-Figura 3.3: Se ha demostrado que <em>Snellenius manilae bracovirus</em> (SmBV) posee 2 miRNAs involucrados en inhibir la respuesta inmune del hospedero de la avispa, la Larva de <em>S. litura</em>, ya que, con la inhibición de estos 2 miRNAs se restaura la actividad de encapsulación y fagocitosis de los hemocitos de la larva hospedera, favoreciendo la eliminación de los huevos de la avispa parasitaria. Toamdo de <span class="citation">[<a href="#ref-tang2021micrornas" role="doc-biblioref">6</a>]</span>
+Figura 3.3: Se ha demostrado que <em>Snellenius manilae bracovirus</em> (SmBV) posee 2 miRNAs involucrados en inhibir la respuesta inmune del hospedero de la avispa, la Larva de <em>S. litura</em>, ya que, con la inhibición de estos 2 miRNAs se restaura la actividad de encapsulación y fagocitosis de los hemocitos de la larva hospedera, favoreciendo la eliminación de los huevos de la avispa parasitaria. Toamdo de <span class="citation">[<a href="#ref-tang2021micrornas" role="doc-biblioref">16</a>]</span>
 </p>
 </div>
 </center>
-<p>Debido al potencial en el uso agricola de holobiontes avispa-PDVs, se ha intentado realziar control biológico de insectos cosiderados plaga, que, sin embargo son capaces de resistir a las avispas parasitoides, esto a razón de de la asociación entre la bacteria <em>Hamiltonella defensa</em> y el áfido <em>Acyrthosiphon pisum</em>, que es protegido, en parte, por proteínas que aquellas bacterias sintetizan en su cutícula <span class="citation">[<a href="#ref-oliver2009bacteriophages" role="doc-biblioref">8</a>]</span>. Curiosamente, en cuanto al origen de las proteínas protectoras, estas se han asociado al bacteriofago lambda (λ), denominado <em>A. pisum secondary endosymbiont (APSE)</em> <span class="citation">[<a href="#ref-oliver2009bacteriophages" role="doc-biblioref">8</a>]</span>. En particular, una variante del Fago APSE-2 expresa una toxina importante para proteger al áfido, la cytolethal distending toxin (cdtB), un gen considerado como <em>factor letal de parasitoide</em>, cuya lista aún continúa en crecimiento en investigaciones recientes <span class="citation">[<a href="#ref-oliver2009bacteriophages" role="doc-biblioref">8</a>]</span>, <span class="citation">[<a href="#ref-eleftherianos2013endosymbiotic" role="doc-biblioref">9</a>]</span>.</p>
-<p>El caso de las avispas parasitoides asociadas con virus es un ejemplo dorado para el estudio de la biología y ecología de los virus, como era de esperarse concluimos este post renunciando a una biología sin éstos, pues considerar a los virus como elmentos importantes en las redes tróficas ha demostrado no solo ser necesario, sino esclarecedor, aunque al mismo tiempo confuso y complicado, pero sobretodo nos ofrece una visión más integral y visceralmente biológica; siempre y cuando tengamos en cuenta que, el ejemplo dorado de este post no es más que un puñado de puntos en la constelación de las interacciones biológicas, que durante los últimos 3,600 millones de años de evolución han venido estableciéndose a todas las escalas de observación (desde molecular hasta organísmica-holobionte, ecológica) y abren el espacio para nuevas interpretaciones de la vida, de la identidad, lo social, de la cooperación y en general de la viro-evolución biológica, o evolución incluyente de los virus <span class="citation">[<a href="#ref-villarreal2008bacteria" role="doc-biblioref">1</a>]</span>, <span class="citation">[<a href="#ref-broecker2019evolution" role="doc-biblioref">2</a>]</span>, <span class="citation">[<a href="#ref-villarreal2008origin" role="doc-biblioref">3</a>]</span>.</p>
+<p>Debido al potencial en el uso agricola de holobiontes avispa-PDVs, se ha intentado realziar control biológico de insectos cosiderados plaga, que, sin embargo son capaces de resistir a las avispas parasitoides, esto a razón de de la asociación entre la bacteria <em>Hamiltonella defensa</em> y el áfido <em>Acyrthosiphon pisum</em>, que es protegido, en parte, por proteínas que aquellas bacterias sintetizan en su cutícula <span class="citation">[<a href="#ref-oliver2009bacteriophages" role="doc-biblioref">18</a>]</span>. Curiosamente, en cuanto al origen de las proteínas protectoras, estas se han asociado al bacteriofago lambda (λ), denominado <em>A. pisum secondary endosymbiont (APSE)</em> <span class="citation">[<a href="#ref-oliver2009bacteriophages" role="doc-biblioref">18</a>]</span>. En particular, una variante del Fago APSE-2 expresa una toxina importante para proteger al áfido, la cytolethal distending toxin (cdtB), un gen considerado como <em>factor letal de parasitoide</em>, cuya lista aún continúa en crecimiento en investigaciones recientes <span class="citation">[<a href="#ref-oliver2009bacteriophages" role="doc-biblioref">18</a>]</span>, <span class="citation">[<a href="#ref-eleftherianos2013endosymbiotic" role="doc-biblioref">19</a>]</span>.</p>
+<p>El caso de las avispas parasitoides asociadas con virus es un ejemplo dorado para el estudio de la biología y ecología de los virus, como era de esperarse concluimos este post renunciando a una biología sin éstos, pues considerar a los virus como elmentos importantes en las redes tróficas ha demostrado no solo ser necesario, sino esclarecedor, aunque al mismo tiempo confuso y complicado, pero sobretodo nos ofrece una visión más integral y visceralmente biológica; siempre y cuando tengamos en cuenta que, el ejemplo dorado de este post no es más que un puñado de puntos en la constelación de las interacciones biológicas, que durante los últimos 3,600 millones de años de evolución han venido estableciéndose a todas las escalas de observación (desde molecular hasta organísmica-holobionte, ecológica) y abren el espacio para nuevas interpretaciones de la vida, de la identidad, lo social, de la cooperación y en general de la viro-evolución biológica, o evolución incluyente de los virus <span class="citation">[<a href="#ref-villarreal2008bacteria" role="doc-biblioref">11</a>]</span>, <span class="citation">[<a href="#ref-broecker2019evolution" role="doc-biblioref">12</a>]</span>, <span class="citation">[<a href="#ref-villarreal2008origin" role="doc-biblioref">13</a>]</span>.</p>
 
 </div>
 <!-- </div> -->
 <h3>Referencias</h3>
 <div id="refs" class="references csl-bib-body">
 <div id="ref-villarreal2008bacteria" class="csl-entry">
-1. Villarreal L. From Bacteria to Belief: Immunity and Security. In <span>“<span>“Natural Security: a Darwinian approach to a dangerous world”</span>”</span>(SRD, and T. Taylor, Eds.). 2008.
+11. Villarreal L. From Bacteria to Belief: Immunity and Security. In <span>“<span>“Natural Security: a Darwinian approach to a dangerous world”</span>”</span>(SRD, and T. Taylor, Eds.). 2008.
 </div>
 <div id="ref-broecker2019evolution" class="csl-entry">
-2. Broecker F, Moelling K. Evolution of immune systems from viruses and transposable elements. Frontiers in microbiology. 2019;51.
+12. Broecker F, Moelling K. Evolution of immune systems from viruses and transposable elements. Frontiers in microbiology. 2019;51.
 </div>
 <div id="ref-villarreal2008origin" class="csl-entry">
-3. Villarreal LP. Origin of group identity: viruses, addiction and cooperation. Springer Science &amp; Business Media; 2008.
+13. Villarreal LP. Origin of group identity: viruses, addiction and cooperation. Springer Science &amp; Business Media; 2008.
 </div>
 <div id="ref-tang2021micrornas" class="csl-entry">
-6. Tang C-K, Tsai C-H, Wu C-P, Lin Y-H, Wei S-C, Lu Y-H, et al. MicroRNAs from Snellenius manilae bracovirus regulate innate and cellular immune responses of its host Spodoptera litura. Communications biology. 2021;4:1-1.
+16. Tang C-K, Tsai C-H, Wu C-P, Lin Y-H, Wei S-C, Lu Y-H, et al. MicroRNAs from Snellenius manilae bracovirus regulate innate and cellular immune responses of its host Spodoptera litura. Communications biology. 2021;4:1-1.
 </div>
 <div id="ref-oliver2009bacteriophages" class="csl-entry">
-8. Oliver KM, Degnan PH, Hunter MS, Moran NA. Bacteriophages encode factors required for protection in a symbiotic mutualism. Science. 2009;325:992-4.
+18. Oliver KM, Degnan PH, Hunter MS, Moran NA. Bacteriophages encode factors required for protection in a symbiotic mutualism. Science. 2009;325:992-4.
 </div>
 <div id="ref-eleftherianos2013endosymbiotic" class="csl-entry">
-9. Eleftherianos I, Atri J, Accetta J, Castillo J. Endosymbiotic bacteria in insects: guardians of the immune system? Frontiers in physiology. 2013;4:46.
+19. Eleftherianos I, Atri J, Accetta J, Castillo J. Endosymbiotic bacteria in insects: guardians of the immune system? Frontiers in physiology. 2013;4:46.
 </div>
 </div>
             </section>
@@ -259,6 +340,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

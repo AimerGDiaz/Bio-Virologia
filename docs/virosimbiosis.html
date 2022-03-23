@@ -52,8 +52,78 @@
 
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/core-js-2.5.3/shim.min.js"></script>
+<script src="libs/react-17.0.0/react.min.js"></script>
+<script src="libs/react-17.0.0/react-dom.min.js"></script>
+<script src="libs/reactwidget-1.0.0/react-tools.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="libs/reactable-binding-0.2.3/reactable.js"></script>
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
@@ -141,6 +211,17 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="8.1" data-path="panosin.html"><a href="panosin.html"><i class="fa fa-check"></i><b>8.1</b> ¿Pandemia o Sindemia de COVID-19?</a></li>
 </ul></li>
+<li class="chapter" data-level="9" data-path="aboySC2.html"><a href="aboySC2.html"><i class="fa fa-check"></i><b>9</b> Sistema de grupos sanguineo ABO y enfermedades virales</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="resumen-gráfico-del-modelo-idp-abo.html"><a href="resumen-gráfico-del-modelo-idp-abo.html"><i class="fa fa-check"></i><b>9.1</b> Resumen gráfico del Modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.2" data-path="QRABO.html"><a href="QRABO.html"><i class="fa fa-check"></i><b>9.2</b> Revisión animada del Modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.3" data-path="basesmod.html"><a href="basesmod.html"><i class="fa fa-check"></i><b>9.3</b> Bases del modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.4" data-path="evidencias.html"><a href="evidencias.html"><i class="fa fa-check"></i><b>9.4</b> Evidencias del modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.5" data-path="poblamod.html"><a href="poblamod.html"><i class="fa fa-check"></i><b>9.5</b> Escala poblacional del modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.6" data-path="modeSARSCoV2.html"><a href="modeSARSCoV2.html"><i class="fa fa-check"></i><b>9.6</b> Extensión del modelo a SARS-CoV-2</a></li>
+<li class="chapter" data-level="9.7" data-path="africa.html"><a href="africa.html"><i class="fa fa-check"></i><b>9.7</b> ¿Qué ocurre en África?</a></li>
+<li class="chapter" data-level="9.8" data-path="nosarsco2.html"><a href="nosarsco2.html"><i class="fa fa-check"></i><b>9.8</b> Grupo sanguineo frente a otros virus</a></li>
+</ul></li>
 <li class="chapter" data-level="" data-path="referencias.html"><a href="referencias.html"><i class="fa fa-check"></i>Referencias</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -165,15 +246,15 @@ div.csl-indent {
 <div id="virosimbiosis" class="section level1" number="3">
 <h1><span class="header-section-number">3</span> Simbiosis Viro-Celulares</h1>
 <p><strong>Los Polydnavirus inmuno-comprometen a los hospederos de las avispas parasitoides</strong></p>
-<p>La simbiosis es un fenómeno conspicuo en las comunidades biológicas. Hoy se sabe que múltiples elementos derivados de virus y otros parásitos genéticos se han integrado en los genomas de muchos organismos celulares. Aportando elementos simbiogenéticos que han contribuido principalmente en la evolución de los sistemas inmunes (que por definición, son los fundamentos basales de los organismos para distinguir lo propio de lo ajeno, desde bacterias hasta humanos <span class="citation">[<a href="#ref-villarreal2008bacteria" role="doc-biblioref">1</a>]</span>,<span class="citation">[<a href="#ref-broecker2019evolution" role="doc-biblioref">2</a>]</span>. La relación entre dos familias de avispas parasitoides y dos géneros de la misma familia viral, representa uno de los ejemplos de simbiosis virus-células más emblemáticos.</p>
-<p>Los virus, como los microorganismos en general, han sido un anatema que los biólogos evolutivos históricamente han excluido. No obstante, recientemente una larga lista de fenómenos nos permiten revaluar la extensión del impacto de los virus en la evolución biológica <span class="citation">[<a href="#ref-villarreal2008bacteria" role="doc-biblioref">1</a>]</span>, <span class="citation">[<a href="#ref-broecker2019evolution" role="doc-biblioref">2</a>]</span>, <span class="citation">[<a href="#ref-villarreal2008origin" role="doc-biblioref">3</a>]</span>.</p>
-<p>Los insectos son la clase de animales con más diversidad de especies registradas. Estos organismos tan exitosos cuentan con un sorprendente sistema inmune innato capaz de protegerles y reconocer parásitos y otros agentes infecciosos. El orden Hymenoptera (avispas, abejas y hormigas) consiste en más de 225,000 especies que se dividen en varias familias, de las que la mayoría se ubican en el suborden monofilético Apocrita, originándose hace unos 200 millones de años <span class="citation">[<a href="#ref-volkoff2020unconventional" role="doc-biblioref">4</a>]</span>.</p>
-<p>Desde los años 70, se descubrieron partículas virales asociadas a avispas parasitoides, como elementos necesarios en el desarrollo del parasitismo desus hospederos. Estas avispas son de vida libre durante la adultes, y es en este estadio que, en el calyx de su tracto reproductivo se acumulan y reproducen viriones de Polydnavirus (PDVs). Estás partículas infecciosas se inyectan junto a huevos fertilizados en otros artrópodos, usualmente en larvas de otros insectos, que son devorados una vez eclosionan las larvas emergentes, las cuales emplean el cuerpo del hospedero para su propio desarrollo y crecimiento (<a href="#PolydnaCycle">figura 1</a>)<span class="citation">[<a href="#ref-volkoff2020unconventional" role="doc-biblioref">4</a>]</span>,<span class="citation">[<a href="#ref-burke2012polydnaviruses" role="doc-biblioref">5</a>]</span>.</p>
+<p>La simbiosis es un fenómeno conspicuo en las comunidades biológicas. Hoy se sabe que múltiples elementos derivados de virus y otros parásitos genéticos se han integrado en los genomas de muchos organismos celulares. Aportando elementos simbiogenéticos que han contribuido principalmente en la evolución de los sistemas inmunes (que por definición, son los fundamentos basales de los organismos para distinguir lo propio de lo ajeno, desde bacterias hasta humanos <span class="citation">[<a href="#ref-villarreal2008bacteria" role="doc-biblioref">11</a>]</span>,<span class="citation">[<a href="#ref-broecker2019evolution" role="doc-biblioref">12</a>]</span>. La relación entre dos familias de avispas parasitoides y dos géneros de la misma familia viral, representa uno de los ejemplos de simbiosis virus-células más emblemáticos.</p>
+<p>Los virus, como los microorganismos en general, han sido un anatema que los biólogos evolutivos históricamente han excluido. No obstante, recientemente una larga lista de fenómenos nos permiten revaluar la extensión del impacto de los virus en la evolución biológica <span class="citation">[<a href="#ref-villarreal2008bacteria" role="doc-biblioref">11</a>]</span>, <span class="citation">[<a href="#ref-broecker2019evolution" role="doc-biblioref">12</a>]</span>, <span class="citation">[<a href="#ref-villarreal2008origin" role="doc-biblioref">13</a>]</span>.</p>
+<p>Los insectos son la clase de animales con más diversidad de especies registradas. Estos organismos tan exitosos cuentan con un sorprendente sistema inmune innato capaz de protegerles y reconocer parásitos y otros agentes infecciosos. El orden Hymenoptera (avispas, abejas y hormigas) consiste en más de 225,000 especies que se dividen en varias familias, de las que la mayoría se ubican en el suborden monofilético Apocrita, originándose hace unos 200 millones de años <span class="citation">[<a href="#ref-volkoff2020unconventional" role="doc-biblioref">14</a>]</span>.</p>
+<p>Desde los años 70, se descubrieron partículas virales asociadas a avispas parasitoides, como elementos necesarios en el desarrollo del parasitismo desus hospederos. Estas avispas son de vida libre durante la adultes, y es en este estadio que, en el calyx de su tracto reproductivo se acumulan y reproducen viriones de Polydnavirus (PDVs). Estás partículas infecciosas se inyectan junto a huevos fertilizados en otros artrópodos, usualmente en larvas de otros insectos, que son devorados una vez eclosionan las larvas emergentes, las cuales emplean el cuerpo del hospedero para su propio desarrollo y crecimiento (<a href="#PolydnaCycle">figura 1</a>)<span class="citation">[<a href="#ref-volkoff2020unconventional" role="doc-biblioref">14</a>]</span>,<span class="citation">[<a href="#ref-burke2012polydnaviruses" role="doc-biblioref">15</a>]</span>.</p>
 <center>
 <div class="figure"><span style="display:block;" id="fig:PolydnaCycle"></span>
 <img src="figures/Polydna1.png" alt="Ciclo de vida de las avispas parasitoides y sus virus. Los PDV´s son virus de doble cadena de ADN, que permanecen como provirus en el genoma de avispas hembras y macho, pero es en el calyx del tracto reproductivo de la hembra donde se acumulan e inyecta  junto con sus huevos fertilizados en la larva hospedera y es el sistema inmune de ésta de quien los PDV defienden a la larva. Imagen tomada de @burke2012polydnaviruses" width="70%" />
 <p class="caption">
-Figura 3.1: Ciclo de vida de las avispas parasitoides y sus virus. Los PDV´s son virus de doble cadena de ADN, que permanecen como provirus en el genoma de avispas hembras y macho, pero es en el calyx del tracto reproductivo de la hembra donde se acumulan e inyecta junto con sus huevos fertilizados en la larva hospedera y es el sistema inmune de ésta de quien los PDV defienden a la larva. Imagen tomada de <span class="citation">[<a href="#ref-burke2012polydnaviruses" role="doc-biblioref">5</a>]</span>
+Figura 3.1: Ciclo de vida de las avispas parasitoides y sus virus. Los PDV´s son virus de doble cadena de ADN, que permanecen como provirus en el genoma de avispas hembras y macho, pero es en el calyx del tracto reproductivo de la hembra donde se acumulan e inyecta junto con sus huevos fertilizados en la larva hospedera y es el sistema inmune de ésta de quien los PDV defienden a la larva. Imagen tomada de <span class="citation">[<a href="#ref-burke2012polydnaviruses" role="doc-biblioref">15</a>]</span>
 </p>
 </div>
 </center>
@@ -182,19 +263,19 @@ Figura 3.1: Ciclo de vida de las avispas parasitoides y sus virus. Los PDV´s so
 <h3>Referencias</h3>
 <div id="refs" class="references csl-bib-body">
 <div id="ref-villarreal2008bacteria" class="csl-entry">
-1. Villarreal L. From Bacteria to Belief: Immunity and Security. In <span>“<span>“Natural Security: a Darwinian approach to a dangerous world”</span>”</span>(SRD, and T. Taylor, Eds.). 2008.
+11. Villarreal L. From Bacteria to Belief: Immunity and Security. In <span>“<span>“Natural Security: a Darwinian approach to a dangerous world”</span>”</span>(SRD, and T. Taylor, Eds.). 2008.
 </div>
 <div id="ref-broecker2019evolution" class="csl-entry">
-2. Broecker F, Moelling K. Evolution of immune systems from viruses and transposable elements. Frontiers in microbiology. 2019;51.
+12. Broecker F, Moelling K. Evolution of immune systems from viruses and transposable elements. Frontiers in microbiology. 2019;51.
 </div>
 <div id="ref-villarreal2008origin" class="csl-entry">
-3. Villarreal LP. Origin of group identity: viruses, addiction and cooperation. Springer Science &amp; Business Media; 2008.
+13. Villarreal LP. Origin of group identity: viruses, addiction and cooperation. Springer Science &amp; Business Media; 2008.
 </div>
 <div id="ref-volkoff2020unconventional" class="csl-entry">
-4. Volkoff A-N, Cusson M. The unconventional viruses of ichneumonid parasitoid wasps. Viruses. 2020;12:1170.
+14. Volkoff A-N, Cusson M. The unconventional viruses of ichneumonid parasitoid wasps. Viruses. 2020;12:1170.
 </div>
 <div id="ref-burke2012polydnaviruses" class="csl-entry">
-5. Burke GR, Strand MR. Polydnaviruses of parasitic wasps: domestication of viruses to act as gene delivery vectors. Insects. 2012;3:91-119.
+15. Burke GR, Strand MR. Polydnaviruses of parasitic wasps: domestication of viruses to act as gene delivery vectors. Insects. 2012;3:91-119.
 </div>
 </div>
             </section>
@@ -257,6 +338,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

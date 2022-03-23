@@ -4,21 +4,21 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>5.3 Relojes evolutivos a diferentes tasas de mutación | BioVirología</title>
-  <meta name="description" content="5.3 Relojes evolutivos a diferentes tasas de mutación | BioVirología es el primer libro electrónico e interactivo de virología biológica y el primero de divulgación científica en español, empleando el formato de libros Bookdown." />
+  <title>6.3 Relojes evolutivos a diferentes tasas de mutación | BioVirología</title>
+  <meta name="description" content="6.3 Relojes evolutivos a diferentes tasas de mutación | BioVirología es el primer libro electrónico e interactivo de virología biológica y el primero de divulgación científica en español, empleando el formato de libros Bookdown." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="5.3 Relojes evolutivos a diferentes tasas de mutación | BioVirología" />
+  <meta property="og:title" content="6.3 Relojes evolutivos a diferentes tasas de mutación | BioVirología" />
   <meta property="og:type" content="book" />
   
   <meta property="og:image" content="/figures/Portrait.gif" />
-  <meta property="og:description" content="5.3 Relojes evolutivos a diferentes tasas de mutación | BioVirología es el primer libro electrónico e interactivo de virología biológica y el primero de divulgación científica en español, empleando el formato de libros Bookdown." />
+  <meta property="og:description" content="6.3 Relojes evolutivos a diferentes tasas de mutación | BioVirología es el primer libro electrónico e interactivo de virología biológica y el primero de divulgación científica en español, empleando el formato de libros Bookdown." />
   <meta name="github-repo" content="AimerGDiaz/Bio-Virologia" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="5.3 Relojes evolutivos a diferentes tasas de mutación | BioVirología" />
+  <meta name="twitter:title" content="6.3 Relojes evolutivos a diferentes tasas de mutación | BioVirología" />
   
-  <meta name="twitter:description" content="5.3 Relojes evolutivos a diferentes tasas de mutación | BioVirología es el primer libro electrónico e interactivo de virología biológica y el primero de divulgación científica en español, empleando el formato de libros Bookdown." />
+  <meta name="twitter:description" content="6.3 Relojes evolutivos a diferentes tasas de mutación | BioVirología es el primer libro electrónico e interactivo de virología biológica y el primero de divulgación científica en español, empleando el formato de libros Bookdown." />
   <meta name="twitter:image" content="/figures/Portrait.gif" />
 
 <meta name="author" content="Aimer G. Díaz, Víctor P. Avellaneda, Juan Corao, Roberto Nájera y Natalia A. Chaparro" />
@@ -52,8 +52,78 @@
 
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/core-js-2.5.3/shim.min.js"></script>
+<script src="libs/react-17.0.0/react.min.js"></script>
+<script src="libs/react-17.0.0/react-dom.min.js"></script>
+<script src="libs/reactwidget-1.0.0/react-tools.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="libs/reactable-binding-0.2.3/reactable.js"></script>
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
@@ -112,29 +182,45 @@ div.csl-indent {
 <li class="chapter" data-level="2.1" data-path="virorganismos.html"><a href="virorganismos.html"><i class="fa fa-check"></i><b>2.1</b> Viro-organismos</a></li>
 <li class="chapter" data-level="2.2" data-path="zombinsec.html"><a href="zombinsec.html"><i class="fa fa-check"></i><b>2.2</b> Zombificación de insectos</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="plantPand.html"><a href="plantPand.html"><i class="fa fa-check"></i><b>3</b> Pandemias virales a escala mundial en plantas.</a></li>
-<li class="chapter" data-level="4" data-path="denv.html"><a href="denv.html"><i class="fa fa-check"></i><b>4</b> Hiperendemia del virus del Dengue.</a>
+<li class="chapter" data-level="3" data-path="virosimbiosis.html"><a href="virosimbiosis.html"><i class="fa fa-check"></i><b>3</b> Simbiosis Viro-Celulares</a>
 <ul>
-<li class="chapter" data-level="4.1" data-path="genevodenv.html"><a href="genevodenv.html"><i class="fa fa-check"></i><b>4.1</b> Genética y evolución del virus del Dengue</a></li>
-<li class="chapter" data-level="4.2" data-path="ciclodenv.html"><a href="ciclodenv.html"><i class="fa fa-check"></i><b>4.2</b> Ciclo de vida del virus Dengue</a></li>
-<li class="chapter" data-level="4.3" data-path="hiperende.html"><a href="hiperende.html"><i class="fa fa-check"></i><b>4.3</b> Hiperendemia del virus del Dengue</a></li>
+<li class="chapter" data-level="3.1" data-path="plydnaeggs.html"><a href="plydnaeggs.html"><i class="fa fa-check"></i><b>3.1</b> Co-infección polydnavirus y huevos de avispa parasitoide</a></li>
+<li class="chapter" data-level="3.2" data-path="resisvir.html"><a href="resisvir.html"><i class="fa fa-check"></i><b>3.2</b> Resistencia viral de la co-infección viru-celular</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="paleovir.html"><a href="paleovir.html"><i class="fa fa-check"></i><b>5</b> Aplicaciones de la Paleo-Virología.</a>
+<li class="chapter" data-level="4" data-path="plantPand.html"><a href="plantPand.html"><i class="fa fa-check"></i><b>4</b> Pandemias virales a escala mundial en plantas.</a></li>
+<li class="chapter" data-level="5" data-path="denv.html"><a href="denv.html"><i class="fa fa-check"></i><b>5</b> Hiperendemia del virus del Dengue.</a>
 <ul>
-<li class="chapter" data-level="5.1" data-path="codiver.html"><a href="codiver.html"><i class="fa fa-check"></i><b>5.1</b> Co-diversidficación virus del herpes simple y poblaciones humanas.</a></li>
-<li class="chapter" data-level="5.2" data-path="vhs2.html"><a href="vhs2.html"><i class="fa fa-check"></i><b>5.2</b> Migración holobionte humano - VHS2</a></li>
-<li class="chapter" data-level="5.3" data-path="relojes.html"><a href="relojes.html"><i class="fa fa-check"></i><b>5.3</b> Relojes evolutivos a diferentes tasas de mutación</a></li>
+<li class="chapter" data-level="5.1" data-path="genevodenv.html"><a href="genevodenv.html"><i class="fa fa-check"></i><b>5.1</b> Genética y evolución del virus del Dengue</a></li>
+<li class="chapter" data-level="5.2" data-path="ciclodenv.html"><a href="ciclodenv.html"><i class="fa fa-check"></i><b>5.2</b> Ciclo de vida del virus Dengue</a></li>
+<li class="chapter" data-level="5.3" data-path="hiperende.html"><a href="hiperende.html"><i class="fa fa-check"></i><b>5.3</b> Hiperendemia del virus del Dengue</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="codigo.html"><a href="codigo.html"><i class="fa fa-check"></i><b>6</b> ¿Es universal el código genético?</a>
+<li class="chapter" data-level="6" data-path="paleovir.html"><a href="paleovir.html"><i class="fa fa-check"></i><b>6</b> Aplicaciones de la Paleo-Virología.</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="polisemia.html"><a href="polisemia.html"><i class="fa fa-check"></i><b>6.1</b> Polisemia del código genético</a></li>
-<li class="chapter" data-level="6.2" data-path="signo.html"><a href="signo.html"><i class="fa fa-check"></i><b>6.2</b> Un codón, <em>un signo</em> y varios significados.</a></li>
-<li class="chapter" data-level="6.3" data-path="expans.html"><a href="expans.html"><i class="fa fa-check"></i><b>6.3</b> Expansión del código, expansión de significados.</a></li>
-<li class="chapter" data-level="6.4" data-path="actorefl.html"><a href="actorefl.html"><i class="fa fa-check"></i><b>6.4</b> ¿Diversdiad actual o reflejo de la diversidad de LUCA?</a></li>
+<li class="chapter" data-level="6.1" data-path="codiver.html"><a href="codiver.html"><i class="fa fa-check"></i><b>6.1</b> Co-diversidficación virus del herpes simple y poblaciones humanas.</a></li>
+<li class="chapter" data-level="6.2" data-path="vhs2.html"><a href="vhs2.html"><i class="fa fa-check"></i><b>6.2</b> Migración holobionte humano - VHS2</a></li>
+<li class="chapter" data-level="6.3" data-path="relojes.html"><a href="relojes.html"><i class="fa fa-check"></i><b>6.3</b> Relojes evolutivos a diferentes tasas de mutación</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="covid.html"><a href="covid.html"><i class="fa fa-check"></i><b>7</b> Crónicas Sindemia de COVID-19</a>
+<li class="chapter" data-level="7" data-path="codigo.html"><a href="codigo.html"><i class="fa fa-check"></i><b>7</b> ¿Es universal el código genético?</a>
 <ul>
-<li class="chapter" data-level="7.1" data-path="panosin.html"><a href="panosin.html"><i class="fa fa-check"></i><b>7.1</b> ¿Pandemia o Sindemia de COVID-19?</a></li>
+<li class="chapter" data-level="7.1" data-path="polisemia.html"><a href="polisemia.html"><i class="fa fa-check"></i><b>7.1</b> Polisemia del código genético</a></li>
+<li class="chapter" data-level="7.2" data-path="signo.html"><a href="signo.html"><i class="fa fa-check"></i><b>7.2</b> Un codón, <em>un signo</em> y varios significados.</a></li>
+<li class="chapter" data-level="7.3" data-path="expans.html"><a href="expans.html"><i class="fa fa-check"></i><b>7.3</b> Expansión del código, expansión de significados.</a></li>
+<li class="chapter" data-level="7.4" data-path="actorefl.html"><a href="actorefl.html"><i class="fa fa-check"></i><b>7.4</b> ¿Diversdiad actual o reflejo de la diversidad de LUCA?</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="covid.html"><a href="covid.html"><i class="fa fa-check"></i><b>8</b> Crónicas Sindemia de COVID-19</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="panosin.html"><a href="panosin.html"><i class="fa fa-check"></i><b>8.1</b> ¿Pandemia o Sindemia de COVID-19?</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="aboySC2.html"><a href="aboySC2.html"><i class="fa fa-check"></i><b>9</b> Sistema de grupos sanguineo ABO y enfermedades virales</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="resumen-gráfico-del-modelo-idp-abo.html"><a href="resumen-gráfico-del-modelo-idp-abo.html"><i class="fa fa-check"></i><b>9.1</b> Resumen gráfico del Modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.2" data-path="QRABO.html"><a href="QRABO.html"><i class="fa fa-check"></i><b>9.2</b> Revisión animada del Modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.3" data-path="basesmod.html"><a href="basesmod.html"><i class="fa fa-check"></i><b>9.3</b> Bases del modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.4" data-path="evidencias.html"><a href="evidencias.html"><i class="fa fa-check"></i><b>9.4</b> Evidencias del modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.5" data-path="poblamod.html"><a href="poblamod.html"><i class="fa fa-check"></i><b>9.5</b> Escala poblacional del modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.6" data-path="modeSARSCoV2.html"><a href="modeSARSCoV2.html"><i class="fa fa-check"></i><b>9.6</b> Extensión del modelo a SARS-CoV-2</a></li>
+<li class="chapter" data-level="9.7" data-path="africa.html"><a href="africa.html"><i class="fa fa-check"></i><b>9.7</b> ¿Qué ocurre en África?</a></li>
+<li class="chapter" data-level="9.8" data-path="nosarsco2.html"><a href="nosarsco2.html"><i class="fa fa-check"></i><b>9.8</b> Grupo sanguineo frente a otros virus</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="referencias.html"><a href="referencias.html"><i class="fa fa-check"></i>Referencias</a></li>
 <li class="divider"></li>
@@ -157,12 +243,12 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="relojes" class="section level2" number="5.3">
-<h2><span class="header-section-number">5.3</span> Relojes evolutivos a diferentes tasas de mutación</h2>
-<p>A manera de comparación, adjuntamos el video suplementario de la más reciente genealogía humana (<span class="citation">[<a href="#ref-kolb2013using" role="doc-biblioref">18</a>]</span> y @<span class="citation">[<a href="#ref-wohns2022unified" role="doc-biblioref">19</a>]</span>). Nótese que en ambos estudios se evidencia como origen único de todas las poblaciones humanas el este de áfrica, según el análisis de genomas humanos, hace unos 2 millones de años aproximadamente (80 mil generaciones). Mientras qué, este mismo hecho se evidencia en el tiempo estimado de divergencia de HSV-1 de HSV-2 es de 2.18 (±0.753) millones de años.</p>
+<div id="relojes" class="section level2" number="6.3">
+<h2><span class="header-section-number">6.3</span> Relojes evolutivos a diferentes tasas de mutación</h2>
+<p>A manera de comparación, adjuntamos el video suplementario de la más reciente genealogía humana (<span class="citation">[<a href="#ref-kolb2013using" role="doc-biblioref">27</a>]</span> y @<span class="citation">[<a href="#ref-wohns2022unified" role="doc-biblioref">28</a>]</span>). Nótese que en ambos estudios se evidencia como origen único de todas las poblaciones humanas el este de áfrica, según el análisis de genomas humanos, hace unos 2 millones de años aproximadamente (80 mil generaciones). Mientras qué, este mismo hecho se evidencia en el tiempo estimado de divergencia de HSV-1 de HSV-2 es de 2.18 (±0.753) millones de años.</p>
 <center>
 <p><video src="./figures/HumanMig.mp4" style="width:80.0%" controls=""><a href="./figures/HumanMig.mp4">humances</a></video>.</p>
-Localización estimada de los ancestros genéticos humanos: Una genealogía unificada de los genomas modernos y antiguos, tomado de <span class="citation">[<a href="#ref-wohns2022unified" role="doc-biblioref">19</a>]</span>
+Localización estimada de los ancestros genéticos humanos: Una genealogía unificada de los genomas modernos y antiguos, tomado de <span class="citation">[<a href="#ref-wohns2022unified" role="doc-biblioref">28</a>]</span>
 </center>
 <p>Con respecto a las diferencias entre ambos mapas, el sesgo muestral de los dos análisis prepondera la migración hacia américa vía Europa-Groenlandia, más no desde Asia, vía estrecho de Bering. No obstante, el agrupamiento de la cepa KOS (derivada de américa) con el clado asiático CR38 (derivado de China), R62 (Sur Corea), S23 y S25 (Japón), a diferencia del estudio genómico, aporta la resolución necesaria para no descartar que ambos escenarios migratorios ocurrieron.</p>
 <p>En la tabla 1. se muestra cómo distintos eventos de la evolución y migración humana corresponden con distintos eventos de diversificación del virus HSV-2. Lo que permite ilustrar la resolución de esta herramienta y su capacidad para indagar sobre la historia evolutiva y migratoria del humano, como también de otras especies, ya que, toda vida celular es a su vez un consorcio de holobiontes, en el que habitan y co-evolucionan cientos de linajes de vida viral o virucelular.</p>
@@ -203,19 +289,19 @@ Localización estimada de los ancestros genéticos humanos: Una genealogía unif
 </tr>
 </tbody>
 </table>
-Tabla 1. Divergencia viral estimada vs evidencia temporal de los registros arqueológicos de los eventos de migración humana, tomado y traducido de <span class="citation">[<a href="#ref-kolb2013using" role="doc-biblioref">18</a>]</span> TMRCA: Tiempo hasta el ancestro común más reciente.
+Tabla 1. Divergencia viral estimada vs evidencia temporal de los registros arqueológicos de los eventos de migración humana, tomado y traducido de <span class="citation">[<a href="#ref-kolb2013using" role="doc-biblioref">27</a>]</span> TMRCA: Tiempo hasta el ancestro común más reciente.
 </center>
-<p>El <a href="https://www.youtube.com/watch?v=xqy2-m080jY">video de la fuente</a> (<span class="citation">[<a href="#ref-wohns2022unified" role="doc-biblioref">19</a>]</span>) ha sido editado con la canción Val d’inverno del grupo italiano <a href="https://www.youtube.com/watch?v=Nc9P5p96Jt0">Evoca</a>.</p>
+<p>El <a href="https://www.youtube.com/watch?v=xqy2-m080jY">video de la fuente</a> (<span class="citation">[<a href="#ref-wohns2022unified" role="doc-biblioref">28</a>]</span>) ha sido editado con la canción Val d’inverno del grupo italiano <a href="https://www.youtube.com/watch?v=Nc9P5p96Jt0">Evoca</a>.</p>
 
 </div>
 <!-- </div> -->
 <h3>Referencias</h3>
 <div id="refs" class="references csl-bib-body">
 <div id="ref-kolb2013using" class="csl-entry">
-18. Kolb AW, Ané C, Brandt CR. Using HSV-1 genome phylogenetics to track past human migrations. PloS one. 2013;8:e76267.
+27. Kolb AW, Ané C, Brandt CR. Using HSV-1 genome phylogenetics to track past human migrations. PloS one. 2013;8:e76267.
 </div>
 <div id="ref-wohns2022unified" class="csl-entry">
-19. Wohns AW, Wong Y, Jeffery B, Akbari A, Mallick S, Pinhasi R, et al. A unified genealogy of modern and ancient genomes. Science. 2022.
+28. Wohns AW, Wong Y, Jeffery B, Akbari A, Mallick S, Pinhasi R, et al. A unified genealogy of modern and ancient genomes. Science. 2022.
 </div>
 </div>
             </section>
@@ -278,6 +364,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

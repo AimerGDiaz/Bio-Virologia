@@ -52,8 +52,78 @@
 
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/core-js-2.5.3/shim.min.js"></script>
+<script src="libs/react-17.0.0/react.min.js"></script>
+<script src="libs/react-17.0.0/react-dom.min.js"></script>
+<script src="libs/reactwidget-1.0.0/react-tools.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="libs/reactable-binding-0.2.3/reactable.js"></script>
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
@@ -141,6 +211,17 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="8.1" data-path="panosin.html"><a href="panosin.html"><i class="fa fa-check"></i><b>8.1</b> ¿Pandemia o Sindemia de COVID-19?</a></li>
 </ul></li>
+<li class="chapter" data-level="9" data-path="aboySC2.html"><a href="aboySC2.html"><i class="fa fa-check"></i><b>9</b> Sistema de grupos sanguineo ABO y enfermedades virales</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="resumen-gráfico-del-modelo-idp-abo.html"><a href="resumen-gráfico-del-modelo-idp-abo.html"><i class="fa fa-check"></i><b>9.1</b> Resumen gráfico del Modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.2" data-path="QRABO.html"><a href="QRABO.html"><i class="fa fa-check"></i><b>9.2</b> Revisión animada del Modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.3" data-path="basesmod.html"><a href="basesmod.html"><i class="fa fa-check"></i><b>9.3</b> Bases del modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.4" data-path="evidencias.html"><a href="evidencias.html"><i class="fa fa-check"></i><b>9.4</b> Evidencias del modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.5" data-path="poblamod.html"><a href="poblamod.html"><i class="fa fa-check"></i><b>9.5</b> Escala poblacional del modelo IDP-ABO</a></li>
+<li class="chapter" data-level="9.6" data-path="modeSARSCoV2.html"><a href="modeSARSCoV2.html"><i class="fa fa-check"></i><b>9.6</b> Extensión del modelo a SARS-CoV-2</a></li>
+<li class="chapter" data-level="9.7" data-path="africa.html"><a href="africa.html"><i class="fa fa-check"></i><b>9.7</b> ¿Qué ocurre en África?</a></li>
+<li class="chapter" data-level="9.8" data-path="nosarsco2.html"><a href="nosarsco2.html"><i class="fa fa-check"></i><b>9.8</b> Grupo sanguineo frente a otros virus</a></li>
+</ul></li>
 <li class="chapter" data-level="" data-path="referencias.html"><a href="referencias.html"><i class="fa fa-check"></i>Referencias</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -164,36 +245,36 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="plydnaeggs" class="section level2" number="3.1">
 <h2><span class="header-section-number">3.1</span> Co-infección polydnavirus y huevos de avispa parasitoide</h2>
-<p>Debido a su estilo de vida parasitoide estas avispas requieren de efectores para regular la fisiología y evadir el sistema inmune de su hospedero, esto con el fin de garantizar el desarrollo de sus crías. Distintos mecanismos son empleados para lograr estos dos objetivos, entre los que se encuentran la producción de veneno, liberación de teratocitos (células embrionales de la avispa) y su asociación con PDVs <span class="citation">[<a href="#ref-volkoff2020unconventional" role="doc-biblioref">4</a>]</span>,<span class="citation">[<a href="#ref-burke2012polydnaviruses" role="doc-biblioref">5</a>]</span>,<span class="citation">[<a href="#ref-tang2021micrornas" role="doc-biblioref">6</a>]</span>.</p>
-<p>Los PDVs incluye a los taxa Bracovirus e Ichnovirus, virus dsDNA, cuyos nombres derivan de las dos familias de avispas parasitoides no-relacionadas directamente entre sí Braconidae e Ichneumonidae respectivamente. Lo que podría significar que la domesticación de los PDVs se dió en dos ocasiones independientes. La secuenciación del genoma de las avispas <em>H. didymator</em> y <em>C. sonorensis</em> reveló la compleja organización genómica de los Ichnovirus endógenos, que consta de dos componentes: los segmentos provirales, rodeados por repeticiones DRJ y por otro lado los genes de replicación, como se ve descrito en la <a href="#ichnovirus">figura 2</a> <span class="citation">[<a href="#ref-volkoff2020unconventional" role="doc-biblioref">4</a>]</span>.</p>
+<p>Debido a su estilo de vida parasitoide estas avispas requieren de efectores para regular la fisiología y evadir el sistema inmune de su hospedero, esto con el fin de garantizar el desarrollo de sus crías. Distintos mecanismos son empleados para lograr estos dos objetivos, entre los que se encuentran la producción de veneno, liberación de teratocitos (células embrionales de la avispa) y su asociación con PDVs <span class="citation">[<a href="#ref-volkoff2020unconventional" role="doc-biblioref">14</a>]</span>,<span class="citation">[<a href="#ref-burke2012polydnaviruses" role="doc-biblioref">15</a>]</span>,<span class="citation">[<a href="#ref-tang2021micrornas" role="doc-biblioref">16</a>]</span>.</p>
+<p>Los PDVs incluye a los taxa Bracovirus e Ichnovirus, virus dsDNA, cuyos nombres derivan de las dos familias de avispas parasitoides no-relacionadas directamente entre sí Braconidae e Ichneumonidae respectivamente. Lo que podría significar que la domesticación de los PDVs se dió en dos ocasiones independientes. La secuenciación del genoma de las avispas <em>H. didymator</em> y <em>C. sonorensis</em> reveló la compleja organización genómica de los Ichnovirus endógenos, que consta de dos componentes: los segmentos provirales, rodeados por repeticiones DRJ y por otro lado los genes de replicación, como se ve descrito en la <a href="#ichnovirus">figura 2</a> <span class="citation">[<a href="#ref-volkoff2020unconventional" role="doc-biblioref">14</a>]</span>.</p>
 <center>
 <div class="figure"><span style="display:block;" id="fig:ichnovirus"></span>
 <img src="figures/Polydna2.png" alt="Arquitectura genómica de Ichnovirus. En los cromosomas de la avispa se ubican dispersos los loci de Ichnovirus, que consisten por un lado en los segmentos provirales (derecha) rodeados de secuencias repetidas directamente (DRJ) que permiten la recombinación homóloga y la  circularización de la molécula, y por otro lado los genes de replicación (izquierda) IVSPERs, para IchnoVirus Structural Proteins Encoding Regions. Éstos últimos se transcriben solo en el calyx del tejido reproductivo de la avispa. Imagen de @volkoff2020unconventional" width="60%" />
 <p class="caption">
-Figura 3.2: Arquitectura genómica de Ichnovirus. En los cromosomas de la avispa se ubican dispersos los loci de Ichnovirus, que consisten por un lado en los segmentos provirales (derecha) rodeados de secuencias repetidas directamente (DRJ) que permiten la recombinación homóloga y la circularización de la molécula, y por otro lado los genes de replicación (izquierda) IVSPERs, para IchnoVirus Structural Proteins Encoding Regions. Éstos últimos se transcriben solo en el calyx del tejido reproductivo de la avispa. Imagen de <span class="citation">[<a href="#ref-volkoff2020unconventional" role="doc-biblioref">4</a>]</span>
+Figura 3.2: Arquitectura genómica de Ichnovirus. En los cromosomas de la avispa se ubican dispersos los loci de Ichnovirus, que consisten por un lado en los segmentos provirales (derecha) rodeados de secuencias repetidas directamente (DRJ) que permiten la recombinación homóloga y la circularización de la molécula, y por otro lado los genes de replicación (izquierda) IVSPERs, para IchnoVirus Structural Proteins Encoding Regions. Éstos últimos se transcriben solo en el calyx del tejido reproductivo de la avispa. Imagen de <span class="citation">[<a href="#ref-volkoff2020unconventional" role="doc-biblioref">14</a>]</span>
 </p>
 </div>
 </center>
-<p>Los PDV poseen genes que al ser removidos de los genomas endógenos, pese a que producen viriones acompañantes de los huevos de las avispas, éstos últimos son rechazados por el sistema inmune del hospedero,e vitando su desarrollo. Dentro de estos genes que inhiben o evaden distintas vías de la respuesta inmune de los hospederos se encuentran algunos microRNAs, responsables de inhibir la señalización anti-viral mediada por los receptores Toll, junto a la cascada JAK/STAT o los receptores de ecdisona (hormona importante para el desarrollo de los insectos), tal como se ilustra en la <a href="#smbvmirnas">figura 3</a> (<span class="citation">[<a href="#ref-burke2012polydnaviruses" role="doc-biblioref">5</a>]</span>,<span class="citation">[<a href="#ref-tang2021micrornas" role="doc-biblioref">6</a>]</span>).</p>
-<p>Los PDVs no son los únicos virus involucrados en este tipo de simbiosis, también se conocen otros virus persistentes (endógenos) como reovirus (de doble cadena de ARN), que también pueden suprimir la defensa del hospedero, mientras que no son patogénicos para la avispa. De hecho, en un estudio transcriptómico de Bracovirus, sus análisis señalan la sincronización temporal en la expresión genética del virus, que deviene en producción de partículas virales, sin inducir la expresión de los genes inmunes de la avispa, es decir los virus no se perciben como ajenos, los dos organismos por tanto conforman un holobionte inmunológicamente estable <span class="citation">[<a href="#ref-villarreal2008origin" role="doc-biblioref">3</a>]</span>, <span class="citation">[<a href="#ref-gauthier2020chromosomal" role="doc-biblioref">7</a>]</span>.</p>
+<p>Los PDV poseen genes que al ser removidos de los genomas endógenos, pese a que producen viriones acompañantes de los huevos de las avispas, éstos últimos son rechazados por el sistema inmune del hospedero,e vitando su desarrollo. Dentro de estos genes que inhiben o evaden distintas vías de la respuesta inmune de los hospederos se encuentran algunos microRNAs, responsables de inhibir la señalización anti-viral mediada por los receptores Toll, junto a la cascada JAK/STAT o los receptores de ecdisona (hormona importante para el desarrollo de los insectos), tal como se ilustra en la <a href="#smbvmirnas">figura 3</a> (<span class="citation">[<a href="#ref-burke2012polydnaviruses" role="doc-biblioref">15</a>]</span>,<span class="citation">[<a href="#ref-tang2021micrornas" role="doc-biblioref">16</a>]</span>).</p>
+<p>Los PDVs no son los únicos virus involucrados en este tipo de simbiosis, también se conocen otros virus persistentes (endógenos) como reovirus (de doble cadena de ARN), que también pueden suprimir la defensa del hospedero, mientras que no son patogénicos para la avispa. De hecho, en un estudio transcriptómico de Bracovirus, sus análisis señalan la sincronización temporal en la expresión genética del virus, que deviene en producción de partículas virales, sin inducir la expresión de los genes inmunes de la avispa, es decir los virus no se perciben como ajenos, los dos organismos por tanto conforman un holobionte inmunológicamente estable <span class="citation">[<a href="#ref-villarreal2008origin" role="doc-biblioref">13</a>]</span>, <span class="citation">[<a href="#ref-gauthier2020chromosomal" role="doc-biblioref">17</a>]</span>.</p>
 <hr />
 </div>
 <h3>Referencias</h3>
 <div id="refs" class="references csl-bib-body">
 <div id="ref-villarreal2008origin" class="csl-entry">
-3. Villarreal LP. Origin of group identity: viruses, addiction and cooperation. Springer Science &amp; Business Media; 2008.
+13. Villarreal LP. Origin of group identity: viruses, addiction and cooperation. Springer Science &amp; Business Media; 2008.
 </div>
 <div id="ref-volkoff2020unconventional" class="csl-entry">
-4. Volkoff A-N, Cusson M. The unconventional viruses of ichneumonid parasitoid wasps. Viruses. 2020;12:1170.
+14. Volkoff A-N, Cusson M. The unconventional viruses of ichneumonid parasitoid wasps. Viruses. 2020;12:1170.
 </div>
 <div id="ref-burke2012polydnaviruses" class="csl-entry">
-5. Burke GR, Strand MR. Polydnaviruses of parasitic wasps: domestication of viruses to act as gene delivery vectors. Insects. 2012;3:91-119.
+15. Burke GR, Strand MR. Polydnaviruses of parasitic wasps: domestication of viruses to act as gene delivery vectors. Insects. 2012;3:91-119.
 </div>
 <div id="ref-tang2021micrornas" class="csl-entry">
-6. Tang C-K, Tsai C-H, Wu C-P, Lin Y-H, Wei S-C, Lu Y-H, et al. MicroRNAs from Snellenius manilae bracovirus regulate innate and cellular immune responses of its host Spodoptera litura. Communications biology. 2021;4:1-1.
+16. Tang C-K, Tsai C-H, Wu C-P, Lin Y-H, Wei S-C, Lu Y-H, et al. MicroRNAs from Snellenius manilae bracovirus regulate innate and cellular immune responses of its host Spodoptera litura. Communications biology. 2021;4:1-1.
 </div>
 <div id="ref-gauthier2020chromosomal" class="csl-entry">
-7. Gauthier J, Boulain H, Vugt JJ van, Baudry L, Persyn E, Aury J-M, et al. Chromosomal resolution reveals symbiotic virus colonization of parasitic wasp genomes. BioRxiv. 2020.
+17. Gauthier J, Boulain H, Vugt JJ van, Baudry L, Persyn E, Aury J-M, et al. Chromosomal resolution reveals symbiotic virus colonization of parasitic wasp genomes. BioRxiv. 2020.
 </div>
 </div>
             </section>
@@ -256,6 +337,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
