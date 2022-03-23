@@ -406,6 +406,97 @@
         {
             "author": [
                 {
+                    "family": "Brandes",
+                    "given": "Nadav"
+                },
+                {
+                    "family": "Linial",
+                    "given": "Michal"
+                }
+            ],
+            "container-title": "Viruses",
+            "id": "brandes2019giant",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "page": "404",
+            "publisher": "Multidisciplinary Digital Publishing Institute",
+            "title": "Giant viruses—big surprises",
+            "type": "article-journal",
+            "volume": "11"
+        },
+        {
+            "author": [
+                {
+                    "family": "Moreira",
+                    "given": "David"
+                },
+                {
+                    "family": "Brochier-Armanet",
+                    "given": "Céline"
+                }
+            ],
+            "container-title": "BMC Evolutionary Biology",
+            "id": "moreira2008giant",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008
+                    ]
+                ]
+            },
+            "page": "1-10",
+            "publisher": "BioMed Central",
+            "title": "Giant viruses, giant chimeras: The multiple evolutionary histories of mimivirus genes",
+            "title-short": "Giant viruses, giant chimeras",
+            "type": "article-journal",
+            "volume": "8"
+        },
+        {
+            "author": [
+                {
+                    "family": "Jeudy",
+                    "given": "Sandra"
+                },
+                {
+                    "family": "Abergel",
+                    "given": "Chantal"
+                },
+                {
+                    "family": "Claverie",
+                    "given": "Jean-Michel"
+                },
+                {
+                    "family": "Legendre",
+                    "given": "Matthieu"
+                }
+            ],
+            "container-title": "PLoS genetics",
+            "id": "jeudy2012translation",
+            "issue": "12",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012
+                    ]
+                ]
+            },
+            "page": "e1003122",
+            "publisher": "Public Library of Science San Francisco, USA",
+            "title": "Translation in giant viruses: A unique mixture of bacterial and eukaryotic termination schemes",
+            "title-short": "Translation in giant viruses",
+            "type": "article-journal",
+            "volume": "8"
+        },
+        {
+            "author": [
+                {
                     "family": "Wertheim",
                     "given": "Heiman F L"
                 },
@@ -1665,6 +1756,525 @@
             "title-short": "Endosymbiotic bacteria in insects",
             "type": "article-journal",
             "volume": "4"
+        },
+        {
+            "author": [
+                {
+                    "family": "Guillon",
+                    "given": "Patrice"
+                },
+                {
+                    "family": "Clément",
+                    "given": "Monique"
+                },
+                {
+                    "family": "Sébille",
+                    "given": "Véronique"
+                },
+                {
+                    "family": "Rivain",
+                    "given": "Jean-Gérard"
+                },
+                {
+                    "family": "Chou",
+                    "given": "Chih-Fong"
+                },
+                {
+                    "family": "Ruvoën-Clouet",
+                    "given": "Nathalie"
+                },
+                {
+                    "family": "Le Pendu",
+                    "given": "Jacques"
+                }
+            ],
+            "container-title": "Glycobiology",
+            "id": "guillon2008inhibition",
+            "issue": "12",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008
+                    ]
+                ]
+            },
+            "page": "1085-1093",
+            "publisher": "Oxford University Press",
+            "title": "Inhibition of the interaction between the SARS-CoV spike protein and its cellular receptor by anti-histo-blood group antibodies",
+            "type": "article-journal",
+            "volume": "18"
+        },
+        {
+            "author": [
+                {
+                    "family": "Breiman",
+                    "given": "Adrien"
+                },
+                {
+                    "family": "Ruvën-Clouet",
+                    "given": "Nathalie"
+                },
+                {
+                    "family": "Le Pendu",
+                    "given": "Jacques"
+                }
+            ],
+            "container-title": "PLoS Pathogens",
+            "id": "breiman2020harnessing",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "e1008556",
+            "publisher": "Public Library of Science San Francisco, CA USA",
+            "title": "Harnessing the natural anti-glycan immune response to limit the transmission of enveloped viruses such as SARS-CoV-2",
+            "type": "article-journal",
+            "volume": "16"
+        },
+        {
+            "author": [
+                {
+                    "family": "Yamamoto",
+                    "given": "Fumiichiro"
+                },
+                {
+                    "family": "Yamamoto",
+                    "given": "Miyako"
+                },
+                {
+                    "family": "Muñiz-Diaz",
+                    "given": "Eduardo"
+                }
+            ],
+            "container-title": "Vox Sanguinis",
+            "id": "yamamoto2020blood",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "publisher": "Wiley-Blackwell",
+            "title": "Blood group ABO polymorphism inhibits SARS-CoV-2 infection and affects COVID-19 progression",
+            "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "family": "Casalino",
+                    "given": "Lorenzo"
+                },
+                {
+                    "family": "Gaieb",
+                    "given": "Zied"
+                },
+                {
+                    "family": "Goldsmith",
+                    "given": "Jory A"
+                },
+                {
+                    "family": "Hjorth",
+                    "given": "Christy K"
+                },
+                {
+                    "family": "Dommer",
+                    "given": "Abigail C"
+                },
+                {
+                    "family": "Harbison",
+                    "given": "Aoife M"
+                },
+                {
+                    "family": "Fogarty",
+                    "given": "Carl A"
+                },
+                {
+                    "family": "Barros",
+                    "given": "Emilia P"
+                },
+                {
+                    "family": "Taylor",
+                    "given": "Bryn C"
+                },
+                {
+                    "family": "McLellan",
+                    "given": "Jason S"
+                },
+                {
+                    "literal": "others"
+                }
+            ],
+            "container-title": "ACS central science",
+            "id": "casalino2020beyond",
+            "issue": "10",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "1722-1734",
+            "publisher": "ACS Publications",
+            "title": "Beyond shielding: The roles of glycans in the SARS-CoV-2 spike protein",
+            "title-short": "Beyond shielding",
+            "type": "article-journal",
+            "volume": "6"
+        },
+        {
+            "URL": "https://hub.wsu.edu/fernandovillanea/abo-teaching-model/",
+            "container-title": "Wsu.edu",
+            "id": "ABOworld",
+            "title": "ABO-NX model (teaching resource)",
+            "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Breiman",
+                    "given": "Adrien"
+                },
+                {
+                    "family": "Ruvën-Clouet",
+                    "given": "Nathalie"
+                },
+                {
+                    "family": "Le Pendu",
+                    "given": "Jacques"
+                }
+            ],
+            "container-title": "PLoS Pathogens",
+            "id": "breiman2020harnessing",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "e1008556",
+            "publisher": "Public Library of Science San Francisco, CA USA",
+            "title": "Harnessing the natural anti-glycan immune response to limit the transmission of enveloped viruses such as SARS-CoV-2",
+            "type": "article-journal",
+            "volume": "16"
+        },
+        {
+            "author": [
+                {
+                    "family": "Misevic",
+                    "given": "Gradimir"
+                }
+            ],
+            "container-title": "Asia Pacific J. Blood Types Genes",
+            "id": "misevic2018abo",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "page": "71-84",
+            "title": "ABO blood group system",
+            "type": "article-journal",
+            "volume": "2"
+        },
+        {
+            "ISSN": "0362-4331",
+            "URL": "https://www.nytimes.com/interactive/2020/04/21/world/coronavirus-missing-deaths.html",
+            "author": [
+                {
+                    "family": "Wu",
+                    "given": "Jin"
+                },
+                {
+                    "family": "McCann",
+                    "given": "Allison"
+                },
+                {
+                    "family": "Katz",
+                    "given": "Josh"
+                },
+                {
+                    "family": "Peltier",
+                    "given": "Elian"
+                },
+                {
+                    "family": "Singh",
+                    "given": "Karan Deep"
+                }
+            ],
+            "container-title": "The New York times",
+            "id": "Wu_McCann_Katz_Peltier_Singh_2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        4
+                    ]
+                ]
+            },
+            "publisher": "The New York Times",
+            "title": "The pandemic’s hidden toll: Half a million deaths",
+            "title-short": "The pandemic’s hidden toll",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.1038/d41586-020-02497-w",
+            "ISSN": "0028-0836",
+            "URL": "https://www.nature.com/articles/d41586-020-02497-w/",
+            "author": [
+                {
+                    "family": "Viglione",
+                    "given": "Giuliana"
+                }
+            ],
+            "container-title": "Nature",
+            "id": "Viglione_2020",
+            "issue": "7823",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "22-24",
+            "title": "How many people has the coronavirus killed?",
+            "type": "article-journal",
+            "volume": "585"
+        },
+        {
+            "URL": "https://es.wikipedia.org/w/index.php?title=Grupo_sangu%C3%ADneo&oldid=142258295",
+            "author": [
+                {
+                    "family": "contributors",
+                    "given": "Wikipedia"
+                }
+            ],
+            "container-title": "Wikipedia, The Free Encyclopedia",
+            "id": "Wikipediablood",
+            "title": "Grupo sanguíneo",
+            "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Wamai",
+                    "given": "Richard G"
+                },
+                {
+                    "family": "Hirsch",
+                    "given": "Jason L"
+                },
+                {
+                    "family": "Van Damme",
+                    "given": "Wim"
+                },
+                {
+                    "family": "Alnwick",
+                    "given": "David"
+                },
+                {
+                    "family": "Bailey",
+                    "given": "Robert C"
+                },
+                {
+                    "family": "Hodgins",
+                    "given": "Stephen"
+                },
+                {
+                    "family": "Alam",
+                    "given": "Uzma"
+                },
+                {
+                    "family": "Anyona",
+                    "given": "Mamka"
+                }
+            ],
+            "container-title": "International Journal of Environmental Research and Public Health",
+            "id": "wamai2021could",
+            "issue": "16",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "page": "8638",
+            "publisher": "Multidisciplinary Digital Publishing Institute",
+            "title": "What could explain the lower COVID-19 burden in africa despite considerable circulation of the SARS-CoV-2 virus?",
+            "type": "article-journal",
+            "volume": "18"
+        },
+        {
+            "author": [
+                {
+                    "family": "Claverie",
+                    "given": "Jean-Michel"
+                },
+                {
+                    "family": "Grzela",
+                    "given": "Renata"
+                },
+                {
+                    "family": "Lartigue",
+                    "given": "Audrey"
+                },
+                {
+                    "family": "Bernadac",
+                    "given": "Alain"
+                },
+                {
+                    "family": "Nitsche",
+                    "given": "Serge"
+                },
+                {
+                    "family": "Vacelet",
+                    "given": "Jean"
+                },
+                {
+                    "family": "Ogata",
+                    "given": "Hiroyuki"
+                },
+                {
+                    "family": "Abergel",
+                    "given": "Chantal"
+                }
+            ],
+            "container-title": "Journal of invertebrate pathology",
+            "id": "claverie2009mimivirus",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009
+                    ]
+                ]
+            },
+            "page": "172-180",
+            "publisher": "Elsevier",
+            "title": "Mimivirus and mimiviridae: Giant viruses with an increasing number of potential hosts, including corals and sponges",
+            "title-short": "Mimivirus and mimiviridae",
+            "type": "article-journal",
+            "volume": "101"
+        },
+        {
+            "author": [
+                {
+                    "family": "Scola",
+                    "given": "Bernard La"
+                },
+                {
+                    "family": "Audic",
+                    "given": "Stéphane"
+                },
+                {
+                    "family": "Robert",
+                    "given": "Catherine"
+                },
+                {
+                    "family": "Jungang",
+                    "given": "Liang"
+                },
+                {
+                    "dropping-particle": "de",
+                    "family": "Lamballerie",
+                    "given": "Xavier"
+                },
+                {
+                    "family": "Drancourt",
+                    "given": "Michel"
+                },
+                {
+                    "family": "Birtles",
+                    "given": "Richard"
+                },
+                {
+                    "family": "Claverie",
+                    "given": "Jean-Michel"
+                },
+                {
+                    "family": "Raoult",
+                    "given": "Didier"
+                }
+            ],
+            "container-title": "Science",
+            "id": "scola2003giant",
+            "issue": "5615",
+            "issued": {
+                "date-parts": [
+                    [
+                        2003
+                    ]
+                ]
+            },
+            "page": "2033-2033",
+            "publisher": "American Association for the Advancement of Science",
+            "title": "A giant virus in amoebae",
+            "type": "article-journal",
+            "volume": "299"
+        },
+        {
+            "author": [
+                {
+                    "family": "Colson",
+                    "given": "Philippe"
+                },
+                {
+                    "family": "La Scola",
+                    "given": "Bernard"
+                },
+                {
+                    "family": "Levasseur",
+                    "given": "Anthony"
+                },
+                {
+                    "family": "Caetano-Anollés",
+                    "given": "Gustavo"
+                },
+                {
+                    "family": "Raoult",
+                    "given": "Didier"
+                }
+            ],
+            "container-title": "Nature Reviews Microbiology",
+            "id": "colson2017mimivirus",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "page": "243-254",
+            "publisher": "Nature Publishing Group",
+            "title": "Mimivirus: Leading the way in the discovery of giant viruses of amoebae",
+            "title-short": "Mimivirus",
+            "type": "article-journal",
+            "volume": "15"
+        },
+        {
+            "URL": "https://www.imdb.com/title/tt1363912/",
+            "author": [
+                {
+                    "family": "Elisco",
+                    "given": "David"
+                }
+            ],
+            "container-title": "National Geographic Explorer",
+            "id": "VirusHunt",
+            "title": "The virus hunters",
+            "type": ""
         }
     ],
     "project_biblios": [

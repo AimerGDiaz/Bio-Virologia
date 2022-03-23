@@ -2,7 +2,7 @@
 title: 'BioVirología'
 subtitle: 'La biología de los virus'
 author: "Aimer G. Díaz, Víctor P. Avellaneda, Juan Corao, Roberto Nájera y Natalia A. Chaparro"
-date: "2021-, pero en constante desarrollo."
+date: "2021-2022 ©"
 output:
   html_document:
     df_print: paged
