@@ -16,7 +16,8 @@ knitr::include_graphics('figures/grampositive.jpeg', dpi = NA)
 *Mimivirus* fue el primer virus gigante de la familia Mimiviridae. Y cambió el rumbo de la virología porque tiene muchas características inusuales, como una cápside pseudo-icosaédrica que presenta una forma de estrella de mar en uno de sus vértices, a través de la cual se libera el ADN de doble cadena, el cual es uno de los genomas más grandes que existen en virus, llegando a tener 1.2 millones de pares de bases, mayor que el de algunas bacterias incluso. También tiene una densa capa fibrilar de glicoproteína que cubre la cápside, y es capaz de teñir ante tinción de gram. Su función se piensa que está relacionada a la adherencia a glicanos presentes en su ambiente, ya sea glicanos de bacterias u otros mimivirus @colson2017mimivirus.  
 
 <center>
-![vid1](./figures/Virus_gigantestemp.mp4){width="80%"}.
+![vid1](https://youtu.be/BOLDni7F4RY)
+<!--(./figures/Virus_gigantestemp.mp4){width="80%"}.-->
 
 Fragmento del documental "The Virus Hunter", traducido por la cadena televisiva española Oasis @VirusHunt, Video completo disponible en [YouTube](https://www.youtube.com/watch?v=yGOLf9EDYsk).
 
