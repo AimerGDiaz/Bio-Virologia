@@ -17,7 +17,7 @@ knitr::include_graphics('figures/grampositive.jpeg', dpi = NA)
 
 <center>
 
-[![](http://img.youtube.com/vi/BOLDni7F4RY/1.jpg)](http://www.youtube.com/watch?v=BOLDni7F4RY){width="100%"}
+[![](figures/MimiYoutube.png)](http://www.youtube.com/watch?v=BOLDni7F4RY){width="100%"}
 <!--(./figures/Virus_gigantestemp.mp4){width="80%"}.-->
 
 Fragmento del documental "The Virus Hunter", traducido por la cadena televisiva española Oasis @VirusHunt. Documental completo disponible en [esta dirección](https://www.youtube.com/watch?v=yGOLf9EDYsk).

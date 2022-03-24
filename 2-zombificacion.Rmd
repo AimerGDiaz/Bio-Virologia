@@ -37,7 +37,7 @@ De vuelta a la zombificación viral, los baculovirus inducen en sus hospedadores
 
 <center>
 
-[![](http://img.youtube.com/vi/Taqv4eFDtpo/1.jpg)](http://www.youtube.com/watch?v=Taqv4eFDtpo){width="100%"}
+[![](figures/zombieYT.png)](http://www.youtube.com/watch?v=Taqv4eFDtpo){width="100%"}
 <!--(./figures/Death_March_The_Zombie_Caterpillars_es.mp4){width="80%"}.-->
 
 
