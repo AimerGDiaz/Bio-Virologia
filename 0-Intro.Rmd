@@ -10,7 +10,7 @@ Formatos adicionales por ejemplo son los revolucionarios libros de biología mol
 En la presente obra integraremos no solo texto e imágenes divulgativas en relación a la biología de los virus, sino que además emplearemos modelos animados basados en evidencia, bajo el característico estilo de [Quatum Rabiit](https://www.facebook.com/Medicina88), pero por ahora, a manera introductoria de las maravillas del formato Bookdown, los invito a ver el siguiente vídeo, que a su vez, permite introducir a uno de los autores del presente documento: 
 
 <center>
-[![](http://img.youtube.com/vi/EmEhFhQpqTQ/0.jpg)](http://www.youtube.com/watch?v=EmEhFhQpqTQ)
+[![](figures/cafe.png)](http://www.youtube.com/watch?v=EmEhFhQpqTQ)
 
 Entrevista para Ciencia café, pa' Sumercé: "En la coloración de las plantas: 1 + 1 no es 2".
 </center>
