@@ -52,8 +52,78 @@
 
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/core-js-2.5.3/shim.min.js"></script>
+<script src="libs/react-17.0.0/react.min.js"></script>
+<script src="libs/react-17.0.0/react-dom.min.js"></script>
+<script src="libs/reactwidget-1.0.0/react-tools.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="libs/reactable-binding-0.2.3/reactable.js"></script>
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
 /* Used with Pandoc 2.11+ new --citeproc when CSL is used */
@@ -187,7 +257,7 @@ div.csl-indent {
 <li><p><strong>Aimer G. Díaz</strong>: MSc. Bioinformático y Biólogo de la Universidad Nacional de Colombia. Fundador del blog de divulgación de virología biológica o no-médica “Bio-Virología”. Co-fundador, escritor y editor del blog de divulgación científica <a href="https://bioteorica.wixsite.com/bioteorica/blog">Biología Teórica para T@dos</a> (En <a href="https://www.facebook.com/BioTeoricaParaTodos/">Facebook</a>), además de escribir para <a href="http://www.biologiamolecularmexico.com/">Biología Molecular México</a> (En <a href="https://www.facebook.com/biologiamolecularmexico/">Facebook</a>). Actualmente estudiante de doctorado y miembro investigador del Centro para el estudio de la evolución en acción BEACON. Los ejes temáticos en los que se concentra su investigación y divulgación científica son Virología, Bioinformática, Biología Evolutiva y Filosofía de la Biología, pese a la diversidad de áreas todas estas convergen alrededor de la Virología evolutiva computacional.</p></li>
 <li><p><strong>Víctor Parra Avellaneda</strong>: Estudia la licenciatura en Biología en el Centro Universitario de Ciencias Biológicas y Agropecuarias de la Universidad de Guadalajara. Fundador del blog de divulgación científica Mimivirus <a href="https://www.facebook.com/Mimivirus-100736401569015">(en Facebook)</a>, enfocado en virología. Los ejes temáticos abordados en su divulgación científica son la virología, ingeniería genética, microbiología y biología sintética. Por otra parte, también se desempeña en el ámbito literario, específicamente en la ciencia ficción. Es autor de la novela satírica El intrigante caso de Locostein, (Editorial Dreamers, 2019), ha publicado sus relatos en revistas literarias como Axxón, Marabunta, Penumbria, Sci:fdI (revista de la Universidad Complutense de Madrid), Almiar; en inglés en las revistas The Temz Review, Nymphs y Teleport Magazine; y en francés en Dumas de demain. Fue becario del PECDA Nayarit 2018-2019 en la categoría de cuento. Es fundador y co-editor de la revista literaria de ficción especulativa Primero Sueño.</p></li>
 <li><p><strong>Juan Corao</strong>: Biólogo con especialidad en biología celular de la Universidad de los Andes, Mérida, Venezuela. Como profesional siempre ha buscado un enfoque multidisciplinario e integrativo dirigido a la conservación de la biodiversidad y agro-biodiversidad, realizando múltiples trabajos de asesoramiento ambiental en manejo de fuentes y nacientes de agua en distintos ecosistemas y países, así como en el diseño de planes de manejo ambiental para múltiples fines. Ha trabajado como asesor para la empresa privada, ONU mujeres Ecuador, Instituto Nacional de Investigaciones Agrícolas INIA Venezuela. También maneja una empresa de generación de semillas de hongos comestibles y distintos bioinsumos para el sector agrícola. Actualmente es profesor de genética en el departamento de Biología, Facultad de Ciencias, Universidad de los Andes, Mérida Venezuela. Sus intereses académicos tienen que ver con la metagenómica aplicada a la conservación y al monitoreo del cambio climático y su impacto en la biodiversidad. Para el 2022 comienza un doctorado en ecología tropical en el Instituto de Ciencias Ambientales y Ecológicas ICAE, ULA.</p></li>
-<li><p><strong>Roberto Nájera</strong>: Autodidacta en Biología molecular, fisiología, farmacología, cinética enzimática y biología de sistema. Fundador del blog <a href="https://www.facebook.com/Medicina88">Quantum Rabbit</a> de divulgación científica y del canal homonimo de animaciones científicas de procesos fisiológicos y bioquímicos en <a href="https://www.youtube.com/channel/UC21O3WpoUEXuu6ZmvkFHOCA">YouTube</a>. Sus intereses radican en especial en la compresión del Envejecimiento, cáncer, Bio-ingeniería de proteínas y Modelación matemática del metabolismo celular.</p></li>
+<li><p><strong>Roberto Nájera</strong>: Autodidacta en Biología molecular, fisiología, farmacología, cinética enzimática y biología de sistema. Fundador del canal <a href="https://www.youtube.com/c/MolecularAnimationsoftheCell">Molecular Animations of the Cell</a>, portal de divulgación con animaciones científicas de procesos fisiológicos y bioquímicos. Sus intereses radican en especial en la compresión del Envejecimiento, cáncer, Bio-ingeniería de proteínas y Modelación matemática del metabolismo celular.</p></li>
 <li><p><strong>Natalia Alejandra Chaparro</strong>: Magíster en Filosofía de la Universidad Nacional de Colombia con licenciatura en español y filología clásica. Bajo el cobijo del amor a la sabiduría, Natalia busca conocer y reflexionar la vida con todas sus particularidades.</p></li>
 </ul>
 <hr />
@@ -252,6 +322,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
